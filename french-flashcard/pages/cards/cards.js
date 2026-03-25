@@ -74,8 +74,8 @@ Page({
   },
 
   _updateProgress: function () {
-    var current = this.data.currentIndex + 1
     var total = this.data.cards.length
+    var current = total > 0 ? this.data.currentIndex + 1 : 0
     this.setData({ progressText: current + '/' + total })
   },
 

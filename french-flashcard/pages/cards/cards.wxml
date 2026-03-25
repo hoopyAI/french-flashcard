@@ -35,7 +35,7 @@
   </swiper>
 
   <!-- Bottom buttons -->
-  <view class="bottom-bar">
+  <view class="bottom-bar" wx:if="{{cards.length > 0}}">
     <view class="btn-outline mastery-btn" bindtap="onMarkNotMastered">
       <text>✗ 未掌握</text>
     </view>
