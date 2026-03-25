@@ -89,6 +89,30 @@ Page({
     this._setMastered(true)
   },
 
+  /** Toggle between all / unmastered filter */
+  onToggleFilter: function () {
+    var newMode = this.data.filterMode === 'all' ? 'unmastered' : 'all'
+    var filteredCards
+
+    if (newMode === 'unmastered') {
+      filteredCards = this.allCards.filter(function(c) { return !c.mastered })
+      if (filteredCards.length === 0) {
+        wx.showToast({ title: '全部已掌握！', icon: 'success' })
+        return
+      }
+    } else {
+      filteredCards = this.allCards.slice()
+    }
+
+    this.setData({
+      filterMode: newMode,
+      cards: filteredCards,
+      currentIndex: 0,
+      flipped: false
+    })
+    this._updateProgress()
+  },
+
   _setMastered: function (mastered) {
     var index = this.data.currentIndex
     var card = this.data.cards[index]

@@ -113,3 +113,26 @@
 .mastery-indicator.mastered {
   color: #364fc7;
 }
+
+/* Filter toggle */
+.filter-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8rpx;
+}
+
+.filter-text {
+  font-size: 26rpx;
+  color: #999;
+  padding: 4rpx 12rpx;
+}
+
+.filter-text.filter-active {
+  color: #364fc7;
+  font-weight: bold;
+}
+
+.filter-divider {
+  color: #ddd;
+  font-size: 26rpx;
+}
