@@ -1,3 +1,31 @@
-<view class="container">
-  <text>卡片</text>
+<view class="page">
+  <!-- Top bar: progress + filter -->
+  <view class="top-bar">
+    <text class="progress-text">{{progressText}}</text>
+    <text class="lesson-title-small">{{lessonTitle}}</text>
+  </view>
+
+  <!-- Card swiper -->
+  <swiper
+    class="card-swiper"
+    current="{{currentIndex}}"
+    bindchange="onSwiperChange"
+    duration="300"
+    easing-function="easeInOutCubic"
+  >
+    <swiper-item wx:for="{{cards}}" wx:key="id">
+      <view class="card-wrapper" bindtap="onTapCard">
+        <view class="flip-container {{flipped && currentIndex === index ? 'flipped' : ''}}">
+          <!-- Front: Chinese -->
+          <view class="flip-face flip-front card">
+            <text class="card-text">{{item.front}}</text>
+          </view>
+          <!-- Back: French -->
+          <view class="flip-face flip-back card">
+            <text class="card-text card-text-back">{{item.back}}</text>
+          </view>
+        </view>
+      </view>
+    </swiper-item>
+  </swiper>
 </view>
