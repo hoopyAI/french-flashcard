@@ -1,3 +1,20 @@
-<view class="container">
-  <text>课文列表</text>
+<view class="page">
+  <view class="title">{{book.title}}</view>
+  <view class="lesson-list">
+    <view
+      class="card lesson-item"
+      wx:for="{{lessons}}"
+      wx:key="id"
+      data-id="{{item.id}}"
+      bindtap="onTapLesson"
+    >
+      <view class="lesson-info">
+        <text class="lesson-title">{{item.title}}</text>
+        <text class="lesson-progress">{{item.masteredCount}}/{{item.totalCards}} 已掌握</text>
+      </view>
+      <view class="progress-bar">
+        <view class="progress-fill" style="width: {{item.totalCards > 0 ? (item.masteredCount / item.totalCards * 100) : 0}}%"></view>
+      </view>
+    </view>
+  </view>
 </view>
