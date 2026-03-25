@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/lessons/lessons",
+    "pages/cards/cards"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f8f9fc",
+    "navigationBarTitleText": "课文背诵",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f8f9fc"
+  }
+}
