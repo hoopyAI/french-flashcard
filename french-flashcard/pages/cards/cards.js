@@ -77,5 +77,62 @@ Page({
     var current = this.data.currentIndex + 1
     var total = this.data.cards.length
     this.setData({ progressText: current + '/' + total })
-  }
+  },
+
+  /** Mark as not mastered, advance to next */
+  onMarkNotMastered: function () {
+    this._setMastered(false)
+  },
+
+  /** Mark as mastered, advance to next */
+  onMarkMastered: function () {
+    this._setMastered(true)
+  },
+
+  _setMastered: function (mastered) {
+    var index = this.data.currentIndex
+    var card = this.data.cards[index]
+    if (!card) return
+
+    // Update storage
+    storage.setMastered(this.bookId, this.lessonId, card.id, mastered)
+
+    // Update local state
+    var cards = this.data.cards
+    cards[index].mastered = mastered
+    var allCards = this.allCards
+    var allIdx = allCards.findIndex(function(c) { return c.id === card.id })
+    if (allIdx !== -1) allCards[allIdx].mastered = mastered
+
+    this.setData({ cards: cards, allCards: allCards })
+
+    // If in unmastered filter mode and card was mastered, remove it from view
+    if (this.data.filterMode === 'unmastered' && mastered) {
+      var filtered = this.data.cards.filter(function(c) { return c.id !== card.id })
+      if (filtered.length === 0) {
+        wx.showToast({ title: '全部已掌握！', icon: 'success', duration: 1500 })
+        setTimeout(function() { wx.navigateBack() }, 1500)
+        return
+      }
+      var newIndex = Math.min(index, filtered.length - 1)
+      this.setData({ cards: filtered, currentIndex: newIndex, flipped: false })
+      this._updateProgress()
+      return
+    }
+
+    // Advance or finish
+    if (index >= this.data.cards.length - 1) {
+      // Last card — show toast and go back
+      wx.showToast({ title: '完成！', icon: 'success', duration: 1500 })
+      setTimeout(function() {
+        wx.navigateBack()
+      }, 1500)
+    } else {
+      this.setData({
+        currentIndex: index + 1,
+        flipped: false
+      })
+      this._updateProgress()
+    }
+  },
 })

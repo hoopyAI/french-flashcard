@@ -28,4 +28,17 @@
       </view>
     </swiper-item>
   </swiper>
+
+  <!-- Bottom buttons -->
+  <view class="bottom-bar">
+    <view class="btn-outline mastery-btn" bindtap="onMarkNotMastered">
+      <text>✗ 未掌握</text>
+    </view>
+    <view class="mastery-indicator {{cards[currentIndex].mastered ? 'mastered' : ''}}">
+      <text>{{cards[currentIndex].mastered ? '已掌握' : '未掌握'}}</text>
+    </view>
+    <view class="btn-primary mastery-btn" bindtap="onMarkMastered">
+      <text>✓ 已掌握</text>
+    </view>
+  </view>
 </view>

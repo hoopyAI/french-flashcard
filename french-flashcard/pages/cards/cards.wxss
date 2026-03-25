@@ -88,3 +88,28 @@
 .card-text-back {
   color: #364fc7;
 }
+
+/* Bottom bar */
+.bottom-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24rpx 8rpx;
+  gap: 16rpx;
+}
+
+.mastery-btn {
+  flex: 1;
+  text-align: center;
+  padding: 20rpx 0;
+  font-size: 30rpx;
+}
+
+.mastery-indicator {
+  font-size: 24rpx;
+  color: #999;
+}
+
+.mastery-indicator.mastered {
+  color: #364fc7;
+}
