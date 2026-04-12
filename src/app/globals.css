@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-hand: "Comic Sans MS", "Segoe Print", "Ma Shan Zheng", cursive;
+  --color-primary: #364fc7;
+  --color-primary-light: rgba(54, 79, 199, 0.2);
+  --color-bg: #f8f9fc;
+  --color-fg: #1e1e1e;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-fg);
+  font-family: var(--font-hand);
+}
+
+/* Excalidraw-style card */
+.card-base {
+  background: #fff;
+  border: 2.5px solid var(--color-primary);
+  border-radius: 16px;
+  box-shadow: 4px 4px 0 var(--color-primary-light);
+}
+
+/* 3D flip */
+.flip-container {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.4s ease-in-out;
+}
+
+.flip-container.flipped {
+  transform: rotateY(180deg);
+}
+
+.flip-face {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  border-radius: 16px;
+}
+
+.flip-front {
+  background: #fff;
+}
+
+.flip-back {
+  background: #f0f4f8;
+  transform: rotateY(180deg);
+}
