@@ -1,720 +1,1349 @@
 [
   {
-    "lesson": "u1l4",
-    "title": "U1L4 La télé-réalité",
-    "count": 43,
+    "lesson": "u1l3",
+    "title": "U1L3 SOS Service",
+    "count": 9,
     "cards": [
       {
-        "id": "r1",
-        "fr": "Histoire d'ego1 Lisez le document 1."
+        "id": "l1",
+        "fr": "La femme souhaite trouver quelqu'un pour l'aider."
       },
       {
-        "id": "r2",
-        "fr": "Ma drôle de vie : 20h40, TMC."
+        "id": "l2",
+        "fr": "Le message donne des conseils pour trouver des services à la personne."
       },
       {
-        "id": "r3",
-        "fr": "Confessions intimes, Un mardi par mois, 23 h 10."
+        "id": "l3",
+        "fr": "Il existe deux moyens différents d'obtenir des informations."
       },
       {
-        "id": "r4",
-        "fr": "France 3 Vie privée, vie publique, Un lundi par mois, 20 h 35."
+        "id": "l4",
+        "fr": "« Moi, prendre quelqu'un pour m'aider ?"
       },
       {
-        "id": "r5",
-        "fr": "Ma drôle de vie, Tous les mercredis, 20 h 40."
+        "id": "l5",
+        "fr": "Oh non, non, je n'ai besoin de personne !"
       },
       {
-        "id": "r6",
-        "fr": "Présenté par Marcel Rufo et Charline Roux Tous les dimanches à 17h10 Apportez vos témoignages pour nos prochaines émissions : Élever un enfant seul."
+        "id": "l6",
+        "fr": "Je vérifie moi-même tous les devoirs de ma fille et de mes fils."
       },
       {
-        "id": "r7",
-        "fr": "Leur histoire d'amour est impossible."
+        "id": "l7",
+        "fr": "Je fais le ménage, je fais les courses pour tout l'immeuble, j'arrose l'ordinateur, je répare le chien, je descends la voisine et c'est très bien comme ça ! »."
       },
       {
-        "id": "r8",
-        "fr": "Frères-sœurs : ils se détestent."
+        "id": "l8",
+        "fr": "Pour le ménage, la garde d'enfants et tous les autres services à la personne, pensez au CESU."
       },
       {
-        "id": "r9",
-        "fr": "N'hésitez pas à contacter Anne-Céline par e-mail ou par téléphone au 01 41 86 00 00."
-      },
-      {
-        "id": "r10",
-        "fr": "Le mieux, c'est d'en parler."
-      },
-      {
-        "id": "r11",
-        "fr": "L'important, c'est de participer."
-      },
-      {
-        "id": "r12",
-        "fr": "La priorité, c'est de sauver des vies."
-      },
-      {
-        "id": "r13",
-        "fr": "Père de famille, vous souhaitez quitter votre emploi pour vous consacrer à vos enfants."
-      },
-      {
-        "id": "r14",
-        "fr": "Mère au foyer depuis de nombreuses années vous décidez de reprendre une activité professionnelle."
-      },
-      {
-        "id": "r15",
-        "fr": "Vous êtes sur le point de tout quitter (famille, emploi) pour rejoindre l'homme ou la femme de votre vie."
-      },
-      {
-        "id": "r16",
-        "fr": "Vous choisissez de fuir le stress de la vie citadine et de vous installer en famille à la campagne."
-      },
-      {
-        "id": "r17",
-        "fr": "Vous souhaitez témoigner : Laissez-nous un message au 01 86 79 52 14 ou envoyez un e-mail à kvalier@reservoir-prod.fr en indiquant vos coordonnées téléphoniques, vos nom et prénom, en quoi votre profil peut nous intéresser et les moments où l'on peut vous joindre."
-      },
-      {
-        "id": "r18",
-        "fr": "Si vous souhaitez obtenir des informations concernant l'une de nos émissions ou suggérer un sujet, n'oubliez pas de nous laisser une adresse e-mail pour que nous puissions vous joindre facilement."
-      },
-      {
-        "id": "r19",
-        "fr": "C'est avec beaucoup d'intérêt que j'ai suivi votre émission de cette semaine, « Frères-sœurs : ils se détestent », car ma meilleure amie vit cette situation avec son frère de 17 ans."
-      },
-      {
-        "id": "r20",
-        "fr": "Pendant cette émission, l'un des invités a parlé d'un psychologue parisien qui l'a beaucoup aidé."
-      },
-      {
-        "id": "r21",
-        "fr": "Comme mon amie est actuellement à la recherche d'une personne compétente dans ce domaine, je vous serais reconnaissante de m'adresser les coordonnées de ce psychologue."
-      },
-      {
-        "id": "r22",
-        "fr": "Je profite également de ce message pour vous faire une petite suggestion."
-      },
-      {
-        "id": "r23",
-        "fr": "Pourriez-vous consacrer l'une de vos prochaines émissions aux personnes qui passent des heures et des heures sur Internet ?"
-      },
-      {
-        "id": "r24",
-        "fr": "Comme il y en a des millions (j'en fais partie) en France, beaucoup de téléspectateurs sont concernés par ce sujet."
-      },
-      {
-        "id": "r25",
-        "fr": "Meilleures salutations."
-      },
-      {
-        "id": "r26",
-        "fr": "Merci d'avance."
-      },
-      {
-        "id": "r27",
-        "fr": "Je leur ai suggéré de visiter le Musée de la Révolution chinoise."
-      },
-      {
-        "id": "r28",
-        "fr": "Vous pouvez contacter cette société qui est à la recherche d'un directeur de projet. faire une suggestion à qn profiter de consacrer à fuir s'installer participer à être sur le point de Vous participez à l'émission Ça se discute consacrée au thème : Vous êtes sur le point de changer de vie. 1 Je profite de cette occasion pour vous exprimer mes respects distingués."
-      },
-      {
-        "id": "r29",
-        "fr": "Notre prochaine émission sera consacrée aux mères qui élèvent seule leurs enfants."
-      },
-      {
-        "id": "r30",
-        "fr": "J'espère fuir le stress de la vie citadine et m'installer en famille à la campagne."
-      },
-      {
-        "id": "r31",
-        "fr": "Quand je l'ai appelé ce matin, il était sur le point de partir pour participer à une discussion sur la protection de l’environnement."
-      },
-      {
-        "id": "r32",
-        "fr": "Ce que l’animateur/l’animatrice dit pour... présenter un sujet Bonsoir, le thème/sujet de ce soir est..."
-      },
-      {
-        "id": "r33",
-        "fr": "Ce soir, l’émission est consacrée à... présenter les invités Prénom + nom + vous êtes + profession..."
-      },
-      {
-        "id": "r34",
-        "fr": "Et vous souhaitez quitter votre emploi de directeur commercial pour partir vivre... s'informer sur les raisons Pourquoi vous avez fait ce choix ?"
-      },
-      {
-        "id": "r36",
-        "fr": "Êtes-vous d'accord avec Antoine/lsabelle ?"
-      },
-      {
-        "id": "r37",
-        "fr": "Pouvez-vous nous expliquer cette idée ?"
-      },
-      {
-        "id": "r38",
-        "fr": "Vous voulez rajouter quelque chose ?"
-      },
-      {
-        "id": "r39",
-        "fr": "Le débat se termine ici pour aujourd'hui."
-      },
-      {
-        "id": "r40",
-        "fr": "Ce que l'invité(e) dit pour... expliquer un choix Si j’ai décidé de quitter mon emploi de directeur commercial, c'est que je suis encore jeune et j’aimerais partir vivre..."
-      },
-      {
-        "id": "r41",
-        "fr": "Comme je suis fatiguée de ne m’occuper que de ma famille, j'ai voulu reprendre un travail à l’extérieur pour avoir le sentiment d’exister."
-      },
-      {
-        "id": "r42",
-        "fr": "Je trouve que vous n’êtes pas une bonne mère."
-      },
-      {
-        "id": "r43",
-        "fr": "Je suis certain(e), sûr(e) que vous n'allez pas le regretter."
-      },
-      {
-        "id": "r44",
-        "fr": "D'après moi, vous faites une erreur/le bon choix. exprimer son accord/désaccord Je suis entièrement d'accord avec vous !"
+        "id": "l9",
+        "fr": "Renseignez-vous sur les sociétés de service les plus proches de chez vous sur www.servicesalapersonne.gouv.fr ou au 0 820 00 23 78, 12 centimes d'euros TTC la minute."
       }
     ]
   },
   {
-    "lesson": "u3l12",
-    "title": "U3L12 Les Francofolies",
+    "lesson": "u2l5",
+    "title": "U2L5 Passeport pour l'Europe",
+    "count": 22,
+    "cards": [
+      {
+        "id": "l1",
+        "fr": "Personne 1 : peur."
+      },
+      {
+        "id": "l2",
+        "fr": "« Je ne suis pas partie en Erasmus parce que j'avais peur, je pense."
+      },
+      {
+        "id": "l3",
+        "fr": "Peur d'être loin, peur de sortir du système scolaire que je connais et auquel je suis habituée ! » Personne 2 : raisons financières « Je n'ai pas participé au programme Erasmus parce que je ne pouvais pas me le permettre."
+      },
+      {
+        "id": "l4",
+        "fr": "Je pense que ce n'est pas un programme accessible à tous, mais plutôt aux étudiants des familles avec un bon niveau de vie. » Personne 3 : démarches administratives, « J'ai essayé de partir à l'étranger il y a un an mais les démarches administratives étaient trop longues et trop compliquées pour moi."
+      },
+      {
+        "id": "l5",
+        "fr": "Personnes 4 et 5 : obstacle de la langue."
+      },
+      {
+        "id": "l6",
+        "fr": "« On a déjà du mal avec des cours en français... alors étudier dans une autre langue ! » / « C'est étonnant cette obstination à nier l'obstacle de la langue !"
+      },
+      {
+        "id": "l7",
+        "fr": "Excepté peut-être pour quelques étudiants, c'est quand même super difficile de suivre des cours dans une langue étrangère. » Quand et où êtes-vous parti suivre un programme Erasmus ?"
+      },
+      {
+        "id": "l8",
+        "fr": "Cette année-là, y a-t-il eu beaucoup d'étudiants de votre promo à partir à l'étranger ?"
+      },
+      {
+        "id": "l10",
+        "fr": "J'imagine que l'expérience est avantageuse mais voilà, elle ne doit pas correspondre à ma personnalité."
+      },
+      {
+        "id": "l11",
+        "fr": "Moi, je n'ai pas participé au programme Erasmus parce que je ne pouvais pas me le permettre."
+      },
+      {
+        "id": "l12",
+        "fr": "La bureaucratie, c'est le pire !"
+      },
+      {
+        "id": "l13",
+        "fr": "J'ai essayé de partir à l'étranger il y a un an mais les démarches administratives étaient trop longues et trop compliquées pour moi."
+      },
+      {
+        "id": "l14",
+        "fr": "Alors j'ai abandonné le projet."
+      },
+      {
+        "id": "l15",
+        "fr": "Je préfère finir mes études dans la même école et partir à l'étranger ensuite."
+      },
+      {
+        "id": "l16",
+        "fr": "C'est étonnant cette obstination à nier l'obstacle de la langue !"
+      },
+      {
+        "id": "l17",
+        "fr": "J'ai été en Erasmus à Milan il y a deux ans."
+      },
+      {
+        "id": "l18",
+        "fr": "J'ai dû me battre pour partir car, officiellement, je n'y avais pas droit."
+      },
+      {
+        "id": "l19",
+        "fr": "Mais je voulais partir à tout prix et faire ensuite un master dans une grande école."
+      },
+      {
+        "id": "l20",
+        "fr": "De ma promo, seules deux personnes sont parties."
+      },
+      {
+        "id": "l21",
+        "fr": "L'expérience était géniale et en plus on avait le droit de choisir les cours qu'on voulait !"
+      },
+      {
+        "id": "l22",
+        "fr": "Pour ce qui est de la bourse, je n'y avais pas droit non plus."
+      },
+      {
+        "id": "l23",
+        "fr": "Mais j'ai trouvé assez facilement un travail à temps partiel dans une boîte italienne."
+      }
+    ]
+  },
+  {
+    "lesson": "u2l7",
+    "title": "U2L7 Égalité pour tous ?",
+    "count": 25,
+    "cards": [
+      {
+        "id": "l1",
+        "fr": "personne discriminée pour son âge (soit trop jeune, soit trop vieux) un(e) malade la deuxième personne est victime d’une discrimination due à son handicap (son fauteuil ne peut pas passer par la porte de la classe de l’école) la troisième personne est victime d’une discrimination raciale (entrée souvent interdite dans une boîte de nuit à cause de son origine ethnique) 3 Les personnes victimes de discrimination peuvent aller sur le site de la Halde, la Haute Autorité de Lutte contre les Discriminations et pour l’Égalité, Moi, je voulais faire un stage dans une entreprise mais on m’a dit qu’on prenait en priorité les enfants du personnel."
+      },
+      {
+        "id": "l2",
+        "fr": "C’est normal ?"
+      },
+      {
+        "id": "l3",
+        "fr": "Ma sœur Marie ne peut pas aller à l’école du quartier."
+      },
+      {
+        "id": "l4",
+        "fr": "Elle est handicapée et l’école a refusé de l’inscrire parce qu’elle peut pas rentrer dans la classe avec son fauteuil."
+      },
+      {
+        "id": "l5",
+        "fr": "Moi, j’ai deux potes : Jules et Akim."
+      },
+      {
+        "id": "l6",
+        "fr": "Quand on va en boîte, souvent Akim peut pas rentrer."
+      },
+      {
+        "id": "l7",
+        "fr": "C’est normal ça ?"
+      },
+      {
+        "id": "l8",
+        "fr": "Vivre une discrimination, ça n’a rien de normal."
+      },
+      {
+        "id": "l9",
+        "fr": "Si vous pensez que vous êtes discriminé(e), allez sur le site de la Halde, la Haute Autorité de Lutte contre les Discriminations et pour l’Égalité, Bonjour, c'est Place à vous."
+      },
+      {
+        "id": "l10",
+        "fr": "Cette semaine, nous parlons des discriminations dans l'accès au logement avec la Halde."
+      },
+      {
+        "id": "l11",
+        "fr": "Prenons le cas de Lionel, un étudiant guadeloupéen venu faire ses études en métropole : il est donc à la recherche d'un appartement."
+      },
+      {
+        "id": "l12",
+        "fr": "Parce que ses parents qui se portaient caution habitaient la Guadeloupe, on lui a refusé son dossier."
+      },
+      {
+        "id": "l13",
+        "fr": "J'imagine que c'est un exemple parmi tant d'autres au pôle logement que vous dirigez Fabien Dechavanne ?"
+      },
+      {
+        "id": "l14",
+        "fr": "C'est une discrimination fondée sur l'origine."
+      },
+      {
+        "id": "l15",
+        "fr": "C'est interdit par la loi."
+      },
+      {
+        "id": "l16",
+        "fr": "À partir du cas de Lionel, la Halde a constaté que ce type de refus était finalement assez fréquent."
+      },
+      {
+        "id": "l17",
+        "fr": "Elle a demandé au gouvernement de modifier la loi."
+      },
+      {
+        "id": "l18",
+        "fr": "Ça a été fait."
+      },
+      {
+        "id": "l19",
+        "fr": "Désormais, la loi interdit expressément de refuser à une personne la location parce que ses parents résident en outre-mer."
+      },
+      {
+        "id": "l20",
+        "fr": "Depuis la modification de la loi, est-ce que la Halde a été saisie d'autres cas ?"
+      },
+      {
+        "id": "l21",
+        "fr": "Ce type de comportement a nettement diminué."
+      },
+      {
+        "id": "l22",
+        "fr": "Lorsque la Halde y est de nouveau confrontée, elle rappelle les termes de la loi."
+      },
+      {
+        "id": "l23",
+        "fr": "Si jamais le comportement persiste, l'affaire peut être portée devant le tribunal."
+      },
+      {
+        "id": "l24",
+        "fr": "Merci à vous."
+      },
+      {
+        "id": "l25",
+        "fr": "On rappelle que l'on peut saisir la Halde à partir du formulaire sur le site Internet halde.fr."
+      }
+    ]
+  },
+  {
+    "lesson": "u3l9",
+    "title": "U3L9 Que la fête commence !",
+    "count": 22,
+    "cards": [
+      {
+        "id": "l1",
+        "fr": "la raison pour laquelle les membres du groupe aiment ce style de musique. l'opinion de la grand-mère de l'un d'entre eux sur ce style musical. l'objectif du groupe à la Fête de la musique."
+      },
+      {
+        "id": "l2",
+        "fr": "« Dès qu'on est nés, on a entendu Deep Purple."
+      },
+      {
+        "id": "l3",
+        "fr": "À la place d'Au clair de la lune, on écoutait du rock... » « ACDC, Trust, Metallica ou encore Nirvana. » Elle se régale : « Ces quatre garçons dans le vent lui rappellent sa jeunesse » ; Faire du bruit : « Et du bruit, le chanteur compte bien en faire à la Fête de la musique » ; « mettre l'ambiance sur scène »."
+      },
+      {
+        "id": "l4",
+        "fr": "Formés il y a à peine un an, les Atomic Boys sont jeunes, très jeunes."
+      },
+      {
+        "id": "l5",
+        "fr": "Le batteur, Baptiste, a 11 ans."
+      },
+      {
+        "id": "l6",
+        "fr": "Sur scène, sa tête dépasse à peine de la caisse claire mais le rock, il a ça dans le sang."
+      },
+      {
+        "id": "l7",
+        "fr": "Après, on a... on a eu du mal à écouter autre chose parce qu'on était ne dedans, tout ça... donc voilà. » Leur jeu de scène est parfaitement huilé ; pour ça, ils s'inspirent des vidéos de leurs idoles : ACDC, Trust, Metallica ou encore Nirvana."
+      },
+      {
+        "id": "l8",
+        "fr": "Et pour assurer le show, Frédéric, le chanteur du groupe se donne toujours à 100 %."
+      },
+      {
+        "id": "l9",
+        "fr": "« Quand je chante, je fais le jeu de scène, je saute partout... euh... crier... euh... je me mets en T-shirt et puis des fois torse nu tellement que c'est chaud. » Pierrette est la mamie rock'n roll de Johan le guitariste, toujours fourré chez elle pour répéter."
+      },
+      {
+        "id": "l10",
+        "fr": "Ces quatre garçons dans le vent lui rappellent sa jeunesse."
+      },
+      {
+        "id": "l11",
+        "fr": "« J'écoute et j'écoute et je me régale."
+      },
+      {
+        "id": "l12",
+        "fr": "Quand ils sont tous là avec les... les enfants, alors on met la musique et puis ça tremble de partout."
+      },
+      {
+        "id": "l13",
+        "fr": "Alors, ça fait beaucoup de bruit."
+      },
+      {
+        "id": "l14",
+        "fr": "Non, mais on n'ose pas trop parce que comme je suis en appartement alors on tient compte un peu des voisins."
+      },
+      {
+        "id": "l15",
+        "fr": "Ils sont pas du tout trempés dans le rock eux."
+      },
+      {
+        "id": "l16",
+        "fr": "À notre regret, quoi, parce que faut que ça crache comme on dit, faut que ça fasse du bruit. » Et du bruit, le chanteur compte bien en faire à la Fête de la musique."
+      },
+      {
+        "id": "l17",
+        "fr": "Sa voix n'a pas encore muée."
+      },
+      {
+        "id": "l18",
+        "fr": "Ça tombe bien, elle convient pile-poil pour les reprises d'ACDC."
+      },
+      {
+        "id": "l19",
+        "fr": "Alors, ce week-end, il n'a qu'une seule envie : « m'éclater, mettre l'ambiance sur scène et montrer au public de quoi je suis capable »."
+      },
+      {
+        "id": "l20",
+        "fr": "Rendez-vous est donc pris ce week-end à Montbéliard, ça va décoiffer."
+      },
+      {
+        "id": "l21",
+        "fr": "Germain Arrigoni et France Bleu Belfort-Montbéliard pour France Info."
+      },
+      {
+        "id": "l22",
+        "fr": "Sa voix n'a pas encore mué."
+      }
+    ]
+  },
+  {
+    "lesson": "u3l10",
+    "title": "U3L10 On connaît la chanson",
     "count": 17,
     "cards": [
       {
-        "id": "r1",
-        "fr": "le lieu où il se déroule. les différents moyens de se procurer des billets."
+        "id": "l1",
+        "fr": "il aime la guitare et le jazz manouche inventé par Django Reinhardt Y a-t-il des questions que Thomas Dutronc n'apprécie pas particulièrement ?"
       },
       {
-        "id": "r2",
-        "fr": "C’est un festival visant à promouvoir la musique francophone (comme l’indique son nom)."
+        "id": "l4",
+        "fr": "« c'est qu'on lui parle sans cesse de ses parents » « certains comme Mathieu Chédid l'encouragent à les chanter » J'écoute de la musique soul, vous vous souvenez peut-être justement de ce succès de Françoise Hardy."
       },
       {
-        "id": "r4",
-        "fr": "En train : La Rochelle à 3h de Paris, 2h de Bordeaux, 2h de Nantes, 1h30 de Poitiers."
+        "id": "l5",
+        "fr": "La transition est toute trouvée pour présenter notre invité, son fils, Thomas Dutronc qui excelle dans un tout autre genre, le jazz manouche."
       },
       {
-        "id": "r5",
-        "fr": "La Rochelle à 4h40 de Paris, 2h de Bordeaux, 2h de Nantes et 1h30 de Poitiers."
+        "id": "l6",
+        "fr": "Et depuis cette année, il chante avec un premier disque et une série des concerts."
       },
       {
-        "id": "r6",
-        "fr": "Pensez aussi au co-voiturage !"
+        "id": "l7",
+        "fr": "Jean-Jacques Payraud et Alexandre Dupont."
       },
       {
-        "id": "r7",
-        "fr": "Inscrivez-vous sur internet http://covoiturage.francofolies.fr ou par téléphone 0 820 820 138."
+        "id": "l8",
+        "fr": "J'aime plus Paris..."
       },
       {
-        "id": "r8",
-        "fr": "En collaboration avec Ecolutis.com L’Office du Tourisme vous renseigne Quartier du Gabut - Face à l’aquarium Tél : 05 46 41 14 68 www.larochelle-tourisme.com L’office du tourisme met à votre disposition une liste des hébergements (hôtels, campings...) Offre spéciale Francofolies / partirenlive.com Découvrez les offres Billet + Bus ou Billet + Hôtel www.partirenlive.com ou 04 76 47 19 18 Les Francos vous facilitent la vie !"
+        "id": "l9",
+        "fr": "Ce qu'il n'aime pas non plus, dit-il, c'est qu'on lui parle sans cesse de ses parents."
       },
       {
-        "id": "r9",
-        "fr": "Un hébergement de dernière minute via les CEMEA (accueil 24h/24) Terrain d’accueil provisoire à la SCAN Espace jeune : 2 € la nuit par emplacement de tente, sans réservation Terrain d’accueil provisoire « Le petit Marseille » Espace groupes encadrés : 2 € la nuit par personne Espace famille : 2 € la nuit par personne Contacts hébergement / réservations : accueil@cemea-poitou-charentes.org Consigne gratuite : À l’entrée de l’Esplanade St Jean d’Acre sur présentation de votre place de concert."
+        "id": "l10",
+        "fr": "Ça ne l'empêche pas d‘émailler ses chansons de clins d'œil à son père..."
       },
       {
-        "id": "r11",
-        "fr": "Je voudrais me renseigner sur les nouveaux horaires de train Paris-La Rochelle, L’office du tourisme met à votre disposition une liste des hébergements."
+        "id": "l11",
+        "fr": "Vivre comme Lennon… et ça ne l'empêche pas non plus de faire le mannequin avec maman pour un catalogue de vente par correspondance."
       },
       {
-        "id": "r12",
-        "fr": "L’école a mis à la disposition des élèves une trentaine d’ordinateurs."
+        "id": "l12",
+        "fr": "Ce qu'il aime, c'est la guitare et le jazz manouche, ce jazz typiquement français inventé dans les années 20 par Django Reinhardt et Stéphane Grapelli."
       },
       {
-        "id": "r14",
-        "fr": "Partir en live a choisi pour vous un hôtel proche du vieux port et à 15 minutes à pied du Festival !!"
+        "id": "l13",
+        "fr": "Et d'ailleurs, depuis une dizaine d'années, il en a fait son métier."
       },
       {
-        "id": "r15",
-        "fr": "La formule ne comprend pas : les assurances facultatives, les autres repas et les boissons, les activités payantes, les dépenses d’ordre personnel, les titres de transport en commun."
+        "id": "l14",
+        "fr": "Guitariste de jazz, il a enchaîné les tournées de concerts avec ses amis musiciens rencontrés pour la plupart en Corse où il vit le plus souvent."
       },
       {
-        "id": "r16",
-        "fr": "Le garçon était perdu dans cette ville étrangère."
+        "id": "l15",
+        "fr": "Et comme Thomas a aussi beaucoup d'amis dans la chanson et qu'il en écrit, certains comme Mathieu Chédid l'encouragent à les chanter."
       },
       {
-        "id": "r17",
-        "fr": "Et c'est finalement un vagabond qui l'a renseigné sur les chemins à prendre."
+        "id": "l16",
+        "fr": "« C'est vrai que par le... par l'instrument simplement, c'est pas évident d'avoir un contact aussi privilégié qu'avec une chanson et puis tout simplement il avait envie de chanter, ça s'explique pas de manière plus compliquée que ça quoi..."
       },
       {
-        "id": "r18",
-        "fr": "L’hôtel met à votre disposition des services gratuits, tels que wifi et piscine, etc. Bonjour !"
+        "id": "l17",
+        "fr": "Entre Stéphane Grapelli et Django Reinhardt, donc entre le guitariste et le violoniste, bon ça passe ou ça passe pas mais quand ça passe avec un background comme celui-là, voilà tout est dit."
       },
       {
-        "id": "r19",
-        "fr": "Je voudrais (Pourriez-vous) me renseigner sur les nouveaux changements du bac de cette année."
+        "id": "l18",
+        "fr": "« Je pense qu'on est sur les traces de cette amitié-là. » L'histoire de Thomas Dutronc est celle d'une vraie passion : pour la musique et pour ses amis qui sont, dit-il, sa deuxième famille. ​Vous êtes chargé(e) ce mois-ci d'actualiser la rubrique Musique du blog de votre école."
       },
       {
-        "id": "r20",
-        "fr": "Ce chemin de fer facilite considérablement la vie et le travail des habitants locaux."
+        "id": "l19",
+        "fr": "Sur le modèle de ceux d'Olivia Ruiz et de Thomas Dutronc, rédigez le portrait de l'artiste que vous a présenté votre voisin(e)."
       }
     ]
   },
   {
-    "lesson": "u4l16",
-    "title": "U4L16 Paris autrement",
-    "count": 26,
+    "lesson": "u6l21",
+    "title": "U6L21 Dans les normes",
+    "count": 7,
     "cards": [
       {
-        "id": "r1",
-        "fr": "Un concours pour Paris. la ville dont il est question. la nature du projet envisagé. la date de début du projet."
+        "id": "l1",
+        "fr": "QUELQUES RECOMMANDATIONS POUR LA CONSTRUCTION OU LA RESTRUCTURATION DE LOCAUX : Voici certaines recommandations relatives à l'hygiène des produits alimentaires."
       },
       {
-        "id": "r2",
-        "fr": "L'association Bien vivre dans le 2e arrondissement lance le concours Des idées pour Paris."
+        "id": "l3",
+        "fr": "Tout d'abord, il faut éviter que les locaux dans lesquels s'effectuent les préparations ouvrent directement sur l'extérieur."
       },
       {
-        "id": "r3",
-        "fr": "Il s'adresse à toute personne ayant des idées réalisables et innovantes pour améliorer la qualité de vie des Parisiens."
+        "id": "l4",
+        "fr": "Les locaux doivent avoir un nombre suffisant de lave-mains à proximité des différents postes de travail et en sortie des sanitaires."
       },
       {
-        "id": "r4",
-        "fr": "Réalisables, innovantes ou simplement géniales, ce sont peut-être vos idées qui feront le Grand Paris de demain !"
+        "id": "l5",
+        "fr": "Il est important que les déchets soient stockés dans des poubelles fermées."
       },
       {
-        "id": "r5",
-        "fr": "Ce concours s'attaque à un problème majeur de Paris : la circulation."
+        "id": "l6",
+        "fr": "Séparez les zones d’épluchage, de laverie (secteur sale) des autres zones de manipulation des produits (secteur propre)."
       },
       {
-        "id": "r6",
-        "fr": "Les idées proposées doivent permettre de trouver des moyens d'inciter les spectateurs de Paris et de banlieue à se rendre au cinéma à Paris sans utiliser leur voiture individuelle."
+        "id": "l7",
+        "fr": "Les équipements doivent être facilement nettoyables."
       },
       {
-        "id": "r7",
-        "fr": "Toutes les idées sont recevables, mais elles seront jugées en fonction des critères suivants : originalité de l'idée, qualité de l'amélioration apportée, faisabilité de la solution."
-      },
-      {
-        "id": "r8",
-        "fr": "Les propositions doivent contenir au minimum une présentation de l'idée, ses avantages et les conditions de sa mise en place."
-      },
-      {
-        "id": "r9",
-        "fr": "La participation au concours se fait par l'intermédiaire du forum de cet article en cliquant sur « Répondre à cet article » avant le 31 décembre 2009."
-      },
-      {
-        "id": "r10",
-        "fr": "Le jury se réunira le 15 janvier 2010 pour choisir les trois meilleures propositions."
-      },
-      {
-        "id": "r11",
-        "fr": "Des idées pour Paris Vous avez des idées ?"
-      },
-      {
-        "id": "r14",
-        "fr": "Ex : La mort prématurée de son père l'a incitéàchoisir la profession de médecin."
-      },
-      {
-        "id": "r17",
-        "fr": "Ex : ce formule comprend…."
-      },
-      {
-        "id": "r18",
-        "fr": "Cette solution contient/comprend deux parties."
-      },
-      {
-        "id": "r19",
-        "fr": "Ex : Le prix est de 12 euros, y compris le repas, mais le pourboire n'est pas compris. au minimum = au moins au maximum Ex : faire une présentation mise en place (n.loc.) mettre… en place Ex : J'ai réservémon billet d'avion par l'intermédiaire d'uneagence de voyages."
-      },
-      {
-        "id": "r20",
-        "fr": "Vous faites partie d'une association éco-citoyenne."
-      },
-      {
-        "id": "r21",
-        "fr": "À la manière de l'association Bien vivre dans le 2e arrondissement, imaginez un concours pour améliorer votre cadre de vie."
-      },
-      {
-        "id": "r23",
-        "fr": "Sur le modèle du document, rédigez une page de présentationde votre concours sur Internet. transport en commun en fonction de par l'intermédiairede il s'agait d'organiser un concours qui permettrait de recueillir des idées novatrices et originales pour..."
-      },
-      {
-        "id": "r24",
-        "fr": "L'objectif /Le but est de sensibiliser chacun àla question de l'environnement et d'améliorer le quotidien de tous. ·décrire les modalités pratiques la partipation au concours se fera par... en s'inscrivant dans la rubrique Concours avant... ·exprimer des suggestions/hypothèses Il serait envisageable de travailler en partenariat avec les mairies des villes concernées."
-      },
-      {
-        "id": "r25",
-        "fr": "Ce projet fonctionnera àcondition que nous ayons un nombre suffisant de participants. ·susciter l'intérêt de l'auditoire en début de phrase : -Bien entendu/ Evidemment... en fin de phrase : -...n'est-ce pas ? /qu'en dites-vous ?/ hien ? /d'accord ?"
-      },
-      {
-        "id": "r26",
-        "fr": "Leur demander de créer sur papier la page Internet : insister sur la mise en page des informations (titre, chapeau, sous-titres, rubriques sous forme de courts paragraphes présentant les idées essentielles), l'utilisation de différentes couleurs, de l'intégration possible de documents authentiques."
-      },
-      {
-        "id": "r27",
-        "fr": "Pour améliorer la qualitéde vie du peuple, la gouvernement a fait beaucoup d'efforts."
-      },
-      {
-        "id": "r28",
-        "fr": "Ce projet incitera plus de jeunes àutiliser les moyens de transport en commun."
-      },
-      {
-        "id": "r29",
-        "fr": "Cet hôtel propose des chambres de différents styles."
-      },
-      {
-        "id": "r30",
-        "fr": "Vous pouvez choisir votre chambre en fonction de votre goût."
-      },
-      {
-        "id": "r31",
-        "fr": "Les habitants peuvent donner/proposer leurs idées àla municipalitépar l'intermédiaire de notre association."
+        "id": "l8",
+        "fr": "Il faut conserver les fenêtres fermées pendant la production et / ou les équiper d'écran de protection contre les insectes."
       }
     ]
   },
   {
-    "lesson": "u5l20",
-    "title": "U5L20 Terres d'aventures",
-    "count": 50,
+    "lesson": "u7l26",
+    "title": "U7L26 Travailler autremet",
+    "count": 17,
     "cards": [
       {
-        "id": "r1",
-        "fr": "ÉDITION ANNIVERSAIRE - DU 13 AU 27 MARS 2010 RALLYE AÏCHA DES GAZELLES MAROC LA RÉFÉRENCE FÉMININE DEPUIS 20 ANS Le Rallye Aïcha des Gazelles est une aventure internationale et humaine unique en son genre."
+        "id": "l1",
+        "fr": "L'énoncé b résume le mieux la deuxième partie de l’enregistrement car on peut entendre que « les frontières entre l'entreprise et le domicile deviennent poreuses »."
       },
       {
-        "id": "r2",
-        "fr": "Ex : un livre de références un type de… une sorte de…"
+        "id": "l2",
+        "fr": "Ce qui se développe, c’est le fait que... on travaille à la fois au bureau et chez soi."
       },
       {
-        "id": "r3",
-        "fr": "Ex : rassembler la famille autour de la table Ex : être en compétition avec qn."
+        "id": "l3",
+        "fr": "Ce qui se développe, c’est le fait qu'on est de plus en plus itinérant."
       },
       {
-        "id": "r4",
-        "fr": "Ex : navigation spatiale Ex : à la française / à la chinoise Ex : Tout le monde a compris, hors …"
+        "id": "l4",
+        "fr": "Et donc, en réalité, le point le plus important, c'est que les contraintes de localisation pour nos activités disparaissent."
       },
       {
-        "id": "r5",
-        "fr": "Ex : Il enlève son casque dans le respect des autres."
+        "id": "l5",
+        "fr": "On peut travailler... euh ... dans sa voiture, dans la circulation."
       },
       {
-        "id": "r6",
-        "fr": "Ex : des plats locaux ÉDITION ANNIVERSAIRE - DU 13 AU 27 MARS 2010RALLYE AÏCHA DES GAZELLES MAROC LA RÉFÉRENCE FÉMININE DEPUIS 20 ANS Le Rallye Aïcha des Gazelles est une aventure internationale et humaine unique en son genre."
+        "id": "l6",
+        "fr": "On peut travailler à son domicile."
       },
       {
-        "id": "r9",
-        "fr": "à la libre utilisation de Ex : Je reste à votre entière disposition pour tout renseignement complémentaire. hésiter à faire qch."
+        "id": "l7",
+        "fr": "On peut travailler sur son lieu de vacances."
       },
       {
-        "id": "r10",
-        "fr": "Ex : Il hésite à l'appeler. hésiter entre… et …"
+        "id": "l8",
+        "fr": "On peut travailler dans un hôtel, en déplacement, en se branchant... euh... sur le réseau."
       },
       {
-        "id": "r11",
-        "fr": "Ex : Vous avez lu ci-dessus les raisons de mon refus."
+        "id": "l9",
+        "fr": "Nos interlocuteurs ne savent pas où on est."
       },
       {
-        "id": "r12",
-        "fr": "Ex : écrire à l'adresse mentionnée ci-dessous Attirées par la réputation de votre rallye, ma fille et moi vous proposons notre candidature pour participer à l'édition 2010 du Rallye Aïcha des Gazelles."
+        "id": "l10",
+        "fr": "Donc, c'est ça qui fait la grosse différence, et, de ce point de vue-là, c’est vrai que Internet modifie non seulement les possibilités de travailler d'une façon ou d'une autre, mais contribue à la modification des modes de vie."
       },
       {
-        "id": "r13",
-        "fr": "Agée de 52 ans, je suis infirmière et j'ai jusqu'à maintenant consacré ma vie à mon travail et à ma famille."
+        "id": "l11",
+        "fr": "Ce qui est également un point important du point de vue du travail."
       },
       {
-        "id": "r14",
-        "fr": "Ma fille de 26 ans vient de terminer ses études de médecine."
+        "id": "l12",
+        "fr": "Je crois que le modèle qu’on imaginait il y a une vingtaine d’années, où les gens allaient rester chez eux travailler et ne plus venir au bureau, ne s’est pas du tout développé."
       },
       {
-        "id": "r15",
-        "fr": "Nous avons toutes les deux une grande complicité et sommes passionées par les voyages."
+        "id": "l13",
+        "fr": "Il est peu probable qu’il se développe."
       },
       {
-        "id": "r16",
-        "fr": "Participer à ce rallye nous permettrait de réaliser un rêve commun : nous lancer ensemble dans une aventure humaine et sportive, loin de notre environnement habituel."
+        "id": "l14",
+        "fr": "Je crois que ce qui caractérise euh... ce domaine, c’est beaucoup plus que les frontières entre l’entreprise et le domicile deviennent poreuses, hein..."
       },
       {
-        "id": "r17",
-        "fr": "Ce serait également pour nous l'occasion de faire face à une grande diversité de situations, enrichissantes sur le plan professionnel et personnel."
+        "id": "l15",
+        "fr": "Et donc, les gens travaillent en partie à la maison, hein."
       },
       {
-        "id": "r18",
-        "fr": "Dynamiques, motivées et ouvertes à de nouvelles expériences, nous pensons avoir les qualités nécessaires pour réaliser cette expérience fantastique."
+        "id": "l16",
+        "fr": "Peut-être qu’à l’inverse, d’ailleurs, ils font certaines activités qui touchent à leur vie privée dans l’entreprise."
       },
       {
-        "id": "r19",
-        "fr": "Nous avons l'une et l'autre notre permis de conduire et possédons également un 4×4."
-      },
-      {
-        "id": "r20",
-        "fr": "Si notre candidature vous intéresse, nous restons à votre disposition pour un éventuel entretien."
-      },
-      {
-        "id": "r21",
-        "fr": "Ex : attirer l'attention attirer les regards Ex : Une longue complicité les liait l'un à l'autre. passionner (v.) [provoquer beaucoup d'intérêt pour qch] Ex: un film qui passionne les spectateurs Ex : un candidat éventuel bénéfice éventuel être composé/se composer de hésiter à Les personnes ci-dessous n'ont pas pu participer au Rallye."
-      },
-      {
-        "id": "r23",
-        "fr": "Marc (31 ans) et Sylvain (34 ans), informaticiens."
-      },
-      {
-        "id": "r24",
-        "fr": "Alice (17 ans), étudiante."
-      },
-      {
-        "id": "r25",
-        "fr": "Elle n'a pas son permis de conduire."
-      },
-      {
-        "id": "r26",
-        "fr": "Marina (44 ans), institutrice."
-      },
-      {
-        "id": "r27",
-        "fr": "Elle n'a pas trouvé de coéquipière."
-      },
-      {
-        "id": "r28",
-        "fr": "Jackie (59 ans) et Lucinda (52 ans), femmes au foyer."
-      },
-      {
-        "id": "r29",
-        "fr": "Elles n'ont pas de véhicule."
-      },
-      {
-        "id": "r30",
-        "fr": "J'ai lu ton annonce et je n'en croyais pas mes yeux."
-      },
-      {
-        "id": "r31",
-        "fr": "Tu décris le rêve que j'ai depuis des années."
-      },
-      {
-        "id": "r32",
-        "fr": "J'ai 20 ans, je suis actuellement étudiant en sciences politiques et, parallèlement, j'apprends le russe car ce pays m'a toujours fasciné."
-      },
-      {
-        "id": "r33",
-        "fr": "Depuis que j'ai vu le film mongolien L'histoire du chameau qui pleure, je veux visiter ce pays qui m'attire par ses grands espaces et sa civilisation siattachante."
-      },
-      {
-        "id": "r34",
-        "fr": "Comme toi, je n'aime pas planifier les détails de mes voyages et j'aime saisir les occasions comme elles se présentent."
-      },
-      {
-        "id": "r35",
-        "fr": "Si tu cherches toujours un compagnon, je serais vraiment très intéressé par cette aventure."
-      },
-      {
-        "id": "r36",
-        "fr": "Mon russe s'améliore de jour en jour."
-      },
-      {
-        "id": "r37",
-        "fr": "Tu peux me contacter au... et nous pourrions nous rencontrer pour voir ce que nous pouvons faire."
-      },
-      {
-        "id": "r38",
-        "fr": "Cette compétition est ouverte à toutes les filles de moins de 20 ans."
-      },
-      {
-        "id": "r39",
-        "fr": "Ce livre est composé (se compose) de cinq parties."
-      },
-      {
-        "id": "r40",
-        "fr": "Cest pour moi une très bonne occasion de pouvoir participer à cette compétition."
-      },
-      {
-        "id": "r41",
-        "fr": "Pour réaliser notre rêve, nous ne devrions pas hésiter à nous lancer dans de nouvelles expériences."
-      },
-      {
-        "id": "r42",
-        "fr": "Propositions de orrigé Marc et Sylvain : Cest vraiment nul que nous n'ayons pas pu participer au rallye, pourtant on connaît bien le désert marocain et on a l'habitude des rallyes... mais nous ne sommes pas des femmes !"
-      },
-      {
-        "id": "r43",
-        "fr": "Alors, c'est interdit pour nous."
-      },
-      {
-        "id": "r44",
-        "fr": "Incroyable !"
-      },
-      {
-        "id": "r45",
-        "fr": "Alice : Je suis tellement déçue!"
-      },
-      {
-        "id": "r46",
-        "fr": "Vivement l'année prochaine, j'aurai l'âge requis et mon pemeis !"
-      },
-      {
-        "id": "r47",
-        "fr": "Je ne peux plus attendre."
-      },
-      {
-        "id": "r48",
-        "fr": "J'aurai aimé participé cette année, pourtant !"
-      },
-      {
-        "id": "r49",
-        "fr": "Marina : L'amie qui devait partir avec moi est tombée malade au dernier moment... je n'ai pas pu trouver de remplaçante... c'est tellement frustrant."
-      },
-      {
-        "id": "r50",
-        "fr": "On aurait tant voulu réaliser ce rêve."
-      },
-      {
-        "id": "r51",
-        "fr": "Jackie et Lucinda : On s'est entraînées pendant des semaines et volià, ça nous tombe dessus, notre voiture est en panne et impossible d'en trouver une autre."
-      },
-      {
-        "id": "r52",
-        "fr": "Personne ne veut nous sponsoriser."
-      },
-      {
-        "id": "r53",
-        "fr": "Si on avait pu trouver quelqu'un pour nous prêter une voiture, on aurait pu partir ; c'est vraiment dommage !"
+        "id": "l17",
+        "fr": "Donc la frontière entre le monde professionnel et l’espace privé est en train de se transformer."
       }
     ]
   },
   {
-    "lesson": "u11l44",
-    "title": "U11L44 Les vraies-fausses idées reçues",
-    "count": 35,
+    "lesson": "u7l27",
+    "title": "U7L27 Pause",
+    "count": 22,
     "cards": [
       {
-        "id": "r1",
-        "fr": "À en croire cet article, la société est en train de connaître une grande crise."
+        "id": "l1",
+        "fr": "Quatre personnes sont interviewées : Thierry, Chantal, Yves et Cécile."
       },
       {
-        "id": "r2",
-        "fr": "À m’en croire, il faut bien des efforts pour apprendre une langue étrangère."
+        "id": "l2",
+        "fr": "Thierry est interrogé car il vérifie ses e-mails et travaille sur ses dossiers professionnels pendant ses congés."
       },
       {
-        "id": "r4",
-        "fr": "La même année, Le Larousse médical précisait que la douche ou le bain pouvait être hebdomadaire."
+        "id": "l3",
+        "fr": "Quant à Chantal et Yves, ils sont accrochés à leur Blackberry qui les accompagne même à la plage."
       },
       {
-        "id": "r5",
-        "fr": "Depuis, les habitudes de propreté des Français ont progressé : 71% des Français déclarent prendre une douche au moins une fois par jour ; 7% disent même en prendre au moins deux."
+        "id": "l4",
+        "fr": "Cécile est psychologue du travail et parle de l'addiction au travail."
       },
       {
-        "id": "r6",
-        "fr": "Plus d’un homme sur quatre et une femme sur dix déclarent aujourd’hui se laver les cheveux tous les jours ou presque."
+        "id": "l5",
+        "fr": "Thierry pense qu'il a un devoir moral envers ses clients."
       },
       {
-        "id": "r7",
-        "fr": "L’hygiène dentaire s’est aussi sensiblement améliorée : une femme sur trois et un homme sur cinq disent se brosser les dents trois fois par jour ; ces chiffres semblent cependant surestimés lorsque l’on compare avec les achats de dentifrice et de brosses à dents."
+        "id": "l6",
+        "fr": "Chantal répond au teléphone à tout moment pour aider ses collègues ou ses clients."
       },
       {
-        "id": "r8",
-        "fr": "Francoscopie 2010 © Larousse Le magazine Le Point vous demande de rédiger un article de 200 mots environ sur le modèle de celui concernant l’hygiène des Français."
+        "id": "l7",
+        "fr": "Yves se sent obligé de répondre à ses e-mails à tout moment."
       },
       {
-        "id": "r9",
-        "fr": "En vous aidant du tableau ci-dessus, écrivez un texte sur le temps de travail des Français comparé à celui des habitants d’autres pays européens."
+        "id": "l8",
+        "fr": "La psychologue pense qu'il s'agit d'un gros besoin de reconnaissance professionnelle."
       },
       {
-        "id": "r10",
-        "fr": "Invité(e) à dîner chez un(e) ami(e), vous êtes très énervé(e) par l’une des personnes qu’il/elle a invitée car cette personne passe son temps à critiquer les Français sur leur hygiène ou le fait qu’ils travaillent moins que les autres."
+        "id": "l9",
+        "fr": "Checker les mails, suivre les dossiers, pour Thierry le mot « congé » ne rime pas avec le mot « farniente »."
       },
       {
-        "id": "r11",
-        "fr": "Vous essayez de lui montrer qu’il/elle n’a pas (toujours) raison."
+        "id": "l10",
+        "fr": "Il y a pas moyen de débrancher."
       },
       {
-        "id": "r12",
-        "fr": "Votre ami(e) donne également son avis."
+        "id": "l11",
+        "fr": "Je pense qu'on ne peut pas expliquer à un client que son problème sera traité à l’échéance de ses propres vacances."
       },
       {
-        "id": "r14",
-        "fr": "Il semblerait que, contrairement aux idées reçues, les Français travaillent beaucoup plus qu'on ne le croit."
+        "id": "l12",
+        "fr": "Donc, il y a un moment, il faut prendre ses responsabilités et continuer à bosser."
       },
       {
-        "id": "r15",
-        "fr": "Dans cette étude effectuée par Eurostat et portant sur le temps de travail dans quelques pays de l'Union européenne, on constate que les Français se placent plutôt bien vis à vis de leurs voisins."
+        "id": "l13",
+        "fr": "Et pour Chantal et Yves, sur la plage, un seul outil, le BlackBerry."
       },
       {
-        "id": "r16",
-        "fr": "En fait, ils occupent la 6e place sur les 14 pays analyses avec 41 heures d'heures de travail hebdomadaire."
+        "id": "l14",
+        "fr": "J'ai mon BlackBerry, on peut m'appeler à tout moment, pendant la visite d'un... d'un château ou quand je suis sur la plage pour me poser une question et me demander mon assistance."
       },
       {
-        "id": "r17",
-        "fr": "Ce sont les Autrichiens qui travaillent le plus et les Danois le moins."
+        "id": "l15",
+        "fr": "Au début, on est très contents parce qu’il y a plein de trucs, on est sur Internet, on regarde ses trucs, et finalement on ne fait que des mails le matin, le midi, le soir, en vacances, le week-end."
       },
       {
-        "id": "r18",
-        "fr": "En comparant les données de ces trois pays, on remarque que la France a moins d'employés à temps partiel que l'Autriche et même que le Danemark."
+        "id": "l16",
+        "fr": "On est... on se sent obligés de répondre."
       },
       {
-        "id": "r19",
-        "fr": "Mais il est très intéressant de constater qu'aux Pays-Bas prèsque la moitié des travailleurs sont employés à temps partiel."
+        "id": "l17",
+        "fr": "Alors d’où vient cette addiction au boulot ?"
       },
       {
-        "id": "r21",
-        "fr": "De manière générale, dans tous les pays sans exception, les femmes sont beaucoup plus nombreuses que les hommes à être employées à temps partiel."
+        "id": "l18",
+        "fr": "Cécile Faure, psychologue du travail."
       },
       {
-        "id": "r22",
-        "fr": "Est-ce un moyen d'allier vie familiale et vie professionnelle ou est-ce une politique délibérée des différents pays de l'Union européenne ?"
+        "id": "l19",
+        "fr": "C’est une grosse recherche en général de reconnaissance professionnelle."
       },
       {
-        "id": "r23",
-        "fr": "Ce que l'invité(e) peut dire pour... critiquer les Français Franchement, j'ai remarqué que la majorité des Français ne se lavaient pas les mains avant de manger et que l'hygiène n'était pas leur point fort."
+        "id": "l20",
+        "fr": "Souvent les gens me disent « Oh oui, mais mon employeur est très exigeant »."
       },
       {
-        "id": "r24",
-        "fr": "Quand j’étais fille au pair dans une famille, les enfants n'avaient droit qu'a un bain par semaine."
+        "id": "l21",
+        "fr": "Et puis tout le côté des fois accrochage qu'on peut avoir effectivement au travail crée du stress hein chez... chez les gens... d’où ils ont du mal effectivement à déconnecter hein sur quelques jours seulement de vacances si vous voulez."
       },
       {
-        "id": "r25",
-        "fr": "Et ces 35 heures... aucun Français ne travaille comme chez moi, au Danemark, et on fait trop la grève pour un oui ou pour un non en France. renforcer son opinion Je sais vraiment de quoi je parle, j'en connais des Français !"
+        "id": "l22",
+        "fr": "Pression du patron, quête de reconnaissance, pour les accros du boulot, les vacances cet été ne sont pas de tout repos."
+      }
+    ]
+  },
+  {
+    "lesson": "u9l33",
+    "title": "U9L33 Vie privée, vie publique",
+    "count": 33,
+    "cards": [
+      {
+        "id": "l1",
+        "fr": "« Maintenant, on n’est plus très loin des personnes qu’on aime, qui sont même à distance."
       },
       {
-        "id": "r26",
-        "fr": "J'ai travaillé quelque fois dans des entreprises et je peux dire que le rythme était plutôt relaxe... nuancer ses propos D'accord, peut-être que je suis mal tombée !"
+        "id": "l2",
+        "fr": "Avec Internet, on a chez soi même l’image de la personne qu’on aime."
       },
       {
-        "id": "r27",
-        "fr": "C'est vrai que, quelquefois, ils sont différents !"
+        "id": "l3",
+        "fr": "Et le téléphone, c’est quand même bien pratique de ne pas avoir à rentrer chez soi le soir pour obtenir ses messages mais de les avoir en direct. » « C’est quand même un moyen de communication effectivement plus rapide mais qui nous permet aussi d’être beaucoup plus libre et de pouvoir être disponible non seulement à vos interlocuteurs mais pour vous-même."
       },
       {
-        "id": "r28",
-        "fr": "Ce que vous pouvez dire pour... prendre la défense des Français Moi, je dirais tout à fait le contraire, les Français sont impéccables et sentent toujours si bon... concéder que certaines remarques sont justifiées C’est vrai, ils font trop souvent la grève et pour cette raison, on ne prend plus leurs revendications au sérieux."
+        "id": "l4",
+        "fr": "Vous avez une question immédiate à poser, vous avez la réponse tout de suite. » « ça sépare les individus."
       },
       {
-        "id": "r29",
-        "fr": "Je trouve que le service social français est vraiment excellent, c'est certainement un des meilleurs du monde."
+        "id": "l5",
+        "fr": "On a moins la démarche de se déplacer vers la personne pour lui parler, on a moins la démarche d’attendre qu’elle réfléchisse pour obtenir une réponse."
       },
       {
-        "id": "r30",
-        "fr": "Les entreprises françaises sont très efficaces et le rythme n’est pas plus lent que dans d'autres pays européens."
+        "id": "l6",
+        "fr": "Ça a changé notre mode de vie mais il faut encore que nous, en tant qu’humain, nous continuions à nous adapter. » « je trouve qu’on est de plus en plus assailli et qu’on passe sans le vouloir et malgré soi de plus en plus de temps sur Internet. » « ...l’intrusion de nos collègues de travail vingt-quatre heures sur vingt-quatre, sept jours sur sept."
       },
       {
-        "id": "r31",
-        "fr": "Ce que vous votre ami(e) peut dire pour... appuyer vos arguments Dans la famille où je fais du baby-sitting, il faut que je donne un bain aux enfants tous les soirs. donner d'autres contre-exemples Je trouve qu'en fait ces fameuses 35 heures ne sont appliquées que par une minorité et la plupart des Français travaillent énormément."
+        "id": "l7",
+        "fr": "Oui, ça peut être dangereux parce que ça peut perturber effectivement une vie de famille."
       },
       {
-        "id": "r32",
-        "fr": "Tu as vu les statistiques qui sont parus dans Le Point la semaine dernière ?"
+        "id": "l8",
+        "fr": "C’est dangereux aussi quand on est en permanence dérangé par des coups de téléphone intempestifs. » « N’importe qui pourra savoir à quelle heure je suis passé dans telle boutique, ce que j’ai fait, qui j’ai appelé, où est-ce que j’étais... avec le GPS, avec... avec les messages qui sont répertoriés dans des machines, enfin tout ça."
       },
       {
-        "id": "r33",
-        "fr": "Ils montraient queles Français effectuaient en moyenne 41 heures de travail hebdomadaire alors que les Danois ne travaillaient que 40,2 heures !"
+        "id": "l9",
+        "fr": "On sait tout sur tout le monde : où, quand et bientôt comment..."
       },
       {
-        "id": "r34",
-        "fr": "Travailleurs à temps partiel et durée du travail hebdomadaire dans quelques pays de l’Union européenne [2008] à en coire qn jouir de conseiller à qn de partager quant à s’améliorer À l'en croire, les Français savent très bien jouir de la vie."
+        "id": "l10",
+        "fr": "Enfin, plus personne n’aura son intimité. » Selon vous, en quoi les téléphones mobiles ou les ordinateurs ont-ils changé nos modes de vie ?"
       },
       {
-        "id": "r35",
-        "fr": "Il fume beaucoup ; alors qu'avant, le médecin lui a déjà conseillé de l’arrêter."
+        "id": "l11",
+        "fr": "Les téléphones portables et les ordinateurs vont changer bien sûr mes habitudes de vie et de communication."
       },
       {
-        "id": "r36",
-        "fr": "Il ne partage pas cette idée."
+        "id": "l12",
+        "fr": "Elles ont changé les habitudes de vie et de communication de tous d’ailleurs."
       },
       {
-        "id": "r37",
-        "fr": "Quant à moi, je n’ai aucun avis."
+        "id": "l13",
+        "fr": "Il y a du bon et il y a du mauvais, je pense."
       },
       {
-        "id": "r38",
-        "fr": "Grâce à la décision du gouvernement, la vie des habitants de ce village s'est beaucoup améliorée."
+        "id": "l14",
+        "fr": "Le bon, c’est que... euh... maintenant, on est plus très loin des personnes qu’on aime, qui sont même à distance."
+      },
+      {
+        "id": "l15",
+        "fr": "Néanmoins, je trouve aussi que ça sépare les individus."
+      },
+      {
+        "id": "l16",
+        "fr": "Enfin, c’est quand même un moyen de communication effectivement plus rapide mais qui nous permet aussi d’être beaucoup plus libre et de pouvoir être disponible non seulement à vos interlocuteurs mais pour vous-même."
+      },
+      {
+        "id": "l17",
+        "fr": "Effectivement, je... je suis vraiment d’accord avec vous."
+      },
+      {
+        "id": "l18",
+        "fr": "C’est-à-dire que ça, c’est le point très très positif... de pouvoir avoir une réponse précise rapidement."
+      },
+      {
+        "id": "l19",
+        "fr": "Mais, en revanche, je trouve qu’on est de plus en plus assailli et qu’on passe sans le vouloir et malgré soi de plus en plus de temps sur Internet."
+      },
+      {
+        "id": "l20",
+        "fr": "Pensez-vous que la généralisation de ces moyens de communication soit dangereuse pour notre vie privée ?"
+      },
+      {
+        "id": "l21",
+        "fr": "Oui, ça peut être dangereux."
+      },
+      {
+        "id": "l22",
+        "fr": "Par exemple, l’intrusion de nos collègues de travail vingt-quatre heures sur vingt-quatre, sept jours sur sept."
+      },
+      {
+        "id": "l23",
+        "fr": "Est-ce que c’est dangereux pour notre vie privée ?"
+      },
+      {
+        "id": "l24",
+        "fr": "Euh... oui, sûrement."
+      },
+      {
+        "id": "l25",
+        "fr": "Quand je vois ce qu’on arrive à faire aujourd’hui avec un téléphone portable."
+      },
+      {
+        "id": "l26",
+        "fr": "On peut prendre, utiliser les empreintes digitales pour... pour reconnaître l’utilisateur."
+      },
+      {
+        "id": "l27",
+        "fr": "On se dit que peut-être un jour on s’en servira comme moyen de paiement."
+      },
+      {
+        "id": "l28",
+        "fr": "On sortira d’un magasin juste avec notre téléphone portable dans la poche et ça payera nos courses."
+      },
+      {
+        "id": "l29",
+        "fr": "Euh... enfin voilà !"
+      },
+      {
+        "id": "l30",
+        "fr": "N’importe qui pourra savoir à quelle heure je suis passé dans telle boutique, ce que j’ai fait, qui j’ai appelé, où est-ce que j’étais... avec le GPS, avec... avec les messages qui sont répertoriés dans des machines, enfin tout ça."
+      },
+      {
+        "id": "l31",
+        "fr": "Alors après, est-ce que c’est grave ?"
+      },
+      {
+        "id": "l32",
+        "fr": "Je ne sais pas."
+      },
+      {
+        "id": "l33",
+        "fr": "Mais on rentre dans la vie privée des gens, ça c’est sûr."
+      }
+    ]
+  },
+  {
+    "lesson": "u9l34",
+    "title": "U9L34 Un défi à relever",
+    "count": 30,
+    "cards": [
+      {
+        "id": "l1",
+        "fr": "Il s’agit de Nicolas Hulot."
+      },
+      {
+        "id": "l2",
+        "fr": "Il est président de la fondation Nicolas Hulot qui a pour mission de nous faire prendre conscience des problèmes d’environnement et de développer des stratégies pour sauvegarder la planète."
+      },
+      {
+        "id": "l3",
+        "fr": "Aider les gens à développer des gestes quotidiens qui préservent l’environnement."
+      },
+      {
+        "id": "l4",
+        "fr": "Encourager les entreprises à changer leurs modes de production afin de réduire leurs Aider les gens à développer des gestes quotidiens qui préservent l’environnement."
+      },
+      {
+        "id": "l5",
+        "fr": "Alors vous... vous présidez votre fondation, la Fondation Nicolas Hulot et il y a un an vous avez lancé avec l’ADEME, l’Agence de l’Environnement et de la de Maîtrise de l’Énergie, le Défi pour la Terre."
+      },
+      {
+        "id": "l6",
+        "fr": "Vous pouvez nous... nous rappeler de quoi il s’agit."
+      },
+      {
+        "id": "l7",
+        "fr": "Et donc l’idée, c’est que chacun choisisse dans ces centaines de gestes que nous mettons à leur disposition, au jour le jour, eh bien des... des gestes sur lesquels ils s’engagent pour peser moins lourdement sur nos ressources naturelles et moins lourdement sur nos ressources énergétiques dont on vient encore de nous rappeler que malheureusement tout cela est compté."
+      },
+      {
+        "id": "l8",
+        "fr": "Et nous vivons depuis très longtemps dans une civilisation un peu du gâchis, pensant que nous avions des ressources infinies."
+      },
+      {
+        "id": "l9",
+        "fr": "Eh bien, il est temps qu’on se rende compte que, malheureusement, on vit sur une planète qui est limitée et qu’on peut pas lui demander plus qu’elle ne peut nous donner, donc, il faut réguler ça."
+      },
+      {
+        "id": "l10",
+        "fr": "Et nous avons, nous les individus, une part de responsabilité."
+      },
+      {
+        "id": "l11",
+        "fr": "On n’a pas toutes les responsabilités mais on peut pas se dédouaner en se disant nous, on peut pas faire grand chose."
+      },
+      {
+        "id": "l12",
+        "fr": "En fait, on peut faire énormément de choses."
+      },
+      {
+        "id": "l13",
+        "fr": "Et, en plus, on peut le faire tout en protégeant l’environnement et en ayant pour soi un gain je dirais même économique et en même temps je dirais même un gain psychologique."
+      },
+      {
+        "id": "l14",
+        "fr": "Parce que, qu’on le veuille ou pas, on est quand même conditionnés dans nos gestes de consommation et même dans nos comportements."
+      },
+      {
+        "id": "l15",
+        "fr": "L’un des secteurs les plus porteurs en ce moment, ce sont les emplois verts orientés vers l’écologie."
+      },
+      {
+        "id": "l16",
+        "fr": "Exemple avec la société GreenFace, spécialisée dans la construction et l’éco-rénovation."
+      },
+      {
+        "id": "l17",
+        "fr": "Reportage RTL de Sébastien Letard."
+      },
+      {
+        "id": "l18",
+        "fr": "Ils ont commencé à trois."
+      },
+      {
+        "id": "l19",
+        "fr": "Aujourd’hui Ahmed Akaaboun est le patron d’une société parisienne d’une dizaine d’employés."
+      },
+      {
+        "id": "l20",
+        "fr": "À peine un an et demi d’existence et GreenFace va ouvrir une antenne dans le sud de la France et continuer son développement."
+      },
+      {
+        "id": "l21",
+        "fr": "Malgré cette période de crise, aujourd’hui on a un carnet de commande qui est bouclé jusqu’à janvier."
+      },
+      {
+        "id": "l22",
+        "fr": "Cette année, on a embauché sept personnes et pour la rentrée on va être amenés à embaucher plus d’une vingtaine de personnes. [Il y a une formation entre deux et cinq jours mais sinon un peintre classique ou un maçon classique peut très bien utiliser des matériaux écologiques.] Un processus de construction écolo, pour les employés, ça signifie réapprendre en partie son métier avec des techniques et des matériaux sains."
+      },
+      {
+        "id": "l23",
+        "fr": "À 52 ans, André Pochard a retrouvé un emploi mais dans de meilleures conditions."
+      },
+      {
+        "id": "l24",
+        "fr": "Je suis arrivé ici ben en pointant des annonces."
+      },
+      {
+        "id": "l25",
+        "fr": "C’est assez compliqué actuellement avec le marché de l’emploi, bon, qui va pas très bien."
+      },
+      {
+        "id": "l26",
+        "fr": "C’était pas évident."
+      },
+      {
+        "id": "l27",
+        "fr": "Moi, je suis un peu de l’ancienne génération et j’ai appris sur le tas on va dire, voilà."
+      },
+      {
+        "id": "l28",
+        "fr": "On arrête tout ce qui est peinture à l’huile, avec de l’essence, etc. C’est quand même pour nous plus agréable."
+      },
+      {
+        "id": "l29",
+        "fr": "Pour l’instant, c’est par le biais d’une société d’intérim, elle aussi spécialisée dans les métiers verts que se font ces recrutements."
+      },
+      {
+        "id": "l30",
+        "fr": "Des intérims qui pourraient laisser la place à des emplois pérennes, selon Ahmed Akaaboun, une fois que la construction écolo aura atteint son rythme de croisière."
+      }
+    ]
+  },
+  {
+    "lesson": "u10l38",
+    "title": "U10L38 Un monde à part",
+    "count": 10,
+    "cards": [
+      {
+        "id": "l1",
+        "fr": "elle décide d’expliquer les raisons de son jugement."
+      },
+      {
+        "id": "l2",
+        "fr": "« Dans les musées, il y a toujours une telle affluence qu’on est sans cesse bousculé ou gêné par les autres. » « Son service à vaisselle est tellement moche que ça ne m’étonne pas qu’elle l’ait donné au musée du Louvre. » « Je finis toujours ma visite par la boutique du musée, si bien que je ressors avec des objets super chers qui finissent toujours dans le fond d’un tiroir. » Il y a des choses qui ne s’avouent pas en société si l’on souhaite être respecté."
+      },
+      {
+        "id": "l3",
+        "fr": "Dernièrement, à l’anniversaire de mon amie Marie-Odile, quand j’ai dit bien fort : « Les musées, c’est chiant », j’ai immédiatement senti dans les regards que je passais pour une imbécile."
+      },
+      {
+        "id": "l4",
+        "fr": "Après cet incident, j’ai donc décidé non pas de faire mon mea culpa, mais d’argumenter mes propos : Je ne supporte personne."
+      },
+      {
+        "id": "l5",
+        "fr": "Je ne peux pas toucher."
+      },
+      {
+        "id": "l6",
+        "fr": "Et moi, j’adore toucher."
+      },
+      {
+        "id": "l7",
+        "fr": "Je n’arrive pas à m’extasier devant le service de mariage de Madame René Coty."
+      },
+      {
+        "id": "l8",
+        "fr": "Je n’ai rien contre cette dame."
+      },
+      {
+        "id": "l9",
+        "fr": "Mais franchement , son service à vaisselle est tellement moche que ça ne m’étonne pas quelle l’ait donné au musée du Louvre."
+      },
+      {
+        "id": "l10",
+        "fr": "Je finis toujours ma visite par la boutique du musée, si bien que je ressors avec des objets super chers qui finissent toujours dans le fond d’un tiroir."
+      }
+    ]
+  },
+  {
+    "lesson": "u10l39",
+    "title": "U10L39 Journées portes ouvertes",
+    "count": 25,
+    "cards": [
+      {
+        "id": "l1",
+        "fr": "Faire mieux prendre conscience aux citoyens « de la beauté, de la fragilité, de la grandeur de ces monuments »."
+      },
+      {
+        "id": "l2",
+        "fr": "Faire découvrir les monuments qui sont le siège des autorités de la nation."
+      },
+      {
+        "id": "l3",
+        "fr": "Forcer les pouvoirs publics à prendre conscience de la richesse du patrimoine national et débloquer ainsi des crédits."
+      },
+      {
+        "id": "l4",
+        "fr": "Valoriser les anonymes qui défendent au jour le jour ce patrimoine."
+      },
+      {
+        "id": "l5",
+        "fr": "Il aurait aimé rendre gratuit, « au moins certains jours ou certains soirs », l’entrée des musées nationaux, afin d'en faire des lieux plus démocratiques."
+      },
+      {
+        "id": "l6",
+        "fr": "Je souhaitais que les citoyens prennent mieux conscience eux-mêmes de la beauté, de la fragilité, de la grandeur de ces monuments."
+      },
+      {
+        "id": "l7",
+        "fr": "D’où l’idée d’ouvrir une fois par an, gratuitement, l’ensemble de ces lieux."
+      },
+      {
+        "id": "l8",
+        "fr": "Et, dès la première minute, ce fut un grand succès."
+      },
+      {
+        "id": "l9",
+        "fr": "Une passion s’est emparée de beaucoup de gens."
+      },
+      {
+        "id": "l10",
+        "fr": "Euh... il faut dire que certains de ces monuments sont des monuments habituellement fermés au public."
+      },
+      {
+        "id": "l11",
+        "fr": "Je pense notamment à ceux qui sont le siège d'autorités politique et publique : la présidence de la République, l'hôtel Matignon, les ministères."
+      },
+      {
+        "id": "l12",
+        "fr": "Il est normal que les citoyens du pays qui, par ailleurs, contribuent par leurs impôts à financer indirectement ou directement la restauration de ces monuments puissent y avoir accès."
+      },
+      {
+        "id": "l13",
+        "fr": "Ces monuments sont nationaux, c’est-à-dire qu’ils appartiennent à..."
+      },
+      {
+        "id": "l14",
+        "fr": "Ils sont la propriété collective du pays."
+      },
+      {
+        "id": "l15",
+        "fr": "C'était... c'était une des raisons."
+      },
+      {
+        "id": "l16",
+        "fr": "Autre raison qui m'a incité à organiser cet événement : je souhaitais que, par ce plébiscite populaire, les pouvoirs publics, et notamment le ministère des Finances, prennent conscience que c’est une grande richesse pour un pays comme le notre et on doit ne pas ménager ses efforts... euh... matériels pour ne pas laisser ce patrimoine dépérir."
+      },
+      {
+        "id": "l17",
+        "fr": "Et puis dernière raison : je voulais que tous ceux qui, dans l’anonymat - conservateurs des... des monuments, architectes des monuments de France, artisans... euh... entreprises -, qui jour après jour s’emploient à sauver ou à restaurer soient en quelque sorte récompensés par cette reconnaissance... euh... nationale populaire."
+      },
+      {
+        "id": "l18",
+        "fr": "Et pour eux, vous savez, c’est chaque année un encouragement à se déployer mieux encore, à se battre avec énergie pour... euh... accomplir le travail qui est le leur."
+      },
+      {
+        "id": "l19",
+        "fr": "Avec cette manifestation, monsieur Lang, peut-on parler selon vous de démocratisation des pratiques culturelles, de culture accessible au plus grand nombre ?"
+      },
+      {
+        "id": "l20",
+        "fr": "Oui, alors si vous voulez, moi, j'ai un petit regret."
+      },
+      {
+        "id": "l21",
+        "fr": "Je regrette de ne pas avoir décidé de rendre gratuite l'entrée des musées nationaux."
+      },
+      {
+        "id": "l22",
+        "fr": "Quand vous devez venir à trois, quatre, cinq, six, ça coûte cher, et c'est un obstacle qui est très important."
+      },
+      {
+        "id": "l23",
+        "fr": "Les Anglais le font depuis longtemps et l’atmosphère des musées anglais est, je trouve, beaucoup plus chaleureuse, beaucoup plus... euh... simple... euh... conviviale."
+      },
+      {
+        "id": "l24",
+        "fr": "Je crois qu'il faudrait le faire au moins certains jours ou certains soirs."
+      },
+      {
+        "id": "l25",
+        "fr": "(Remerciements à M.Jack Lang, député et ancien ministre.) Interview exclusive réalisée pour Taxi ! 3."
+      }
+    ]
+  },
+  {
+    "lesson": "u11l42",
+    "title": "U11L42 Cliché ou réalité ?",
+    "count": 16,
+    "cards": [
+      {
+        "id": "l1",
+        "fr": "Une étude du site Expedia.fr n’est pas très flatteuse pour les touristes français quand ils vont à l’étranger : ils ne sont ni généreux ni très bien élevés."
+      },
+      {
+        "id": "l2",
+        "fr": "C’est la troisième année consécutive que nous sommes en queue de peloton."
+      },
+      {
+        "id": "l3",
+        "fr": "Il y a quand même, Sophie Jousselin, de sérieux efforts à faire."
+      },
+      {
+        "id": "l4",
+        "fr": "Oui, surtout que cette année, c’est encore pire."
+      },
+      {
+        "id": "l5",
+        "fr": "L’année dernière, on était 26e."
+      },
+      {
+        "id": "l6",
+        "fr": "Cette année, on est 27e, bons derniers derrière les Grecs, les Turcs et les Espagnols."
+      },
+      {
+        "id": "l7",
+        "fr": "L’étude menée auprès de 4 500 hôtels du monde entier ne nous fait pas de cadeaux."
+      },
+      {
+        "id": "l8",
+        "fr": "Premier reproche : nous parlons peu et mal les langues étrangères."
+      },
+      {
+        "id": "l9",
+        "fr": "Pire, on attend de nos interlocuteurs que, eux, parlent le français."
+      },
+      {
+        "id": "l10",
+        "fr": "On nous reproche aussi d’être pingres, de ne jamais donner de pourboires et de râler tout le temps."
+      },
+      {
+        "id": "l11",
+        "fr": "Mais nous ne sommes pas les plus râleurs quand même."
+      },
+      {
+        "id": "l12",
+        "fr": "Ce titre revient cette année à nos voisins britanniques qui pourtant se classent dans le tiercé de tête des meilleurs touristes au monde."
+      },
+      {
+        "id": "l13",
+        "fr": "Pour clore ce florilège de compliments, ajoutons que nous sommes considérés comme mal élevés, impolis."
+      },
+      {
+        "id": "l14",
+        "fr": "Là encore, nous occupons le dernier rang, juste derrière les Italiens, oubliant régulièrement les traditionnels « bonjour », « merci », « au revoir »."
+      },
+      {
+        "id": "l15",
+        "fr": "Et dans ce tableau plutôt sombre, une petite lueur d’espoir quand même : nous sommes à la quatrième place des touristes les plus calmes, les Japonais étant les premiers."
+      },
+      {
+        "id": "l16",
+        "fr": "Et nous sommes au troisième rang des plus élégants."
+      }
+    ]
+  },
+  {
+    "lesson": "u11l43",
+    "title": "U11L43 En grève",
+    "count": 14,
+    "cards": [
+      {
+        "id": "l1",
+        "fr": "Les trois premières personnes sont pour le service minimum, la dernière est contre."
+      },
+      {
+        "id": "l2",
+        "fr": "C’est normal qu’il y ait un service minimum qui soit assuré, que les gens puissent voyager et se déplacer au moins pour les cas d’urgence."
+      },
+      {
+        "id": "l3",
+        "fr": "Je pense qu’il y aurait... il faudrait un minimum de trains pas forcément aux heures de pointe mais en permanence, qu’il y ait un certain nombre de trains qui soient assurés et qui permettent de se déplacer dans les grandes villes au moins."
+      },
+      {
+        "id": "l4",
+        "fr": "Je suis pour le service minimum... euh... tout simplement parce que ça pénalise le pays quand... euh... la SNCF bloque... euh... tous les trains sur le réseau... euh... français, donc bien sûr je suis pour."
+      },
+      {
+        "id": "l5",
+        "fr": "À partir du moment où il y a des gens qui sont d’accord pour assurer le service minimum, on leur laisse le choix et par contre on autorise les... les autres à faire grève tout simplement, qu’il y ait une... euh... une équipe qui soit volontaire et... euh... prête à assurer ce service minimum."
+      },
+      {
+        "id": "l6",
+        "fr": "Le problème, c’est l’entrave."
+      },
+      {
+        "id": "l7",
+        "fr": "Il faut garder le droit de grève pour que les gens puissent s’exprimer, ça c’est important, donc il faut effectivement... euh... que la grève soit possible mais il faut aussi... ben, que les autres qui ne font pas grève puissent avoir la liberté de pouvoir travailler."
+      },
+      {
+        "id": "l8",
+        "fr": "Et donc il faut permettre ça."
+      },
+      {
+        "id": "l9",
+        "fr": "Le service minimum peut être une alternative possible."
+      },
+      {
+        "id": "l10",
+        "fr": "Donc... euh... des choses précisées à l’avance quoi, qu’on sache à l’avance quels sont les trains qui seront offerts et puis bon ben dans des conditions qui sont évidemment... euh... des fréquences plus faibles... euh... ce genre de choses quoi."
+      },
+      {
+        "id": "l11",
+        "fr": "Je suis contre le service minimum."
+      },
+      {
+        "id": "l12",
+        "fr": "Y a des... y a des gens qui sont mécontents, qui utilisent le droit de grève qui est un... qui est un droit constitutionnel et... euh... remettre en cause ce droit constitutionnel, je pense que c’est une dérive dangereuse et... euh... le problème, c’est s’..., c’est s’attaquer... euh... aux conséquences sans s’attaquer aux causes parce que les gens, s’ils font grève, c’est pas par plaisir... euh... ce qu’il faut savoir c’est qu’une journée de grève, et ben c’est une journée de salaire en moins."
+      },
+      {
+        "id": "l13",
+        "fr": "Et mettre en place le service minimum et ben... euh..."
+      },
+      {
+        "id": "l14",
+        "fr": "ça... euh... y aurait toujours ce mécontentement comme y a en Italie où en Italie le service minimum... euh... est mis en place, y a du mécontentement mais qu’est-ce qu’ils font, ils font des grèves sauvages."
+      }
+    ]
+  },
+  {
+    "lesson": "u12l46",
+    "title": "U12L46 La roue de la fortune",
+    "count": 15,
+    "cards": [
+      {
+        "id": "l1",
+        "fr": "Le jeu dont il est question est organisé en France."
+      },
+      {
+        "id": "l2",
+        "fr": "Il n’y a pas de conditions particulières pour y participer."
+      },
+      {
+        "id": "l3",
+        "fr": "Dix emplois seront offerts à l’issue de cette loterie."
+      },
+      {
+        "id": "l4",
+        "fr": "Tout le monde trouve cette idée vraiment intéressante."
+      },
+      {
+        "id": "l5",
+        "fr": "Le jeu va permettre aux organisateurs d'augmenter leur chiffre d'affaires. des emplois de caissières ou magasiniers Et en Italie où le chômage est également en forte hausse, une chaîne de supermarchés propose d'offrir des emplois grâce à une loterie."
+      },
+      {
+        "id": "l6",
+        "fr": "Anne Le Nir, vous êtes à Rome pour RTL, c’est un peu scandaleux mais ça marche."
+      },
+      {
+        "id": "l7",
+        "fr": "La jeune femme qui prête son visage à l'affiche publicitaire de la chaîne de supermarchés Tigros est évidemment jolie, évidemment heureuse car, comme le dit le slogan « Elle a fait ses courses et elle a trouvé un travail ! » Comment ?"
+      },
+      {
+        "id": "l8",
+        "fr": "En participant au concours de la firme qui propose dix emplois de caissières ou magasiniers d'une durée d'un an payés 1 100 euros par mois."
+      },
+      {
+        "id": "l9",
+        "fr": "Pour avoir le droit d'insérer un bulletin dans une urne, il faut d'abord faire 30 euros d'achats au minimum et posséder la carte de fidélité Tigros."
+      },
+      {
+        "id": "l10",
+        "fr": "Ensuite, c'est une question de chance, exactement comme à la loterie."
+      },
+      {
+        "id": "l11",
+        "fr": "Révolté, le plus important syndicat italien, la CGIL dénonce une instrumentalisation de la crise."
+      },
+      {
+        "id": "l12",
+        "fr": "« Pourquoi les travailleurs devraient-ils considérer la recherche d'un emploi comme une roue de la fortune ? », s'interroge un de ses dirigeants."
+      },
+      {
+        "id": "l13",
+        "fr": "Mais le responsable de la communication Tigros assure que les clients sont ravis de cette initiative."
+      },
+      {
+        "id": "l14",
+        "fr": "En attendant la liste des gagnants qui sera dévoilée le 21 octobre, cette firme est certaine d'augmenter son chiffre d'affaires sur le dos des chômeurs."
+      },
+      {
+        "id": "l15",
+        "fr": "Anne Le Nir, à Rome pour RTL."
+      }
+    ]
+  },
+  {
+    "lesson": "u12l47",
+    "title": "U12L47 Coup de cœur, coup de gueule",
+    "count": 25,
+    "cards": [
+      {
+        "id": "l1",
+        "fr": "Allez, maintenant une personnalité nous livre son coup de cœur."
+      },
+      {
+        "id": "l2",
+        "fr": "Et aujourd'hui, eh bien, c'est Catherine Deneuve."
+      },
+      {
+        "id": "l3",
+        "fr": "Catherine Deneuve qui, dans deux semaines, sera à l'affiche de Mères et Filles de Julie Lopes-Curval et qui, comme beaucoup de spectateurs ces dernières semaines - le film décidément fait l’unanimité -, a aimé Un prophète..."
+      },
+      {
+        "id": "l4",
+        "fr": "(encore lui !) de Jacques Audiard, film qui a déjà réuni plus de 930 000 spectateurs."
+      },
+      {
+        "id": "l5",
+        "fr": "C'est un fllm d'une force incroyable, c'est un film... euh... je trouve que ce film fait plus pour la situation des gens en prison aujourd'hui, des prisonniers, que on en a écrit de... ces dernières années dans... dans la presse."
+      },
+      {
+        "id": "l6",
+        "fr": "Donc, je trouve que c’est un film vraiment important."
+      },
+      {
+        "id": "l7",
+        "fr": "C'est ça qui vous a touché ?"
+      },
+      {
+        "id": "l8",
+        "fr": "La façon dont il parle de la situation en prison, de l'univers carcéral ?"
+      },
+      {
+        "id": "l9",
+        "fr": "Non, c'est le film."
+      },
+      {
+        "id": "l10",
+        "fr": "Je trouve que le film est réussi."
+      },
+      {
+        "id": "l11",
+        "fr": "Je trouve qu’il raconte une histoire formidablement bien et que c'est une histoire originale où l’on voit un jeune homme qui arrive... qui est analphabète et qui va finalement apprendre de la façon la plus dure et évidemment prendre la direction la plus dérangeante pour nous autres bons... euh..."
+      },
+      {
+        "id": "l12",
+        "fr": "C'est quelqu'un qui va se faire entièrement et se... en prison, donc c'est assez... c’est assez original comme histoire."
+      },
+      {
+        "id": "l13",
+        "fr": "Et puis les acteurs sont absolument formidables."
+      },
+      {
+        "id": "l14",
+        "fr": "La France a choisi de présenter ce film aux Oscars."
+      },
+      {
+        "id": "l15",
+        "fr": "Bon choix pour vous ? -Ah, c’est vrai ?"
+      },
+      {
+        "id": "l16",
+        "fr": "Ah oui, pour moi oui."
+      },
+      {
+        "id": "l17",
+        "fr": "C'est le... c'est le film qui... qui va représenter... ?"
+      },
+      {
+        "id": "l18",
+        "fr": "Non, c’est celui qui est présenté par la France ? ... qui est présenté par la France pour le meilleur film étranger."
+      },
+      {
+        "id": "l19",
+        "fr": "Après on sait pas ce que les Oscars vont décider."
+      },
+      {
+        "id": "l20",
+        "fr": "Bah, c'est déjà un bon début."
+      },
+      {
+        "id": "l21",
+        "fr": "C'est bien, oui."
+      },
+      {
+        "id": "l22",
+        "fr": "Je suis d'accord."
+      },
+      {
+        "id": "l23",
+        "fr": "Catherine Deneuve derrière Jacques Audiard donc pour les Oscars, le film que la France a donc choisi de présenter pour l'Oscar du meilleur film étranger."
+      },
+      {
+        "id": "l24",
+        "fr": "Reste à savoir maintenant s'il sera retenu."
+      },
+      {
+        "id": "l25",
+        "fr": "Les nominations seront annoncées le 2 février."
       }
     ]
   }
