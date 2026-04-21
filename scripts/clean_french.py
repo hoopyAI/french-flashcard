@@ -83,12 +83,34 @@ def should_delete(front: str) -> list[str]:
     if re.search(r"(?<!\w)(?:n\.\s*m\.|n\.\s*f\.|adj\.|v\.\s*t\.|v\.\s*pr\.|v\.\s*i\.|adv\.|prép\.|conj\.)(?!\w)", stripped):
         reasons.append("mid-vocab-pos")
     # Exercise-prompt directives at start (Lisez, Observez, Faites, etc.)
-    if re.match(r"^(Lisez|Observez|Faites|Écoutez|Ecoutez|Dites|Indiquez|Relevez|Associez|Cochez|Complétez|Répondez|Imaginez|Discutez|Présentez|Racontez|Choisissez|Résumez|Mettez|Classez|Cherchez|Décrivez|Expliquez|Comparez|Justifiez|Préparez|Interviewez|Commentez)\b", stripped):
+    directives = (
+        r"Lisez|Observez|Faites|Écoutez|Ecoutez|Dites|Indiquez|Relevez|Associez|"
+        r"Cochez|Complétez|Répondez|Imaginez|Discutez|Présentez|Racontez|Choisissez|"
+        r"Résumez|Mettez|Classez|Cherchez|Décrivez|Expliquez|Comparez|Justifiez|"
+        r"Préparez|Interviewez|Commentez|Repérez|Notez|Identifiez|Formulez|Reformulez|"
+        r"Transformez|Citez|Analysez|Nommez|Recherchez|Rédigez|Composez|Retrouvez|"
+        r"Soulignez|Donnez|Employez|Utilisez|Créez|Jouez|Écrivez|Ecrivez|Vérifiez|"
+        r"Distinguez|Trouvez|Poursuivez|Continuez"
+    )
+    if re.match(rf"^(?:{directives})\b", stripped):
         reasons.append("exercise-prompt")
+    # Directive after connector "Puis, " / "Ensuite, " / "Maintenant, " / "Alors, "
+    if re.match(rf"^(?:Puis|Ensuite|Maintenant|Alors|Ainsi|D['’]abord|Enfin)\s*,?\s+(?:{directives})\b", stripped, re.I):
+        reasons.append("exercise-prompt")
+    # Grammar-term enumeration: "Synonymes,..." / "Pronoms,..." / "Adjectifs,..."
+    if re.match(r"^(Synonymes|Pronoms|Adjectifs|Adverbes|Verbes|Noms|Articles|Prépositions|Conjonctions|Compléments)\b\s*(,|:|-|\()", stripped, re.I):
+        reasons.append("grammar-metadata")
+    # Dense dash-separated list: 4+ hyphen-delimited short tokens (vocab enumeration)
+    if len(re.findall(r"\b\w{2,20}\s+-\s+\w{2,20}\b", stripped)) >= 4:
+        reasons.append("dash-list")
+    # Questions-as-cards: exercise Q about the reading. Simple heuristic:
+    # starts with Qu-/Où/Comment/Pourquoi/À quoi/Quel(s) and ends with "?" in short card
+    if re.match(r"^(Qu[ie']|Où|Comment|Pourquoi|Quel(?:le|s|les)?|À\s+quoi|Combien|Depuis\s+quand)\b", stripped) and stripped.rstrip().endswith("?"):
+        reasons.append("exercise-question")
 
     # Decision:
     # strong reasons → delete on any
-    strong = {"no-letters", "section-title", "antonym-list", "cjk-contaminated", "comma-list", "slash-list", "numbered-bullet", "mid-vocab-pos", "exercise-prompt"}
+    strong = {"no-letters", "section-title", "antonym-list", "cjk-contaminated", "comma-list", "slash-list", "numbered-bullet", "mid-vocab-pos", "exercise-prompt", "grammar-metadata", "dash-list", "exercise-question"}
     if set(reasons) & strong:
         return reasons
     return []
