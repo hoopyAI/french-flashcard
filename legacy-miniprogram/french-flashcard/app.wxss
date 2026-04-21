@@ -1,0 +1,38 @@
+page {
+  background-color: #f8f9fc;
+  font-family: 'Comic Sans MS', 'Segoe Print', 'Ma Shan Zheng', cursive;
+  color: #1e1e1e;
+  box-sizing: border-box;
+}
+
+/* Excalidraw card base */
+.card {
+  background: #fff;
+  border: 2.5px solid #364fc7;
+  border-radius: 16px;
+  box-shadow: 4px 4px 0 rgba(54, 79, 199, 0.2);
+}
+
+/* Primary action button */
+.btn-primary {
+  background: #364fc7;
+  color: #fff;
+  border: 2.5px solid #364fc7;
+  border-radius: 12px;
+  box-shadow: 3px 3px 0 rgba(54, 79, 199, 0.2);
+  padding: 12rpx 32rpx;
+  font-family: inherit;
+  font-size: 28rpx;
+}
+
+/* Secondary / outline button */
+.btn-outline {
+  background: #fff;
+  color: #364fc7;
+  border: 2.5px solid #364fc7;
+  border-radius: 12px;
+  box-shadow: 3px 3px 0 rgba(54, 79, 199, 0.2);
+  padding: 12rpx 32rpx;
+  font-family: inherit;
+  font-size: 28rpx;
+}

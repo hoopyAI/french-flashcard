@@ -1,0 +1,4 @@
+node_modules/
+.superpowers/
+project.private.config.json
+miniprogram_npm/

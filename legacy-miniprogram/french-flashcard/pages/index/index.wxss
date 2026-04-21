@@ -1,0 +1,38 @@
+.page {
+  padding: 40rpx;
+}
+
+.title {
+  font-size: 48rpx;
+  font-weight: bold;
+  margin-bottom: 40rpx;
+  color: #1e1e1e;
+}
+
+.book-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24rpx;
+}
+
+.book-item {
+  display: flex;
+  align-items: center;
+  padding: 32rpx;
+  gap: 24rpx;
+}
+
+.book-icon {
+  font-size: 56rpx;
+}
+
+.book-title {
+  font-size: 34rpx;
+  flex: 1;
+  color: #1e1e1e;
+}
+
+.book-count {
+  font-size: 26rpx;
+  color: #999;
+}
