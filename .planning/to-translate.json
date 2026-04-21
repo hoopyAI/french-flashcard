@@ -1,1483 +1,720 @@
 [
   {
-    "lesson": "u3l11",
-    "title": "U3L11 À l'affiche du bac",
-    "count": 39,
+    "lesson": "u1l4",
+    "title": "U1L4 La télé-réalité",
+    "count": 43,
     "cards": [
       {
         "id": "r1",
-        "fr": "À propos de moi : Longtemps journaliste au quotidien Ouest-France."
+        "fr": "Histoire d'ego1 Lisez le document 1."
       },
       {
         "id": "r2",
-        "fr": "Collabore au magazine Chorus / Les Cahiers de la Chanson et à la revue nantaise Place Publique."
+        "fr": "Ma drôle de vie : 20h40, TMC."
       },
       {
         "id": "r3",
-        "fr": "Localisation : Rennes Centres d'intérêts : Musiques Monde Chanson Léo à l'affiche du bac Vous le saviez, vous, que la chanson française est au programme du bac 2009 ?"
+        "fr": "Confessions intimes, Un mardi par mois, 23 h 10."
       },
       {
         "id": "r4",
-        "fr": "Pas comme matière obligatoire quand même, ce serait trop beau, mais en « musique, option facultative toutes séries », comme c'est écrit dans le bulletin officiel n°19 du 8 mai 2008, sur le site du ministère de l'Éducation nationale."
+        "fr": "France 3 Vie privée, vie publique, Un lundi par mois, 20 h 35."
       },
       {
         "id": "r5",
-        "fr": "Des polyphonies de la Renaissance, et même..."
+        "fr": "Ma drôle de vie, Tous les mercredis, 20 h 40."
       },
       {
         "id": "r6",
-        "fr": "Jimi Hendrix, avaient eu droit à cet honneur il y a quelques années, mais pour la chanson d'ici et de maintenant, c'est la première fois."
+        "fr": "Présenté par Marcel Rufo et Charline Roux Tous les dimanches à 17h10 Apportez vos témoignages pour nos prochaines émissions : Élever un enfant seul."
       },
       {
         "id": "r7",
-        "fr": "Et le choix des artistes retenus est, ma foi, épatant ; même si, pour la génération qui planche dessus depuis quelques mois, certains noms doivent être aussi inconnus que Christophe Maé chez les Indiens d'Amazonie."
+        "fr": "Leur histoire d'amour est impossible."
       },
       {
         "id": "r8",
-        "fr": "À tout seigneur tout honneur, c'est Léo Ferré qui figure au sommet de la pile avec trois titres : Avec le temps, Requiem et Green, un poème de Verlaine."
+        "fr": "Frères-sœurs : ils se détestent."
       },
       {
         "id": "r9",
-        "fr": "Bon, c'est vrai que les élèves ne se précipitent pas sur l'option, mais leur nombre est suffisamment significatif pour qu'une prof de musique, qui les fait plancher depuis la rentrée, puisse affirmer qu'il y a « une véritable demande »."
+        "fr": "N'hésitez pas à contacter Anne-Céline par e-mail ou par téléphone au 01 41 86 00 00."
       },
       {
         "id": "r10",
-        "fr": "Écrire un commentaire À propos de moi : Longtemps journaliste au quotidien Ouest-France."
-      },
-      {
-        "id": "r19",
-        "fr": "Écrire un commentaire 1 - b une idée vraiment excellente, même si elle n'est hélas pas obligatoire."
-      },
-      {
-        "id": "r20",
-        "fr": "« Pas comme matière obligatoire quand même, ce serait trop beau » 2 - c franchement formidables."
-      },
-      {
-        "id": "r21",
-        "fr": "« Et le choix des artistes retenus est, ma foi, épatant » À propos de moi : Longtemps journaliste au quotidien Ouest-France."
-      },
-      {
-        "id": "r39",
-        "fr": "Écrire un commentaire Le médecin lui a interdit de fumer."
-      },
-      {
-        "id": "r40",
-        "fr": "Mais elle fume quand même."
-      },
-      {
-        "id": "r41",
-        "fr": "Les habitants pékinois, à partir de 65 ans, ont droit à une carte qui leur permet de prendre gratuitement les autobus."
-      },
-      {
-        "id": "r42",
-        "fr": "à tout seigneur tout honneur À notre arrivée, les enfants se précipitent vers nous pour nous accueillir avec fleurs et chansons. pour que +subjonctif suffisamment/assez…pour que +subjonctif suffisamment/assez…pour +inf. pas assez/trop…pour que +subjonctif pas assez/trop …pour +inf."
-      },
-      {
-        "id": "r44",
-        "fr": "« C'est (abominable) !"
-      },
-      {
-        "id": "r45",
-        "fr": "J'ai eu mon bac du premier coup !"
-      },
-      {
-        "id": "r46",
-        "fr": "Pourtant, ce n'était (heureusement) pas gagné."
-      },
-      {
-        "id": "r47",
-        "fr": "Je pensais que j'allais (hélas) avoir une note (incroyable) en maths ; en fait, même pour cette matière, (franchement), j'ai réussi à obtenir la moyenne."
-      },
-      {
-        "id": "r48",
-        "fr": "Mais ma copine Rachida, elle, a (probablement) eu moins de chance puisqu'elle doit passer le rattrapage »."
-      },
-      {
-        "id": "r49",
-        "fr": "« C'est incroyable !"
-      },
-      {
-        "id": "r51",
-        "fr": "Pourtant, ce n'était franchement pas gagné."
-      },
-      {
-        "id": "r52",
-        "fr": "Je pensais que j'allais probablement avoir une note abominable en maths ; en fait, même pour cette matière, heureusement, j'ai réussi à obtenir la moyenne."
-      },
-      {
-        "id": "r53",
-        "fr": "Mais ma copine Rachida, elle, a hélas eu moins de chance puisqu'elle doit passer le rattrapage »."
-      },
-      {
-        "id": "r54",
-        "fr": "Réagissez à ces différents titres de presse : faites des commentaires en utilisant des modalisateurs."
-      },
-      {
-        "id": "r55",
-        "fr": "Le plus jeune candidat au bac est âgé de 13 ans et a obtenu son diplôme avec 16,8 sur 20 de moyenne générale."
-      },
-      {
-        "id": "r56",
-        "fr": "Deux candidats qui avaient été surpris en train de tricher ont été interdits d'épreuves pendant 3 ans."
-      },
-      {
-        "id": "r57",
-        "fr": "Marcel G., 78 ans, doyen des candidats au bac de cette année, passait cet examen pour la quatrième fois : il vient d'échouer au rattrapage."
-      },
-      {
-        "id": "r58",
-        "fr": "Génial !"
-      },
-      {
-        "id": "r59",
-        "fr": "C'est franchement incroyable !"
-      },
-      {
-        "id": "r60",
-        "fr": "C'est terrible !"
-      },
-      {
-        "id": "r61",
-        "fr": "C'est vraiment de la folie d'essayer de tricher !"
-      },
-      {
-        "id": "r62",
-        "fr": "C'est vraiment triste !"
-      },
-      {
-        "id": "r63",
-        "fr": "Hélas, le pauvre !"
-      },
-      {
-        "id": "r65",
-        "fr": "Il parle suffisamment (assez) fort pour que tout le monde l'entende."
-      },
-      {
-        "id": "r66",
-        "fr": "Nous avons trop envie de visiter le Palais d'Été pour que la pluie nous empêche d'y aller."
-      },
-      {
-        "id": "r67",
-        "fr": "Son premier travail était de faire danser les personnes agées du quartier. des lycéen(ne)s qui ont réussi l’examen 3 des lycéen(ne)s qui vont au rattrapage 5 le proviseur du lycée"
-      }
-    ]
-  },
-  {
-    "lesson": "u4l13",
-    "title": "U4L13 New York, New York",
-    "count": 39,
-    "cards": [
-      {
-        "id": "r1",
-        "fr": "La nature pèse si lourdement sur Nvew York que la plus moderne des villes est aussi la plus sale. [...] Dès la fin de mai, la chaleur s’abat sur la ville comme une bombe atomique."
-      },
-      {
-        "id": "r2",
-        "fr": "C’est le Mal."
-      },
-      {
-        "id": "r3",
-        "fr": "Les gens s’abordent en se disant : « It’s a murder. » Les trains emportent des millions de citadins."
-      },
-      {
-        "id": "r4",
-        "fr": "Ce n’est pas la ville qu’ils fuient, c’est la Nature."
-      },
-      {
-        "id": "r5",
-        "fr": "Jusque dans les profondeurs de mon appartement, je subis les assauts d’une nature hostile, sourde, mystérieuse."
-      },
-      {
-        "id": "r6",
-        "fr": "Je crois camper au cœur d’une jungle grouillante d’insectes."
-      },
-      {
-        "id": "r7",
-        "fr": "Il y a le gémissement du vent, [...] il y a les cafards qui courent dans ma cuisine, les ascenseurs qui me donnent la nausée, la soif inextinguible qui me brûle du matin au soir."
-      },
-      {
-        "id": "r8",
-        "fr": "Jean-Paul Sartre, Situations, tome Ⅲ, Pluie sur New York."
-      },
-      {
-        "id": "r9",
-        "fr": "Elle coule inlassablement entre les hauts cubes de ciment."
-      },
-      {
-        "id": "r10",
-        "fr": "Bizarre sentiment d’éloignement dans le taxi dont les essuie-glaces rapides et monotones balaient une eau sans cesse renaissante."
+        "fr": "Le mieux, c'est d'en parler."
       },
       {
         "id": "r11",
-        "fr": "Impression d’être pris au piège de cette ville et que je pourrais me délivrer des blocs qui m’entourent et courir pendant des heures sans rien retrouver que des nouvelles prisons de ciment sans l’espoir d’une colline, d’un arbre vrai ou d’un visage bouleversé. [...] Pluies de New York."
+        "fr": "L'important, c'est de participer."
       },
       {
         "id": "r12",
-        "fr": "Incessantes, balayant tout."
+        "fr": "La priorité, c'est de sauver des vies."
       },
       {
         "id": "r13",
-        "fr": "Et dans la brume grise les gratte-ciel se dressent blanchâtres comme les immenses sépulcres de cette ville habitée par les morts. [...] Terrible sentiment d’abandon."
+        "fr": "Père de famille, vous souhaitez quitter votre emploi pour vous consacrer à vos enfants."
       },
       {
         "id": "r14",
-        "fr": "Albert Camus, Journaux de voyage, La ville représentée : New York."
+        "fr": "Mère au foyer depuis de nombreuses années vous décidez de reprendre une activité professionnelle."
       },
       {
         "id": "r15",
-        "fr": "Les deux auteurs évoquent aussi le sentiment d’étouffement et l’angoisse que ressent l’homme dans une ville qu’il ne maîtrise plus et qui lui échappe."
+        "fr": "Vous êtes sur le point de tout quitter (famille, emploi) pour rejoindre l'homme ou la femme de votre vie."
       },
       {
         "id": "r16",
-        "fr": "Les sentiments évoqués par les auteurs sont négatifs."
-      },
-      {
-        "id": "r32",
-        "fr": "Albert Camus, Journaux de voyage, La nature pèse si lourdement sur Nvew York que la plus moderne des villes est aussi la plus sale. [...] Dès la fin de mai, la chaleur s’abat sur la ville comme une bombe atomique."
-      },
-      {
-        "id": "r45",
-        "fr": "« comme une bombe atomique » - « la soif inextinguible qui me brûle »"
-      },
-      {
-        "id": "r46",
-        "fr": "« Pluie sur New York."
-      },
-      {
-        "id": "r47",
-        "fr": "Elle coule inlassablement » - « une eau sans cesse renaissante » - « Pluies de New York."
-      },
-      {
-        "id": "r49",
-        "fr": "« terrible sentiment d’abandon »"
-      },
-      {
-        "id": "r56",
-        "fr": "« hauts cubes de ciment » - « blocs » - « nouvelles prisons de ciment » - « les gratte-ciel se dressent blanchâtres comme les immenses sépulcres de cette ville » Ils suggèrent une impression d’angoisse, d’enfermement, de solitude et de mort."
-      },
-      {
-        "id": "r64",
-        "fr": "Jean-Paul Sartre, Situations, tome Ⅲ, Dans ce supermarché, les clients doivent peser eux-mêmes les légumes et les fruits qu’ils veulent acheter."
-      },
-      {
-        "id": "r72",
-        "fr": "J’avais l’impression d’être pris au piège de cette ville et que je pourrais me délivrer des blocs qui m’entourent."
-      },
-      {
-        "id": "r73",
-        "fr": "J’ai l’impression de t’avoir rencontré quelque part."
-      },
-      {
-        "id": "r74",
-        "fr": "J’ai l’impression qu’elle s’est encore trompée."
-      },
-      {
-        "id": "r82",
-        "fr": "Exemple : Cette ville a été fondée en 1642 et la moitié de sa population actuelle est francophone ; de nombreuses manifestations culturelles et sportives s’y déroulent et les festivaliers fréquentent cette ville régulièrement. → C’est une ville qui a été fondée en 1642 et dont ..."
-      },
-      {
-        "id": "r83",
-        "fr": "Cette ville se trouve au Moyen Orient, la majorité de ses habitants sont des expatriés, les milliardaires l’adorent, on peut y admirer des bâtiments aux formes avant-gardistes."
-      },
-      {
-        "id": "r84",
-        "fr": "Cette ville est située au bord de la mer et est construite en partie sur plusieurs îles ; la commission de Bruxelles l’a sacrée championne de l’environnement pour 2010 et on parle de cette ville chaque année à l’occasion de la distribution des prix Nobel."
-      },
-      {
-        "id": "r85",
-        "fr": "Exemple : C'est une ville qui a été fondée en 1642 et dont la moitié de la population actuelle est francophone ; c'est une ville où se déroulent de nombreuses manifestations culturelles et sportives et que les festivaliers fréquentent régulièrement."
-      },
-      {
-        "id": "r86",
-        "fr": "(Montréal) C'est une ville qui se trouve au Moyen Orient, dont la majorité des habitants sont des expatriés, c'est une ville que les milliardaires adorent et où on peut admirer des bâtiments aux formes avant-gardistes."
-      },
-      {
-        "id": "r87",
-        "fr": "(Dubai) C'est une ville qui est située au bord de la mer et qui est construite en partie sur plusieurs iles;C'est une ville que la commission de Bruxelles a sacrée championne de l'environnement pour 2010 et dont on parle chaque année a l'occasion de la distribution des prix Nobel."
-      },
-      {
-        "id": "r88",
-        "fr": "(Stockholm) deuxième extrait: a. le classement des villes où l’on vit le mieux dans le monde À quel moment le rapport de l’ONU est-il publié ?"
-      },
-      {
-        "id": "r89",
-        "fr": "D’après ce rapport, quel est le nombre actuel d’habitants dans le monde et quelle est la proportion de citadins ?"
-      },
-      {
-        "id": "r90",
-        "fr": "Deuxième reportage Dans quelle ville vit-on le mieux ?"
-      },
-      {
-        "id": "r91",
-        "fr": "Sur quoi cette information s’appuie-t-elle ?"
-      },
-      {
-        "id": "r94",
-        "fr": "Il y a 6,6 milliards d’habitants dans le monde et un peu plus de la moitié vit en ville."
-      },
-      {
-        "id": "r95",
-        "fr": "Deuxième reportage Vancouver; 5 critères ont été pris en compte: les conditions sanitaires, la stabilité, la culture et l’environnement, l’éducation et les infrastructures."
-      },
-      {
-        "id": "r96",
-        "fr": "Canada et Australie."
-      }
-    ]
-  },
-  {
-    "lesson": "u4l14",
-    "title": "U4L14 Côté jardin",
-    "count": 38,
-    "cards": [
-      {
-        "id": "l1",
-        "fr": "U4L14 Côté jardin - texte B Conservatoire, bonjour."
-      },
-      {
-        "id": "l2",
-        "fr": "Oui, bonjour, j’aurais voulu le service commercial, s’il vous plaît."
-      },
-      {
-        "id": "l3",
-        "fr": "Vous êtes madame ?"
-      },
-      {
-        "id": "l4",
-        "fr": "Oui, bonjour madame."
-      },
-      {
-        "id": "l5",
-        "fr": "Je suis institutrice... euh... dans une école primaire à Poitiers."
-      },
-      {
-        "id": "l6",
-        "fr": "Et en fait euh... j’ai entendu parler de... de votre festival..."
-      },
-      {
-        "id": "l7",
-        "fr": "Et j’aurais voulu avoir quelques renseignements."
-      },
-      {
-        "id": "l8",
-        "fr": "D’accord."
-      },
-      {
-        "id": "l9",
-        "fr": "Vous souhaiteriez faire une visite cette année ou... nous fermons le 18 octobre."
-      },
-      {
-        "id": "l11",
-        "fr": "Non non, ce serait avant... avant le 18 octobre."
-      },
-      {
-        "id": "l13",
-        "fr": "Le festival est ouvert à partir de 10 h 00 jusqu’à 22 h 00... euh nous pouvons vous proposer donc... soit de visiter le festival librement soit de le faire avec un guide."
-      },
-      {
-        "id": "l14",
-        "fr": "C’est le même tarif."
-      },
-      {
-        "id": "l15",
-        "fr": "C’est 4 euros par élève, pour les enfants de 6 à 11 ans."
-      },
-      {
-        "id": "l16",
-        "fr": "La visite guidée dure une heure quinze, une heure trente."
-      },
-      {
-        "id": "l17",
-        "fr": "Et nous avons des guides qui adaptent le discours en fonction de l’âge des enfants."
-      },
-      {
-        "id": "l18",
-        "fr": "Ça, c’est très bien, c’est parfait."
-      },
-      {
-        "id": "l19",
-        "fr": "Il faut compter une petite heure par la suite hein de façon à voir ce qui n’a pas été vu pendant la visite."
-      },
-      {
-        "id": "l20",
-        "fr": "D’accord, euh en fait c’est-à-dire que en visite libre... euh en fait les enfants se promènent, c’est ça ?"
-      },
-      {
-        "id": "l21",
-        "fr": "Voilà, tout à fait... tout à fait."
-      },
-      {
-        "id": "l22",
-        "fr": "Euh dites-moi euh en ce qui concerne... enfin, pour manger ?"
-      },
-      {
-        "id": "l23",
-        "fr": "Oui, qu’est-ce que vous souhaitez savoir ?"
-      },
-      {
-        "id": "l24",
-        "fr": "Est-ce que par exemple ils ont la possibilité... enfin je ne sais pas de pique-niquer sur place ?"
-      },
-      {
-        "id": "l25",
-        "fr": "Au niveau du site, les pique-niques sont interdits."
-      },
-      {
-        "id": "l26",
-        "fr": "Par contre, vous avez tout le parc du château qui se trouve juste à côté du festival qui est ouvert en fait et en libre accès."
-      },
-      {
-        "id": "l27",
-        "fr": "Là, vous pouvez tout à fait pique-niquer... enfin... généralement, c’est ce que font l’ensemble des scolaires qui viennent chez nous."
-      },
-      {
-        "id": "l28",
-        "fr": "Ah, il n’y a pas de... de chaises ni de tables mais bon, il y a un grand espace arboré."
-      },
-      {
-        "id": "l29",
-        "fr": "C’est très très agréable pour les enfants."
-      },
-      {
-        "id": "l30",
-        "fr": "Bien... euh..."
-      },
-      {
-        "id": "l31",
-        "fr": "Et dites-moi, pour la visite, je dois réserver à l’avance ?"
-      },
-      {
-        "id": "l32",
-        "fr": "Comme ça, je vous prévois en fait un guide."
-      },
-      {
-        "id": "l33",
-        "fr": "Après, je vous envoie la confirmation également."
-      },
-      {
-        "id": "l34",
-        "fr": "Ok, donc... ben écoutez je vais prendre vos coordonnées, alors."
-      },
-      {
-        "id": "l35",
-        "fr": "Alors, je suis Gwenaёlle, du service commercial..."
-      },
-      {
-        "id": "l36",
-        "fr": "Le téléphone, c’est le même numéro que celui que vous venez de faire."
-      },
-      {
-        "id": "l37",
-        "fr": "Vous demandez le service commercial."
-      },
-      {
-        "id": "l38",
-        "fr": "Et bien, je vous remercie beaucoup. Je vous en prie."
-      },
-      {
-        "id": "l39",
-        "fr": "Bon après-midi."
-      },
-      {
-        "id": "l40",
-        "fr": "À vous aussi, au revoir."
-      }
-    ]
-  },
-  {
-    "lesson": "u4l15",
-    "title": "U4L15 Sur les pavés, la plage",
-    "count": 44,
-    "cards": [
-      {
-        "id": "r2",
-        "fr": "En Mai 1968, un grand mouvement de protestation contre l’ordre établi a lieu en France."
-      },
-      {
-        "id": "r3",
-        "fr": "Il commence d’abord dans les universités pour s’élargir au pays tout entier."
-      },
-      {
-        "id": "r4",
-        "fr": "De violents affrontements ont lieu avec la police."
-      },
-      {
-        "id": "r5",
-        "fr": "Les jeunes manifestent contre l’autorité, veulent plus de libertés dans tous les domaines - moral, sexuel... - et le font savoir par des slogans devenus célèbres comme « Sous les pavés, la plage » et « Il est interdit d’interdire »."
-      },
-      {
-        "id": "r6",
-        "fr": "Mai 68 a profondément marqué la société française en libérant la jeunesse de contraintes trop fortes."
-      },
-      {
-        "id": "r7",
-        "fr": "Des films évoquent cette période, tel Les Innocents du réalisateur italien Bernardo Bertolucci, sorti en 2003 avec Eva Green, Louis Garrel, Michael Pitt."
-      },
-      {
-        "id": "r8",
-        "fr": "Dans ce film, Bertolucci met en scène une période qu’il a connue, puisqu’il était étudiant à Paris en mai 1968."
-      },
-      {
-        "id": "r9",
-        "fr": "Le film présente l’éducation sexuelle très libre de trois jeunes étudiants -deux garçons, une fille - pendant les événements de Mai 68."
-      },
-      {
-        "id": "r10",
-        "fr": "Autres films de Bertolucci : Le Dernier Empereur, 1987; Little Buddha, 1993 ; Beauté volée, 1996."
-      },
-      {
-        "id": "r12",
-        "fr": "Il y a parfois plusieurs réponses possibles. i faire de la photo ou de la peinture David a enfin osé m’aborder."
-      },
-      {
-        "id": "r13",
-        "fr": "Depuis le temps que j’attendais ce moment..."
-      },
-      {
-        "id": "r14",
-        "fr": "À la fin du cours, il m’a attendue et m’a proposé d’aller sur les quais de Seine."
-      },
-      {
-        "id": "r15",
-        "fr": "J’ai trouvé ça hyper romantique comme idée !"
-      },
-      {
-        "id": "r16",
-        "fr": "Et je dois dire que ça ma fait plaisir."
+        "fr": "Vous choisissez de fuir le stress de la vie citadine et de vous installer en famille à la campagne."
       },
       {
         "id": "r17",
-        "fr": "Nous nous sommes donc retrouvés devant l’entrée du métro Saint-Paul sur l’île de la Cité, aux environs de 11 heures, ce matin."
+        "fr": "Vous souhaitez témoigner : Laissez-nous un message au 01 86 79 52 14 ou envoyez un e-mail à kvalier@reservoir-prod.fr en indiquant vos coordonnées téléphoniques, vos nom et prénom, en quoi votre profil peut nous intéresser et les moments où l'on peut vous joindre."
       },
       {
         "id": "r18",
-        "fr": "Puis, nous sommes allés sur les quais."
+        "fr": "Si vous souhaitez obtenir des informations concernant l'une de nos émissions ou suggérer un sujet, n'oubliez pas de nous laisser une adresse e-mail pour que nous puissions vous joindre facilement."
       },
       {
         "id": "r19",
-        "fr": "Avec Paris plages, il y avait malheureusement pas mal de monde."
+        "fr": "C'est avec beaucoup d'intérêt que j'ai suivi votre émission de cette semaine, « Frères-sœurs : ils se détestent », car ma meilleure amie vit cette situation avec son frère de 17 ans."
       },
       {
         "id": "r20",
-        "fr": "Mais bon, j’étais avec David et rien d’autre ne comptait..."
+        "fr": "Pendant cette émission, l'un des invités a parlé d'un psychologue parisien qui l'a beaucoup aidé."
       },
       {
         "id": "r21",
-        "fr": "Comme il n’y avait pas d’endroit où boire un verre, nous nous sommes installés sur la plage de sable devant le Pont Neuf et David m’a offert une glace."
+        "fr": "Comme mon amie est actuellement à la recherche d'une personne compétente dans ce domaine, je vous serais reconnaissante de m'adresser les coordonnées de ce psychologue."
       },
       {
         "id": "r22",
-        "fr": "Assis l’un à côté de l’autre, face à l’île Saint-Louis, il m’a parlé comme jamais il ne l’avait fait auparavant."
+        "fr": "Je profite également de ce message pour vous faire une petite suggestion."
       },
       {
         "id": "r23",
-        "fr": "Mes mains étaient posées sur le sable ; quand David les a prises dans les siennes et m’a avoué qu’il me trouvait craquante, j’ai eu l’impression de redevenir une adolescente de quinze ans."
+        "fr": "Pourriez-vous consacrer l'une de vos prochaines émissions aux personnes qui passent des heures et des heures sur Internet ?"
       },
       {
         "id": "r24",
-        "fr": "Finalement, nous ne nous sommes pas quittés de la journée."
-      },
-      {
-        "id": "r26",
-        "fr": "David a enfin osé m’aborder."
-      },
-      {
-        "id": "r39",
-        "fr": "Et nous avons décidé de partir ensemble à Honfleur ce week-end."
-      },
-      {
-        "id": "r41",
-        "fr": "Après leur voyage au Tibet, ils ont décidé de s’installer à Lhassa et de vivre là-bas."
-      },
-      {
-        "id": "r42",
-        "fr": "Avez-vous quelque chose d’amusant à me dire ? se baigner - rester - adorer - s’allonger - emmener - faire - pouvoir - rentrer."
-      },
-      {
-        "id": "r43",
-        "fr": "Vous ... ici toute la journée avec les enfants ?"
-      },
-      {
-        "id": "r44",
-        "fr": "Non, on les ..."
-      },
-      {
-        "id": "r45",
-        "fr": "à Paris plages, ils ... fatigués mais ils ... !"
-      },
-      {
-        "id": "r46",
-        "fr": "Et qu’est-ce que vous leur ... faire comme activités ?"
-      },
-      {
-        "id": "r47",
-        "fr": "Ils ... faire des tas de sports."
-      },
-      {
-        "id": "r48",
-        "fr": "Non, la baignade est interdite mais ils ... sur le sable au soleil."
-      },
-      {
-        "id": "r49",
-        "fr": "Réécrivez le texte au passé."
-      },
-      {
-        "id": "r51",
-        "fr": "Cette année encore, la ville devient un haut lieu de détente pendant tout l’été."
-      },
-      {
-        "id": "r52",
-        "fr": "Une chance pour les Parisiens qui ne partent pas en vacances."
-      },
-      {
-        "id": "r53",
-        "fr": "Dès le premier jour, on les voit se promener sur les quais de Seine."
-      },
-      {
-        "id": "r54",
-        "fr": "Ils ont le choix cette année encore entre un grand nombre d’activités et de distractions."
-      },
-      {
-        "id": "r55",
-        "fr": "Parmi les nouveautés, une éco-bibliothèque où ils se familiarisent et se documentent sur les problèmes de changements climatiques."
-      },
-      {
-        "id": "r57",
-        "fr": "Cette opération existe depuis l’an dernier."
-      },
-      {
-        "id": "r58",
-        "fr": "À cette occasion, le quai Georges Pompidou est fermé à la circulation."
-      },
-      {
-        "id": "r59",
-        "fr": "Cette année, les organisateurs de Paris plages souhaitent mettre l’accent sur le thème de l’intégration. l’activité réalisée par le groupe de jeunes d’Aulnay-sous-bois, à Paris plages. le nombre de personnes dans le groupe et leur situation professionnelle. les objectifs de cette opération particulière."
-      },
-      {
-        "id": "r60",
-        "fr": "Ils travaillent dans la restauration par le biais d’un bus restaurant."
-      },
-      {
-        "id": "r61",
-        "fr": "Ils sont six chercheurs d’emploi."
-      },
-      {
-        "id": "r62",
-        "fr": "Réinsérer ces 6 personnes dans la vie active."
-      }
-    ]
-  },
-  {
-    "lesson": "u6l22",
-    "title": "U6L22 Jour de fête",
-    "count": 5,
-    "cards": [
-      {
-        "id": "r4",
-        "fr": "Dans quel(s) type(s) d’établissements peut-on lire le message inscrit sur le document 2 ?"
-      },
-      {
-        "id": "r5",
-        "fr": "Des fêtes autour de ce vin se déroulent à New York, Londres, Paris, Moscou, Pékin, Sydney."
-      },
-      {
-        "id": "r6",
-        "fr": "Le 3ème jeudi de novembre à minuit."
-      },
-      {
-        "id": "r8",
-        "fr": "Mais ni l’un ni l’autre n’ont jamais prétendu se mesurer à ces derniers."
-      },
-      {
-        "id": "r9",
-        "fr": "Ils appartiennent à un tout autre monde."
-      }
-    ]
-  },
-  {
-    "lesson": "u8l30",
-    "title": "U8L30 Service compris",
-    "count": 38,
-    "cards": [
-      {
-        "id": "r1",
-        "fr": "On pense que la pratique du pourboire est née en Angleterre."
-      },
-      {
-        "id": "r2",
-        "fr": "L’objectif initial était d’encourager l’amabilité des serveurs."
-      },
-      {
-        "id": "r3",
-        "fr": "Cette pratique est arrivée plus tardivement en France."
-      },
-      {
-        "id": "r4",
-        "fr": "Au tout début, les clients français offraient un verre « pour boire », jamais d’argent."
-      },
-      {
-        "id": "r5",
-        "fr": "Cette habitude est devenue une obligation, en France, non seulement pour les serveurs mais aussi pour de nombreuses autres professions."
-      },
-      {
-        "id": "r6",
-        "fr": "« Ce qui est toujours inclus, c’est le service » - « Ce que l’on fait également si on est content du serveur ou de la serveuse, c’est laisser un pourboire. » Les restaurateurs incluent le pourboire dans l’addition."
-      },
-      {
-        "id": "r9",
-        "fr": "« Oui le pourboire est inclus par les restaurateurs » : cet énoncé est à la forme passive."
-      },
-      {
-        "id": "r10",
-        "fr": "Petite histoire du pourboire Largement pratiqué dans le monde entier, le pourboire ou « tip », en anglais, date de plus de trois siècles."
-      },
-      {
-        "id": "r11",
-        "fr": "Le pourboire trouve, semble-t-il, ses origines dans un restaurant outre-manche dont le patron, au 18e siècle, a mis en place une pratique originale."
-      },
-      {
-        "id": "r12",
-        "fr": "Il a installé sur son comptoir un pot comportant les inscriptions To Insure Promptness (pour assurer la rapidité)."
-      },
-      {
-        "id": "r13",
-        "fr": "Ce pot était destiné à recevoir quelques pièces des clients pressés qui désiraient être servis plus vite."
-      },
-      {
-        "id": "r14",
-        "fr": "Les initiales de cette expression sont restées et forment le mot tip, signifiant désormais « pourboire » en anglais."
-      },
-      {
-        "id": "r15",
-        "fr": "En France, cette pratique s’est développée plus tard, au 19e siècle, pour récompenser les cafetiers et restaurateurs d’un service de qualité."
-      },
-      {
-        "id": "r16",
-        "fr": "Le pourboire signifiait comme son nom l’indique un verre qu’on offrait en remerciement d’un service rendu ou une pièce pour s’offrir ce verre."
-      },
-      {
-        "id": "r17",
-        "fr": "Au fil du temps, cette habitude s’est diversifiée et le pourboire s’est vu versé comme une faveur accordée par un client reconnaissant aux ouvreurs de cinéma et de théâtre, aux coiffeurs, aux chauffeurs de taxis, au personnel hôtelier et plus largement à de nombreux prestataires de services quotidiens ou ponctuels ( livreur à domicile, dépanneur, guide touristique, déménageur, bagagiste, coursier, etc.)."
-      },
-      {
-        "id": "r19",
-        "fr": "Particularité : Donner ou recevoir un pourboire n’est pas une coutume et ne se pratique jamais."
-      },
-      {
-        "id": "r20",
-        "fr": "Particularité : Les serveurs, chauffeurs, pompistes et même les dentistes et médecins sont habituellement gratifiés d’un billet."
-      },
-      {
-        "id": "r21",
-        "fr": "Ne laissez pas d’argent sur la table ou au comptoir, prévenez la personne intéressée que vous lui réservez un peu de monnaie."
-      },
-      {
-        "id": "r22",
-        "fr": "Particularité : Le pourboire est une pratique peu répandue, les Australiens ne s’attendent pas à en recevoir."
-      },
-      {
-        "id": "r23",
-        "fr": "Particularité : Les serveurs perçoivent des salaires si bas qu’il est impératif d’ajouter 10 à 15 % au montant de l’addition."
-      },
-      {
-        "id": "r24",
-        "fr": "Ceci est valable dans les restaurants mais jamais dans les pubs, où les clients se servent directement au bar."
+        "fr": "Comme il y en a des millions (j'en fais partie) en France, beaucoup de téléspectateurs sont concernés par ce sujet."
       },
       {
         "id": "r25",
-        "fr": "Pourboires dans les restaurants en France Pierre-Luc Québec (Canada) Répondre: Bonjour, Est-ce que le pourboire est inclus dans la facture dans les restaurants en France ?"
+        "fr": "Meilleures salutations."
       },
       {
         "id": "r26",
-        "fr": "Alice Bruges (Belgique) Répondre: Oui, le pourboire est inclus par les restaurateurs dans l’addtion."
+        "fr": "Merci d'avance."
       },
       {
         "id": "r27",
-        "fr": "Mais on laisse quand même quelques pièces au serveur."
+        "fr": "Je leur ai suggéré de visiter le Musée de la Révolution chinoise."
       },
       {
         "id": "r28",
-        "fr": "Le montant dépend du standing, du service et du sourire."
+        "fr": "Vous pouvez contacter cette société qui est à la recherche d'un directeur de projet. faire une suggestion à qn profiter de consacrer à fuir s'installer participer à être sur le point de Vous participez à l'émission Ça se discute consacrée au thème : Vous êtes sur le point de changer de vie. 1 Je profite de cette occasion pour vous exprimer mes respects distingués."
       },
       {
         "id": "r29",
-        "fr": "Milou Marseille (France) Répondre: Tu confonds pourboire et service."
+        "fr": "Notre prochaine émission sera consacrée aux mères qui élèvent seule leurs enfants."
       },
       {
         "id": "r30",
-        "fr": "Ce qui est toujours inclus, c’est le service."
+        "fr": "J'espère fuir le stress de la vie citadine et m'installer en famille à la campagne."
       },
       {
         "id": "r31",
-        "fr": "Mais, ce que l’on fait également si on est content du serveur ou de la serveuse, c’est laisser un pourboire. ce qui / ce que / ce dont ... , c’est / ce sont ...。 Ce qui lui plaît beaucoup, c’est les films de science-fiction."
+        "fr": "Quand je l'ai appelé ce matin, il était sur le point de partir pour participer à une discussion sur la protection de l’environnement."
+      },
+      {
+        "id": "r32",
+        "fr": "Ce que l’animateur/l’animatrice dit pour... présenter un sujet Bonsoir, le thème/sujet de ce soir est..."
       },
       {
         "id": "r33",
-        "fr": "Exemple : Payer l’addition, c’est normal ! → Ce qui est normal, c’est de payer l’addition. → Ce que je trouve normal, c’est de payer l’addition ! 1 Je trouve que le montant des pourboires en France est ridicule ! 2 L’attitude des Français avec l’argent est bizarre. 3 Toutes ces taxes, ça me surprend et ça m’énerve ! 4 C’est étrange, cette façon de tout payer par carte de crédit. 1 Ce qui est ridicule, c’est le montant des pourboires en France !"
+        "fr": "Ce soir, l’émission est consacrée à... présenter les invités Prénom + nom + vous êtes + profession..."
       },
       {
         "id": "r34",
-        "fr": "Ce que je trouve ridicule, c’est le montant des pourboires en France ! 2 Ce qui est bizarre, c’est l’attitude des Français avec l'argent."
-      },
-      {
-        "id": "r35",
-        "fr": "Ce que je trouve bizarre, c'est l’attitude des Français avec l'argent. 3 Ce qui me surprend et m’énerve, ce sont toutes ces taxes !"
+        "fr": "Et vous souhaitez quitter votre emploi de directeur commercial pour partir vivre... s'informer sur les raisons Pourquoi vous avez fait ce choix ?"
       },
       {
         "id": "r36",
-        "fr": "Ce que je trouve surprenant et énervant, ce sont toutes ces taxes ! 4 Ce qui est étrange, c’est cette façon de tout payer par carte de crédit !"
+        "fr": "Êtes-vous d'accord avec Antoine/lsabelle ?"
       },
       {
         "id": "r37",
-        "fr": "Ce que je trouve étrange, c'est cette façon de tout payer par carte de crédit ! 1 Donner un pourboire à un médecin ou un dentiste n’... pas ... en France. 2 Dans mon bar, tous les pourboires ..."
+        "fr": "Pouvez-vous nous expliquer cette idée ?"
       },
       {
         "id": "r38",
-        "fr": "à parts égales entre tous les serveurs en fin de journée. 3 La pratique du pourboire est une vieille tradition qui ... au 18e siècle mais à présent le pourboire ... systématiquement. 4 Moi, je constate que la clientèle n’a pas changé ses habitudes : la pratique du pourboire ... toujours ... dans le secteur de la restauration. 1 est autorisé 2 sont redistribués 3 a été mise en place, n’est plus donné 4 est pratiquée Ces personnes sont interrogées dans un café parisien en début d'été."
-      },
-      {
-        "id": "r40",
-        "fr": "À combien se montait-elle auparavant?"
-      },
-      {
-        "id": "r45",
-        "fr": "Il ajoute gratuitement un ou deux chocolats avec chaque café qu'il sert ou un verre de sirop à l'eau pour les enfants."
-      },
-      {
-        "id": "r46",
-        "fr": "La qualité du service, l'ambiance, l'humeur du moment déterminent le montant du pourboire."
-      },
-      {
-        "id": "r47",
-        "fr": "Les pourboires peuvent double le salaire d'un serveur."
-      }
-    ]
-  },
-  {
-    "lesson": "u8l31",
-    "title": "U8L31 Moins c'est cher, plus on dépense",
-    "count": 45,
-    "cards": [
-      {
-        "id": "r2",
-        "fr": "Son attitude de repli sur lui-même caractérise une volonté de garder son argent pour lui et manifeste la peur d'en être dépossédé. le troisième personnage fait un geste (la main levée et les billets qui s'envolent) qui dévoile sa tendance à dépenser facilement de l'argent et rappelle l'expression jeter l'argent par les fenêtres. le cinquième personnage retourne le fond de sa poche pour montrer qu'elle est vide, sans un sou."
-      },
-      {
-        "id": "r3",
-        "fr": "Il hausse les épaules, geste caractéristique qui indique la désolation de ne pas avoir d'argent. le premier personnage est assis sur un coffre-fort, symbole de la richesse. le sixième personnage pose le pied sur une poubelle d'où sortent des billets."
-      },
-      {
-        "id": "r4",
-        "fr": "Le fait de mettre les billets dans une poubelle signifie que, pour elle, l'argent n'a pas de valeur. le deuxième personnage, la jeune femme, a coincé des billets dans son porte-jarretelles, ce qui révèle son attachement à l'argent."
-      },
-      {
-        "id": "r5",
-        "fr": "Elle est assez élégante : elle porte une robe noire et des bottes à talons."
-      },
-      {
-        "id": "r6",
-        "fr": "Son habillement montre qu'elle est attentive à la mode, ce qui nécessite des rentrées d'argent régulières."
-      },
-      {
-        "id": "r7",
-        "fr": "« La station de métro du IXe arrondissement de Paris qui dessert les grands magasins (Printemps, Galeries Lafayette) est très empruntée en ce premier jour de soldes. » - « Ceux qui sont venus tôt pour éviter la foule seront déçus."
-      },
-      {
-        "id": "r8",
-        "fr": "Les grands boulevards sont bondés."
-      },
-      {
-        "id": "r9",
-        "fr": "Les boutiques le sont encore plus. » Dès l'ouverture, Parisiens et touristes à la recherche de bonnes affaires se sont précipités dans les célèbres magasins du boulevard Haussmann."
-      },
-      {
-        "id": "r10",
-        "fr": "Havre-Caumartin. 10 h 20."
-      },
-      {
-        "id": "r11",
-        "fr": "La station de métro du IXe arrondissement de Paris qui dessert les grands magasins (Printemps, Galeries Lafayette) est très empruntée en ce premier jour de soldes."
-      },
-      {
-        "id": "r12",
-        "fr": "Les grands panneaux publicitaires jaunes affichant « -20%,-30%, -40% » font de l'œil aux usagers des transports en commun parisien."
-      },
-      {
-        "id": "r13",
-        "fr": "Et ça marche."
-      },
-      {
-        "id": "r14",
-        "fr": "Les clients - et clientes car les femmes sont largement majoritaires - se pressent dans les grands magasins."
-      },
-      {
-        "id": "r15",
-        "fr": "Malgré l'heure matinale, certains ressortent déjà les bras chargés de paquets."
-      },
-      {
-        "id": "r16",
-        "fr": "Il faut dire que les célèbres enseignes ont ouvert à l'aube pour l'occasion."
-      },
-      {
-        "id": "r17",
-        "fr": "Beaucoup ont choisi de venir dès l'ouverture « pour trouner ma taille de chaussure », raconte Anne-Laure, accro de shopping."
-      },
-      {
-        "id": "r18",
-        "fr": "« J'ai un budget de 300 euros pour la journée."
-      },
-      {
-        "id": "r19",
-        "fr": "J'ai séché un cours pour venir dès l'ouverture et je reviendrai la semaine prochaine », poursuit cette jolie blonde de 15 ans venue avec une camarade de classe."
-      },
-      {
-        "id": "r20",
-        "fr": "Ceux qui sont venus tôt pour éviter la foule seront déçus."
-      },
-      {
-        "id": "r22",
-        "fr": "Les boutiques le sont encore plus."
-      },
-      {
-        "id": "r23",
-        "fr": "Au Printemps et aux Galeries Lafayette, des vigiles sont postés devant les enseignes des marques de luxe qui sont plébiscitées."
-      },
-      {
-        "id": "r24",
-        "fr": "Une file d'une vingtaine de mètres se forme devant eux."
-      },
-      {
-        "id": "r25",
-        "fr": "Parisiens et touristes étrangers attendent patiemment que vienne leur tour."
-      },
-      {
-        "id": "r26",
-        "fr": "« Certains se sont découragés en voyant le monde devant les enseignes de luxe."
-      },
-      {
-        "id": "r27",
-        "fr": "Ils reviendront quand ce sera moins la ruée », témmoigne Hak Hien, 33 ans, agent de sécurité au Printemps."
-      },
-      {
-        "id": "r28",
-        "fr": "Mais la plupart semblent avoir trouvé leur compte et profitent de promotions très avantageuses pour un premier jour de soldes."
-      },
-      {
-        "id": "r29",
-        "fr": "« J'ai acheté plusieurs paires de chaussures et des sacs."
-      },
-      {
-        "id": "r30",
-        "fr": "J'aime les produits assez chers, de marque, et comme je suis étudiante, mieux vaut attendre les soldes."
-      },
-      {
-        "id": "r31",
-        "fr": "Dès le premier jour, il y a 50% de réduction, c'est très intéressant."
-      },
-      {
-        "id": "r32",
-        "fr": "J'ai épuisé mon budget alors j'arrête là », raconte Flore, 23 ans, qui reviendra quand même à la fin des soldes « quand les prix seront encore plus bas »."
-      },
-      {
-        "id": "r33",
-        "fr": "Déjà, une nouvelle vague de clients arrive."
-      },
-      {
-        "id": "r34",
-        "fr": "Les salariés du quartier avalent leur sandwich avant de se ruer à leur tour dans les grands magasins pendant leur pause déjeuner."
-      },
-      {
-        "id": "r35",
-        "fr": "Pendant ce temps, postés devant ces temples de la consommation, des militants syndicaux de Force ouvrière (FO) distribuent des tracts aux centaines de consommateurs qui fourmillent sur les trottoirs."
-      },
-      {
-        "id": "r36",
-        "fr": "Ils ont profité de cette journée de forte affluence pour faire entendre leur protestation contre le travail le dimanche."
-      },
-      {
-        "id": "r55",
-        "fr": "Ils reviendront quand ce sera moins la ruée », témoigne Hak Hien, 33 ans, agent de sécurité au Printemps."
-      },
-      {
-        "id": "r60",
-        "fr": "J'ai épuisé mon budget alors j'arrête là », raconte Flore, 23 ans, qui reviendra quand même à la fin des soldes « quand les prix seront encore plus bas Midi."
-      },
-      {
-        "id": "r67",
-        "fr": "Exemple : les mentalités évoluent face aux chefs d'entreprise qui s'enrichissent considérablement. →Évolution des mentalités. →Enrichissement des chefs d'entreprise : les mentalités évoluent."
-      },
-      {
-        "id": "r68",
-        "fr": "Le commerce électronique change progressivement les habitudes de consommation, principalement chez les plus jeunes."
-      },
-      {
-        "id": "r69",
-        "fr": "Depuis que la France est passée à l'euro, les prix ont augmenté dans presque tous les secteurs d'activité."
-      },
-      {
-        "id": "r70",
-        "fr": "Le gouvernement signe cet après-midi un accord afin de revaloriser le salaire de base dans la fonction publique, Le pouvoir d'achat de l'ensemble des Français a fortement diminué au cours des douze derniers mois."
-      },
-      {
-        "id": "r71",
-        "fr": "Changement progressif des habitudes de onsommation.../Apparition du commerce électronique : les habitudes de consommation des jeunes changent progressivement."
-      },
-      {
-        "id": "r72",
-        "fr": "Augmentation des prix…/Passage à l'euro : les prix ont augmenté.."
-      },
-      {
-        "id": "r73",
-        "fr": "Signature d'un accord par le gouvernement."
-      },
-      {
-        "id": "r74",
-        "fr": "Revalorisation du salaire de base dans la fonction publique : le gouvernement signe un accord cet après-midi."
-      },
-      {
-        "id": "r75",
-        "fr": "Forte diminution du pouvoir d'achat des Français..."
-      }
-    ]
-  },
-  {
-    "lesson": "u9l35",
-    "title": "U9L35 Révolutions",
-    "count": 34,
-    "cards": [
-      {
-        "id": "r1",
-        "fr": "Avec votre voisin(e), comparez les affiches ci-dessus."
-      },
-      {
-        "id": "r3",
-        "fr": "La première affiche a été conçue par OGM DANGERS."
-      },
-      {
-        "id": "r4",
-        "fr": "C’est une association qui lutte contre les Organismes Génétiquement modifiés (OGM) dans le domaine de l’agriculture et de l’alimentation."
-      },
-      {
-        "id": "r5",
-        "fr": "La deuxième affiche a été réalisée par eat.better.org et les VERTS/ALE."
-      },
-      {
-        "id": "r6",
-        "fr": "C’est un organisme créé par le groupe des Verts au parlement européen."
-      },
-      {
-        "id": "r7",
-        "fr": "« OGM, j’en veux pas ni dans mon assiette, ni dans les champs. » et « Qui connaît vraiment les conséquences des OGM ? » La première affiche est la représentation stylisée d’une assiette et de la tête d’un consommateur d’OGM qui semble souffrir d’une intoxication alimentaire."
-      },
-      {
-        "id": "r8",
-        "fr": "Les couverts sont plantés dans des champs multicolores."
-      },
-      {
-        "id": "r9",
-        "fr": "La deuxième affiche est une photo : un homme est menacé par une banane brandie comme un pistolet sur sa tempe, il a peur que ses jours ne soient comptés."
-      },
-      {
-        "id": "r10",
-        "fr": "Ces deux affiches cherchent à faire en sorte que les gens prennent conscience du danger des OGM et agissent en les refusant."
-      },
-      {
-        "id": "r12",
-        "fr": "Je ne veux pas de tes excuses."
-      },
-      {
-        "id": "r13",
-        "fr": "OGM, j’en veux pas, ni dans mon assiette."
-      },
-      {
-        "id": "r14",
-        "fr": "Je n’aime pas l’hiver ni l’été."
-      },
-      {
-        "id": "r15",
-        "fr": "OGM, j’en veux pas, ni dans mon assiette, ni dans les champs."
-      },
-      {
-        "id": "r16",
-        "fr": "À 30 ans, Louise Brown, premier « bébé éprouvette », aspire à la Le 25 juillet 1978, la naissance de Louise Brown, le premier « bébé éprouvette », avait fait la Une de l’actualité dans le monde entier."
-      },
-      {
-        "id": "r17",
-        "fr": "Mais la Britannique, désormais mariée et mère d’un enfant, entend fêter dans la discrétion vendredi son 30e anniversaire."
-      },
-      {
-        "id": "r18",
-        "fr": "Si sa naissance a révolutionné le traitement de la stérilité, permettant à des millions de couples dans le monde de procréer par fécondation in vitro (FIV), la jeune femme est réticente à célébrer l’événement de manière trop ostensible."
-      },
-      {
-        "id": "r19",
-        "fr": "Louise Joy Brown est née par césarienne le 25 juillet 1978 à l’hôpital d’Oldham, au nord-ouest de l’Angleterre."
-      },
-      {
-        "id": "r20",
-        "fr": "Elle pesait 2,61 kg."
-      },
-      {
-        "id": "r21",
-        "fr": "Depuis neuf ans, ses parents Lesley et John essayaient d’avoir un enfant."
-      },
-      {
-        "id": "r22",
-        "fr": "Mais toutes leurs tentatives avaient jusque-là échoué."
-      },
-      {
-        "id": "r23",
-        "fr": "Ils entendent alors parler des travaux de deux médecins de l’université de Cambridge, le physiologiste Robert Edwards et le gynécologue Patrick Steptoe, qui depuis près de dix ans tentent de perfectionner la technique de la fécondation in vitro."
-      },
-      {
-        "id": "r24",
-        "fr": "Les deux chercheurs réunissent en éprouvette des ovules et spermatozoïdes de Lesley et John Brown, obtenant un embryon qui est réimplanté dans l’utérus maternel pour donner naissance au premier « bébé éprouvette »."
-      },
-      {
-        "id": "r25",
-        "fr": "Louise Brown n’a appris comment elle avait été conçue qu’à l’âge de 4 ans, avant d’entrer à l’école."
-      },
-      {
-        "id": "r26",
-        "fr": "« Papa et maman m’ont montré la vidéo de ma naissance et on essayé de m’expliquer », se remémore-t-elle."
-      },
-      {
-        "id": "r27",
-        "fr": "Sa sœur Natalie est également née d’une FIV, quatre ans plus tard."
-      },
-      {
-        "id": "r28",
-        "fr": "Natalie Brown est ensuite devenue en 1999 le premier « bébé éprouvette » à donner naissance - par voies naturelles - à un enfant."
-      },
-      {
-        "id": "r29",
-        "fr": "Louise n’a pas tardé à imiter sa sœur."
-      },
-      {
-        "id": "r30",
-        "fr": "Après avoir épousé Mullinder, un videur de boîte de nuit en 2004, elle a eu Cameron en 2006, sans assistance scientifique non plus."
-      },
-      {
-        "id": "r31",
-        "fr": "Robert Edwards, l’un de ses deux « pères » scientifiques - Patrick Steptoe est décédé en 1988 - , est resté proche de la famille Brown, assistant même au mariage de Louise."
-      },
-      {
-        "id": "r32",
-        "fr": "Ils se sont retrouvés il y a quelques jours pour une cérémonie célébrant les 30 ans de la fécondation in vitro au Bourn Hall Clinic, un centre médical de l’est de l’Angleterre cofondé par Edwards et Steptoe."
-      },
-      {
-        "id": "r33",
-        "fr": "« Bob (Edwards) est toujours très occupé, mais nous adorons le voir », a souri Louise Brown."
-      },
-      {
-        "id": "r34",
-        "fr": "« C’est bien d’avoir une relation aussi proche."
-      },
-      {
-        "id": "r35",
-        "fr": "Il est comme un grand-père pour moi.» LE POINT, Katherine HADDON, le 24/07/2008 Les peines que tu fera aux autres ne tarderont pas à retomber sur toi-même."
-      },
-      {
-        "id": "r37",
-        "fr": "Ce phénomène a soulevé des questions éthiques et anthropologiques : il existe désormais le risque que des humains soient clonés et que l'on puisse avoir accès à l'identité biologique de chacun."
-      }
-    ]
-  },
-  {
-    "lesson": "u10l37",
-    "title": "U10L37 Du rire aux larmes",
-    "count": 33,
-    "cards": [
-      {
-        "id": "r1",
-        "fr": "le nom de la manifestation. les dates et la durée de cette manifestation. les endroits où elle a lieu. les organismes qui financent cette opération."
-      },
-      {
-        "id": "r2",
-        "fr": "Cette manifestation dure 4 jours, du dimanche 13 au mercredi 16 septembre 2009."
-      },
-      {
-        "id": "r3",
-        "fr": "Elle a lieu dans tous les cinémas de France participant à l’opération."
-      },
-      {
-        "id": "r4",
-        "fr": "Virgin, Fédération nationale des cinémas français, BNP Paribas."
-      },
-      {
-        "id": "r5",
-        "fr": "Promouvoir le cinéma et inciter les gens à y aller."
-      },
-      {
-        "id": "r6",
-        "fr": "Exemple : « Est-ce que vous pleurez ou riez facilement au cinéma ? » → On leur a demandé s’ils pleuraient ou riaient facilement au cinéma."
-      },
-      {
-        "id": "r7",
-        "fr": "« J’ai vu ce film."
-      },
-      {
-        "id": "r8",
-        "fr": "C’est vraiment triste ! » « L’émotion, c’est la critique du spectateur. » « On ira dîner en ville, après la séance. » « Parlez-nous des films qui vous ont marqués. » « Quel film choisiriez-vous si vous deviez n’en retenir qu’un seul ? » « Un de mes collègues m’avait raconté qu’il avait vu ce film et que c’était vraiment très triste. » « Daniel Toscan du Plantier a dit un jour que l’émotion, c’était la critique du spectateur. » « On s’était dit qu’on irait dîner en ville après la séance. » « Ciné Mag est allé à la rencontre des spectateurs pour leur demander de parler des films qui les avaient marqués. » « Nous vous avons demandé quel film vous choisiriez si vous ne deviez n’en retenir qu’un seul. » La Fédération Nationale des Cinémas Français et BNP PARIBAS présentent LA RENTREE DU CINEMA du DIMANCHE 13 au MERCREDI 16 SEPTEMBRE 2009 www.rentreeducinema.com Alain, 38 ans, employé de banque Le film qui m’a le plus bouleversé, au cinéma, c’est L’Incompris de Luigi Comencini."
-      },
-      {
-        "id": "r9",
-        "fr": "Un de mes collègues m’avait raconté qu’il avait vu ce film et que c’était vraiment très triste."
-      },
-      {
-        "id": "r10",
-        "fr": "Mais, je me souviens, je lui avais répondu que je ne pleurais jamais au cinéma."
-      },
-      {
-        "id": "r11",
-        "fr": "Ce qui m’a le plus marqué, c’est la fin du film."
-      },
-      {
-        "id": "r12",
-        "fr": "Lorsque le père lit la rédaction de son fils mourant : « décrivez votre meilleur ami »; le petit garçon avait écrit : « mon meilleur ami, c’est mon père."
-      },
-      {
-        "id": "r13",
-        "fr": "Et, lorsqu’il me prend dans ses bras... »« Pourquoi n’as-tu pas terminé ta rédaction ? », lui demande son père."
-      },
-      {
-        "id": "r14",
-        "fr": "Et l’enfant lui répond : « Parce que tu ne m’as jamais pris dans tes bras »..."
-      },
-      {
-        "id": "r15",
-        "fr": "J’ai pleuré en voyant le film, j’ai pleuré en le racontant et je pleure en vous en parlant."
-      },
-      {
-        "id": "r16",
-        "fr": "C’est terrible !"
-      },
-      {
-        "id": "r17",
-        "fr": "Au cinéma, j’ai très facilement les larmes aux yeux."
-      },
-      {
-        "id": "r18",
-        "fr": "Une musique, une image suffisent à me faire pleurer."
-      },
-      {
-        "id": "r19",
-        "fr": "Daniel Toscan du Plantier a dit un jour que l’émotion, c’était la critique du spectateur."
-      },
-      {
-        "id": "r20",
-        "fr": "Je suis tout à fait d’accord avec lui."
-      },
-      {
-        "id": "r21",
-        "fr": "Mais il y a tellement de films qui m’ont fait pleurer !"
-      },
-      {
-        "id": "r23",
-        "fr": "Clémence, 22 ans, étudiante Moi, c’est Fiona d’Amos Kollek, l’auteur qui a fait aussi Sue perdue dans Manhattan."
-      },
-      {
-        "id": "r24",
-        "fr": "J’étais avec des amis et on s’était dit qu’on irait dîner en ville, après la séance."
-      },
-      {
-        "id": "r25",
-        "fr": "Mais je n’ai pas pu aller avec eux : j’ai pleuré pendant une heure après la fin du film."
-      },
-      {
-        "id": "r26",
-        "fr": "Et je n’ai pas pu parler pendant deux jours."
-      },
-      {
-        "id": "r29",
-        "fr": "Changez le temps des verbes, si nécessaire."
-      },
-      {
-        "id": "r30",
-        "fr": "« Va voir ce film, il est excellent !"
-      },
-      {
-        "id": "r31",
-        "fr": "L'histoire de ce petit garçon m'a absolument bouleversé ; je n'ai pas arrêté de pleurer."
-      },
-      {
-        "id": "r32",
-        "fr": "Ça m'a vraiment procuré une très grosse émotion !"
-      },
-      {
-        "id": "r33",
-        "fr": "Je pense qu'il aura un prix à Cannes."
-      },
-      {
-        "id": "r34",
-        "fr": "En tout cas, j'aimerais bien qu'il en ait un.» → Alors là, vraiment, je ne comprends pas !"
-      },
-      {
-        "id": "r35",
-        "fr": "Tu m'avais dit d'aller voir ce film, qu'il était excellent."
-      },
-      {
-        "id": "r36",
-        "fr": "Je l'ai trouvé nul... 1 C'est toi qui m'as appris que..."
-      }
-    ]
-  },
-  {
-    "lesson": "u12l45",
-    "title": "U12L45 Aller au bout de ses rêves",
-    "count": 38,
-    "cards": [
-      {
-        "id": "r1",
-        "fr": "Ce site propose des idées et des témoignages d’expériences extrêmes : sauter en parachute, piloter une Formule 1, partir en expédition au Pôle Nord, etc. Traverser le Sahara seul - Vivre sur une île déserte - Vivre avec des loups pendant une semaine - Longer toutes les côtes françaises à pied."
-      },
-      {
-        "id": "r2",
-        "fr": "De quelle expérience extrême rêvez-vous ?"
-      },
-      {
-        "id": "r3",
-        "fr": "Sauter en parachute, piloter une Formule 1, partir en expédition au Pôle Nord..."
-      },
-      {
-        "id": "r4",
-        "fr": "Les occasions de vivre des expériences extrêmes ne manquent pas."
-      },
-      {
-        "id": "r5",
-        "fr": "Vous n’avez pas encore franchi le pas mais qui sait, peut-être un jour..."
-      },
-      {
-        "id": "r7",
-        "fr": "« Traverser le Sahara en famille » Carlos, 41 ans « Faire un voyage en montgolfière » Jeanne, 72 ans « Piloter un avion de tourisme » Cécilia, 32 ans « Vivre plusieurs semaines dans un monastère » Alain, 61 ans « Participer à un voyage dans l’espace » Lin, 29 ans « Nager au milieu des dauphins » Mathieu, 13 ans « Faire du rafting » Sébastien, 18 ans « Marcher sur des braises » Omar, 38 ans « Partir pour un tour du monde en voilier » Arnaud, 25 ans « Partager la vie d’une tribu » Maryline, 52 ans ① À quelles expériences extrêmes aimeriez-vous participer ?"
-      },
-      {
-        "id": "r8",
-        "fr": "J’aimerais voyager en montgolfière pendant 5 semaines comme dans le roman de Jules Verne."
-      },
-      {
-        "id": "r10",
-        "fr": "C’est une question de moyens essentiellement."
-      },
-      {
-        "id": "r11",
-        "fr": "Et puis mes enfants et petits-enfants y sont tous opposés."
-      },
-      {
-        "id": "r12",
-        "fr": "Si par bonheur vous en avez l’occasion, où aimeriez-vous concrétiser vos envies ?"
-      },
-      {
-        "id": "r13",
-        "fr": "N’importe où à partir du moment où la région est d’une beauté fantastique. ② À quelles expériences extrêmes aimeriez-vous participer ?"
-      },
-      {
-        "id": "r14",
-        "fr": "J’aimerais vivement partir à la découverte de civilisations éloignées de la nôtre et me retrouver perdue au milieu de nulle part, sans aucune référence possible à notre mode de vie occidental."
-      },
-      {
-        "id": "r16",
-        "fr": "Par conformisme."
-      },
-      {
-        "id": "r17",
-        "fr": "Rien ni personne ne m’en empêche."
-      },
-      {
-        "id": "r19",
-        "fr": "Quelque part loin de tout forcément. ③ À quelles expériences extrêmes aimeriez-vous participer ?"
-      },
-      {
-        "id": "r20",
-        "fr": "Pratiquant des sports nautiques, je voudrais faire quelque chose que je n’ai pas encore pu tester comme le rafting ou le canyoning."
-      },
-      {
-        "id": "r21",
-        "fr": "Mais pas avec n’importe qui : il faut être très bien encadré pour ce genre de sport car ça peut être extrêmement dangereux."
-      },
-      {
-        "id": "r23",
-        "fr": "J’ai vécu dans des endroits qui m’ont permis de réaliser d’autres rêves (surf, windsurf, dans divers endroits dont Hawaii)."
-      },
-      {
-        "id": "r25",
-        "fr": "Pour le rafting, je choisirais le Colorado, aux États-Unis."
-      },
-      {
-        "id": "r26",
-        "fr": "En ce qui concerne le canyoning, plutôt les Pyrénées."
-      },
-      {
-        "id": "r27",
-        "fr": "On se trouve actuellement ... au milieu des dunes et on vit ... d’extraordinaire ! ... , c’est le silence."
-      },
-      {
-        "id": "r28",
-        "fr": "Nous n’avons croise ... depuis cinq jours !"
-      },
-      {
-        "id": "r29",
-        "fr": "Mais ne t’inquiete pas, ... va bien !"
-      },
-      {
-        "id": "r30",
-        "fr": "Je vis ... d’extraordinaire ! ... je ne me suis senti aussi bien que parmi ces animaux !"
-      },
-      {
-        "id": "r31",
-        "fr": "Je me sens en totale sécurité, à mon avis, ... peut en faire autant."
-      },
-      {
-        "id": "r32",
-        "fr": "Je m’attendais au début à de la méfiance de leur part mais ils n’en ont manifesté ... ; au contraire, ils m’ont ...bien accueilli. ... est venu vers moi avec un cadeau, moi je n’avais ... apporte sauf quelques stylos bille."
-      },
-      {
-        "id": "r33",
-        "fr": "On se trouve actuellement quelque part au milieu des dunes et on vit quelque chose d'extraordinaire !"
-      },
-      {
-        "id": "r34",
-        "fr": "Partout, c'est le silence."
-      },
-      {
-        "id": "r35",
-        "fr": "Nous n'avons croisé personne depuis cinq jours !"
-      },
-      {
-        "id": "r36",
-        "fr": "Mais ne t’inquiète pas, tout va bien ! → Traverser le Sahara en famille."
-      },
-      {
-        "id": "r37",
-        "fr": "Je vis quelque chose d'extraordinaire : nulle part je ne me suis senti aussi bien que parmi ces animaux !"
-      },
-      {
-        "id": "r38",
-        "fr": "Je me sens en totale sécurité, à mon avis, tout le monde peut en faire autant. → Nager au milieu des dauphins."
+        "fr": "Vous voulez rajouter quelque chose ?"
       },
       {
         "id": "r39",
-        "fr": "Je m'attendais au début à de la méfiance de leur part mais ils n'en ont manifesté aucune ; au contraire, ils m'ont tous bien accueilli : chacun est venu vers moi avec un cadeau, moi je n'avais rien apporté sauf quelques stylos bille. → Partager la vie d'une tribu."
+        "fr": "Le débat se termine ici pour aujourd'hui."
       },
       {
         "id": "r40",
-        "fr": "Ce type de rêve existe aussi bien chez les jeunes que chez les personnes plus âgées."
+        "fr": "Ce que l'invité(e) dit pour... expliquer un choix Si j’ai décidé de quitter mon emploi de directeur commercial, c'est que je suis encore jeune et j’aimerais partir vivre..."
       },
       {
         "id": "r41",
-        "fr": "Mais il n’est réalisable que pour les classes sociales favorisées."
+        "fr": "Comme je suis fatiguée de ne m’occuper que de ma famille, j'ai voulu reprendre un travail à l’extérieur pour avoir le sentiment d’exister."
       },
       {
         "id": "r42",
-        "fr": "Toutes les compagnies aériennes proposent aujourd’hui des tours du monde à des tartifs intéressants."
+        "fr": "Je trouve que vous n’êtes pas une bonne mère."
       },
       {
         "id": "r43",
-        "fr": "Grâce aux alliances entre compagnies aériennes, il est possible de faire le tour du monde avec un seul billet."
+        "fr": "Je suis certain(e), sûr(e) que vous n'allez pas le regretter."
       },
       {
         "id": "r44",
-        "fr": "D’autres formules que l’avion sont également proposées pour cela."
+        "fr": "D'après moi, vous faites une erreur/le bon choix. exprimer son accord/désaccord Je suis entièrement d'accord avec vous !"
+      }
+    ]
+  },
+  {
+    "lesson": "u3l12",
+    "title": "U3L12 Les Francofolies",
+    "count": 17,
+    "cards": [
+      {
+        "id": "r1",
+        "fr": "le lieu où il se déroule. les différents moyens de se procurer des billets."
+      },
+      {
+        "id": "r2",
+        "fr": "C’est un festival visant à promouvoir la musique francophone (comme l’indique son nom)."
+      },
+      {
+        "id": "r4",
+        "fr": "En train : La Rochelle à 3h de Paris, 2h de Bordeaux, 2h de Nantes, 1h30 de Poitiers."
+      },
+      {
+        "id": "r5",
+        "fr": "La Rochelle à 4h40 de Paris, 2h de Bordeaux, 2h de Nantes et 1h30 de Poitiers."
+      },
+      {
+        "id": "r6",
+        "fr": "Pensez aussi au co-voiturage !"
+      },
+      {
+        "id": "r7",
+        "fr": "Inscrivez-vous sur internet http://covoiturage.francofolies.fr ou par téléphone 0 820 820 138."
+      },
+      {
+        "id": "r8",
+        "fr": "En collaboration avec Ecolutis.com L’Office du Tourisme vous renseigne Quartier du Gabut - Face à l’aquarium Tél : 05 46 41 14 68 www.larochelle-tourisme.com L’office du tourisme met à votre disposition une liste des hébergements (hôtels, campings...) Offre spéciale Francofolies / partirenlive.com Découvrez les offres Billet + Bus ou Billet + Hôtel www.partirenlive.com ou 04 76 47 19 18 Les Francos vous facilitent la vie !"
+      },
+      {
+        "id": "r9",
+        "fr": "Un hébergement de dernière minute via les CEMEA (accueil 24h/24) Terrain d’accueil provisoire à la SCAN Espace jeune : 2 € la nuit par emplacement de tente, sans réservation Terrain d’accueil provisoire « Le petit Marseille » Espace groupes encadrés : 2 € la nuit par personne Espace famille : 2 € la nuit par personne Contacts hébergement / réservations : accueil@cemea-poitou-charentes.org Consigne gratuite : À l’entrée de l’Esplanade St Jean d’Acre sur présentation de votre place de concert."
+      },
+      {
+        "id": "r11",
+        "fr": "Je voudrais me renseigner sur les nouveaux horaires de train Paris-La Rochelle, L’office du tourisme met à votre disposition une liste des hébergements."
+      },
+      {
+        "id": "r12",
+        "fr": "L’école a mis à la disposition des élèves une trentaine d’ordinateurs."
+      },
+      {
+        "id": "r14",
+        "fr": "Partir en live a choisi pour vous un hôtel proche du vieux port et à 15 minutes à pied du Festival !!"
+      },
+      {
+        "id": "r15",
+        "fr": "La formule ne comprend pas : les assurances facultatives, les autres repas et les boissons, les activités payantes, les dépenses d’ordre personnel, les titres de transport en commun."
+      },
+      {
+        "id": "r16",
+        "fr": "Le garçon était perdu dans cette ville étrangère."
+      },
+      {
+        "id": "r17",
+        "fr": "Et c'est finalement un vagabond qui l'a renseigné sur les chemins à prendre."
+      },
+      {
+        "id": "r18",
+        "fr": "L’hôtel met à votre disposition des services gratuits, tels que wifi et piscine, etc. Bonjour !"
+      },
+      {
+        "id": "r19",
+        "fr": "Je voudrais (Pourriez-vous) me renseigner sur les nouveaux changements du bac de cette année."
+      },
+      {
+        "id": "r20",
+        "fr": "Ce chemin de fer facilite considérablement la vie et le travail des habitants locaux."
+      }
+    ]
+  },
+  {
+    "lesson": "u4l16",
+    "title": "U4L16 Paris autrement",
+    "count": 26,
+    "cards": [
+      {
+        "id": "r1",
+        "fr": "Un concours pour Paris. la ville dont il est question. la nature du projet envisagé. la date de début du projet."
+      },
+      {
+        "id": "r2",
+        "fr": "L'association Bien vivre dans le 2e arrondissement lance le concours Des idées pour Paris."
+      },
+      {
+        "id": "r3",
+        "fr": "Il s'adresse à toute personne ayant des idées réalisables et innovantes pour améliorer la qualité de vie des Parisiens."
+      },
+      {
+        "id": "r4",
+        "fr": "Réalisables, innovantes ou simplement géniales, ce sont peut-être vos idées qui feront le Grand Paris de demain !"
+      },
+      {
+        "id": "r5",
+        "fr": "Ce concours s'attaque à un problème majeur de Paris : la circulation."
+      },
+      {
+        "id": "r6",
+        "fr": "Les idées proposées doivent permettre de trouver des moyens d'inciter les spectateurs de Paris et de banlieue à se rendre au cinéma à Paris sans utiliser leur voiture individuelle."
+      },
+      {
+        "id": "r7",
+        "fr": "Toutes les idées sont recevables, mais elles seront jugées en fonction des critères suivants : originalité de l'idée, qualité de l'amélioration apportée, faisabilité de la solution."
+      },
+      {
+        "id": "r8",
+        "fr": "Les propositions doivent contenir au minimum une présentation de l'idée, ses avantages et les conditions de sa mise en place."
+      },
+      {
+        "id": "r9",
+        "fr": "La participation au concours se fait par l'intermédiaire du forum de cet article en cliquant sur « Répondre à cet article » avant le 31 décembre 2009."
+      },
+      {
+        "id": "r10",
+        "fr": "Le jury se réunira le 15 janvier 2010 pour choisir les trois meilleures propositions."
+      },
+      {
+        "id": "r11",
+        "fr": "Des idées pour Paris Vous avez des idées ?"
+      },
+      {
+        "id": "r14",
+        "fr": "Ex : La mort prématurée de son père l'a incitéàchoisir la profession de médecin."
+      },
+      {
+        "id": "r17",
+        "fr": "Ex : ce formule comprend…."
+      },
+      {
+        "id": "r18",
+        "fr": "Cette solution contient/comprend deux parties."
+      },
+      {
+        "id": "r19",
+        "fr": "Ex : Le prix est de 12 euros, y compris le repas, mais le pourboire n'est pas compris. au minimum = au moins au maximum Ex : faire une présentation mise en place (n.loc.) mettre… en place Ex : J'ai réservémon billet d'avion par l'intermédiaire d'uneagence de voyages."
+      },
+      {
+        "id": "r20",
+        "fr": "Vous faites partie d'une association éco-citoyenne."
+      },
+      {
+        "id": "r21",
+        "fr": "À la manière de l'association Bien vivre dans le 2e arrondissement, imaginez un concours pour améliorer votre cadre de vie."
+      },
+      {
+        "id": "r23",
+        "fr": "Sur le modèle du document, rédigez une page de présentationde votre concours sur Internet. transport en commun en fonction de par l'intermédiairede il s'agait d'organiser un concours qui permettrait de recueillir des idées novatrices et originales pour..."
+      },
+      {
+        "id": "r24",
+        "fr": "L'objectif /Le but est de sensibiliser chacun àla question de l'environnement et d'améliorer le quotidien de tous. ·décrire les modalités pratiques la partipation au concours se fera par... en s'inscrivant dans la rubrique Concours avant... ·exprimer des suggestions/hypothèses Il serait envisageable de travailler en partenariat avec les mairies des villes concernées."
+      },
+      {
+        "id": "r25",
+        "fr": "Ce projet fonctionnera àcondition que nous ayons un nombre suffisant de participants. ·susciter l'intérêt de l'auditoire en début de phrase : -Bien entendu/ Evidemment... en fin de phrase : -...n'est-ce pas ? /qu'en dites-vous ?/ hien ? /d'accord ?"
+      },
+      {
+        "id": "r26",
+        "fr": "Leur demander de créer sur papier la page Internet : insister sur la mise en page des informations (titre, chapeau, sous-titres, rubriques sous forme de courts paragraphes présentant les idées essentielles), l'utilisation de différentes couleurs, de l'intégration possible de documents authentiques."
+      },
+      {
+        "id": "r27",
+        "fr": "Pour améliorer la qualitéde vie du peuple, la gouvernement a fait beaucoup d'efforts."
+      },
+      {
+        "id": "r28",
+        "fr": "Ce projet incitera plus de jeunes àutiliser les moyens de transport en commun."
+      },
+      {
+        "id": "r29",
+        "fr": "Cet hôtel propose des chambres de différents styles."
+      },
+      {
+        "id": "r30",
+        "fr": "Vous pouvez choisir votre chambre en fonction de votre goût."
+      },
+      {
+        "id": "r31",
+        "fr": "Les habitants peuvent donner/proposer leurs idées àla municipalitépar l'intermédiaire de notre association."
+      }
+    ]
+  },
+  {
+    "lesson": "u5l20",
+    "title": "U5L20 Terres d'aventures",
+    "count": 50,
+    "cards": [
+      {
+        "id": "r1",
+        "fr": "ÉDITION ANNIVERSAIRE - DU 13 AU 27 MARS 2010 RALLYE AÏCHA DES GAZELLES MAROC LA RÉFÉRENCE FÉMININE DEPUIS 20 ANS Le Rallye Aïcha des Gazelles est une aventure internationale et humaine unique en son genre."
+      },
+      {
+        "id": "r2",
+        "fr": "Ex : un livre de références un type de… une sorte de…"
+      },
+      {
+        "id": "r3",
+        "fr": "Ex : rassembler la famille autour de la table Ex : être en compétition avec qn."
+      },
+      {
+        "id": "r4",
+        "fr": "Ex : navigation spatiale Ex : à la française / à la chinoise Ex : Tout le monde a compris, hors …"
+      },
+      {
+        "id": "r5",
+        "fr": "Ex : Il enlève son casque dans le respect des autres."
+      },
+      {
+        "id": "r6",
+        "fr": "Ex : des plats locaux ÉDITION ANNIVERSAIRE - DU 13 AU 27 MARS 2010RALLYE AÏCHA DES GAZELLES MAROC LA RÉFÉRENCE FÉMININE DEPUIS 20 ANS Le Rallye Aïcha des Gazelles est une aventure internationale et humaine unique en son genre."
+      },
+      {
+        "id": "r9",
+        "fr": "à la libre utilisation de Ex : Je reste à votre entière disposition pour tout renseignement complémentaire. hésiter à faire qch."
+      },
+      {
+        "id": "r10",
+        "fr": "Ex : Il hésite à l'appeler. hésiter entre… et …"
+      },
+      {
+        "id": "r11",
+        "fr": "Ex : Vous avez lu ci-dessus les raisons de mon refus."
+      },
+      {
+        "id": "r12",
+        "fr": "Ex : écrire à l'adresse mentionnée ci-dessous Attirées par la réputation de votre rallye, ma fille et moi vous proposons notre candidature pour participer à l'édition 2010 du Rallye Aïcha des Gazelles."
+      },
+      {
+        "id": "r13",
+        "fr": "Agée de 52 ans, je suis infirmière et j'ai jusqu'à maintenant consacré ma vie à mon travail et à ma famille."
+      },
+      {
+        "id": "r14",
+        "fr": "Ma fille de 26 ans vient de terminer ses études de médecine."
+      },
+      {
+        "id": "r15",
+        "fr": "Nous avons toutes les deux une grande complicité et sommes passionées par les voyages."
+      },
+      {
+        "id": "r16",
+        "fr": "Participer à ce rallye nous permettrait de réaliser un rêve commun : nous lancer ensemble dans une aventure humaine et sportive, loin de notre environnement habituel."
+      },
+      {
+        "id": "r17",
+        "fr": "Ce serait également pour nous l'occasion de faire face à une grande diversité de situations, enrichissantes sur le plan professionnel et personnel."
+      },
+      {
+        "id": "r18",
+        "fr": "Dynamiques, motivées et ouvertes à de nouvelles expériences, nous pensons avoir les qualités nécessaires pour réaliser cette expérience fantastique."
+      },
+      {
+        "id": "r19",
+        "fr": "Nous avons l'une et l'autre notre permis de conduire et possédons également un 4×4."
+      },
+      {
+        "id": "r20",
+        "fr": "Si notre candidature vous intéresse, nous restons à votre disposition pour un éventuel entretien."
+      },
+      {
+        "id": "r21",
+        "fr": "Ex : attirer l'attention attirer les regards Ex : Une longue complicité les liait l'un à l'autre. passionner (v.) [provoquer beaucoup d'intérêt pour qch] Ex: un film qui passionne les spectateurs Ex : un candidat éventuel bénéfice éventuel être composé/se composer de hésiter à Les personnes ci-dessous n'ont pas pu participer au Rallye."
+      },
+      {
+        "id": "r23",
+        "fr": "Marc (31 ans) et Sylvain (34 ans), informaticiens."
+      },
+      {
+        "id": "r24",
+        "fr": "Alice (17 ans), étudiante."
+      },
+      {
+        "id": "r25",
+        "fr": "Elle n'a pas son permis de conduire."
+      },
+      {
+        "id": "r26",
+        "fr": "Marina (44 ans), institutrice."
+      },
+      {
+        "id": "r27",
+        "fr": "Elle n'a pas trouvé de coéquipière."
+      },
+      {
+        "id": "r28",
+        "fr": "Jackie (59 ans) et Lucinda (52 ans), femmes au foyer."
+      },
+      {
+        "id": "r29",
+        "fr": "Elles n'ont pas de véhicule."
+      },
+      {
+        "id": "r30",
+        "fr": "J'ai lu ton annonce et je n'en croyais pas mes yeux."
+      },
+      {
+        "id": "r31",
+        "fr": "Tu décris le rêve que j'ai depuis des années."
+      },
+      {
+        "id": "r32",
+        "fr": "J'ai 20 ans, je suis actuellement étudiant en sciences politiques et, parallèlement, j'apprends le russe car ce pays m'a toujours fasciné."
+      },
+      {
+        "id": "r33",
+        "fr": "Depuis que j'ai vu le film mongolien L'histoire du chameau qui pleure, je veux visiter ce pays qui m'attire par ses grands espaces et sa civilisation siattachante."
+      },
+      {
+        "id": "r34",
+        "fr": "Comme toi, je n'aime pas planifier les détails de mes voyages et j'aime saisir les occasions comme elles se présentent."
+      },
+      {
+        "id": "r35",
+        "fr": "Si tu cherches toujours un compagnon, je serais vraiment très intéressé par cette aventure."
+      },
+      {
+        "id": "r36",
+        "fr": "Mon russe s'améliore de jour en jour."
+      },
+      {
+        "id": "r37",
+        "fr": "Tu peux me contacter au... et nous pourrions nous rencontrer pour voir ce que nous pouvons faire."
+      },
+      {
+        "id": "r38",
+        "fr": "Cette compétition est ouverte à toutes les filles de moins de 20 ans."
+      },
+      {
+        "id": "r39",
+        "fr": "Ce livre est composé (se compose) de cinq parties."
+      },
+      {
+        "id": "r40",
+        "fr": "Cest pour moi une très bonne occasion de pouvoir participer à cette compétition."
+      },
+      {
+        "id": "r41",
+        "fr": "Pour réaliser notre rêve, nous ne devrions pas hésiter à nous lancer dans de nouvelles expériences."
+      },
+      {
+        "id": "r42",
+        "fr": "Propositions de orrigé Marc et Sylvain : Cest vraiment nul que nous n'ayons pas pu participer au rallye, pourtant on connaît bien le désert marocain et on a l'habitude des rallyes... mais nous ne sommes pas des femmes !"
+      },
+      {
+        "id": "r43",
+        "fr": "Alors, c'est interdit pour nous."
+      },
+      {
+        "id": "r44",
+        "fr": "Incroyable !"
+      },
+      {
+        "id": "r45",
+        "fr": "Alice : Je suis tellement déçue!"
+      },
+      {
+        "id": "r46",
+        "fr": "Vivement l'année prochaine, j'aurai l'âge requis et mon pemeis !"
+      },
+      {
+        "id": "r47",
+        "fr": "Je ne peux plus attendre."
+      },
+      {
+        "id": "r48",
+        "fr": "J'aurai aimé participé cette année, pourtant !"
+      },
+      {
+        "id": "r49",
+        "fr": "Marina : L'amie qui devait partir avec moi est tombée malade au dernier moment... je n'ai pas pu trouver de remplaçante... c'est tellement frustrant."
+      },
+      {
+        "id": "r50",
+        "fr": "On aurait tant voulu réaliser ce rêve."
+      },
+      {
+        "id": "r51",
+        "fr": "Jackie et Lucinda : On s'est entraînées pendant des semaines et volià, ça nous tombe dessus, notre voiture est en panne et impossible d'en trouver une autre."
+      },
+      {
+        "id": "r52",
+        "fr": "Personne ne veut nous sponsoriser."
+      },
+      {
+        "id": "r53",
+        "fr": "Si on avait pu trouver quelqu'un pour nous prêter une voiture, on aurait pu partir ; c'est vraiment dommage !"
+      }
+    ]
+  },
+  {
+    "lesson": "u11l44",
+    "title": "U11L44 Les vraies-fausses idées reçues",
+    "count": 35,
+    "cards": [
+      {
+        "id": "r1",
+        "fr": "À en croire cet article, la société est en train de connaître une grande crise."
+      },
+      {
+        "id": "r2",
+        "fr": "À m’en croire, il faut bien des efforts pour apprendre une langue étrangère."
+      },
+      {
+        "id": "r4",
+        "fr": "La même année, Le Larousse médical précisait que la douche ou le bain pouvait être hebdomadaire."
+      },
+      {
+        "id": "r5",
+        "fr": "Depuis, les habitudes de propreté des Français ont progressé : 71% des Français déclarent prendre une douche au moins une fois par jour ; 7% disent même en prendre au moins deux."
+      },
+      {
+        "id": "r6",
+        "fr": "Plus d’un homme sur quatre et une femme sur dix déclarent aujourd’hui se laver les cheveux tous les jours ou presque."
+      },
+      {
+        "id": "r7",
+        "fr": "L’hygiène dentaire s’est aussi sensiblement améliorée : une femme sur trois et un homme sur cinq disent se brosser les dents trois fois par jour ; ces chiffres semblent cependant surestimés lorsque l’on compare avec les achats de dentifrice et de brosses à dents."
+      },
+      {
+        "id": "r8",
+        "fr": "Francoscopie 2010 © Larousse Le magazine Le Point vous demande de rédiger un article de 200 mots environ sur le modèle de celui concernant l’hygiène des Français."
+      },
+      {
+        "id": "r9",
+        "fr": "En vous aidant du tableau ci-dessus, écrivez un texte sur le temps de travail des Français comparé à celui des habitants d’autres pays européens."
+      },
+      {
+        "id": "r10",
+        "fr": "Invité(e) à dîner chez un(e) ami(e), vous êtes très énervé(e) par l’une des personnes qu’il/elle a invitée car cette personne passe son temps à critiquer les Français sur leur hygiène ou le fait qu’ils travaillent moins que les autres."
+      },
+      {
+        "id": "r11",
+        "fr": "Vous essayez de lui montrer qu’il/elle n’a pas (toujours) raison."
+      },
+      {
+        "id": "r12",
+        "fr": "Votre ami(e) donne également son avis."
+      },
+      {
+        "id": "r14",
+        "fr": "Il semblerait que, contrairement aux idées reçues, les Français travaillent beaucoup plus qu'on ne le croit."
+      },
+      {
+        "id": "r15",
+        "fr": "Dans cette étude effectuée par Eurostat et portant sur le temps de travail dans quelques pays de l'Union européenne, on constate que les Français se placent plutôt bien vis à vis de leurs voisins."
+      },
+      {
+        "id": "r16",
+        "fr": "En fait, ils occupent la 6e place sur les 14 pays analyses avec 41 heures d'heures de travail hebdomadaire."
+      },
+      {
+        "id": "r17",
+        "fr": "Ce sont les Autrichiens qui travaillent le plus et les Danois le moins."
+      },
+      {
+        "id": "r18",
+        "fr": "En comparant les données de ces trois pays, on remarque que la France a moins d'employés à temps partiel que l'Autriche et même que le Danemark."
+      },
+      {
+        "id": "r19",
+        "fr": "Mais il est très intéressant de constater qu'aux Pays-Bas prèsque la moitié des travailleurs sont employés à temps partiel."
+      },
+      {
+        "id": "r21",
+        "fr": "De manière générale, dans tous les pays sans exception, les femmes sont beaucoup plus nombreuses que les hommes à être employées à temps partiel."
+      },
+      {
+        "id": "r22",
+        "fr": "Est-ce un moyen d'allier vie familiale et vie professionnelle ou est-ce une politique délibérée des différents pays de l'Union européenne ?"
+      },
+      {
+        "id": "r23",
+        "fr": "Ce que l'invité(e) peut dire pour... critiquer les Français Franchement, j'ai remarqué que la majorité des Français ne se lavaient pas les mains avant de manger et que l'hygiène n'était pas leur point fort."
+      },
+      {
+        "id": "r24",
+        "fr": "Quand j’étais fille au pair dans une famille, les enfants n'avaient droit qu'a un bain par semaine."
+      },
+      {
+        "id": "r25",
+        "fr": "Et ces 35 heures... aucun Français ne travaille comme chez moi, au Danemark, et on fait trop la grève pour un oui ou pour un non en France. renforcer son opinion Je sais vraiment de quoi je parle, j'en connais des Français !"
+      },
+      {
+        "id": "r26",
+        "fr": "J'ai travaillé quelque fois dans des entreprises et je peux dire que le rythme était plutôt relaxe... nuancer ses propos D'accord, peut-être que je suis mal tombée !"
+      },
+      {
+        "id": "r27",
+        "fr": "C'est vrai que, quelquefois, ils sont différents !"
+      },
+      {
+        "id": "r28",
+        "fr": "Ce que vous pouvez dire pour... prendre la défense des Français Moi, je dirais tout à fait le contraire, les Français sont impéccables et sentent toujours si bon... concéder que certaines remarques sont justifiées C’est vrai, ils font trop souvent la grève et pour cette raison, on ne prend plus leurs revendications au sérieux."
+      },
+      {
+        "id": "r29",
+        "fr": "Je trouve que le service social français est vraiment excellent, c'est certainement un des meilleurs du monde."
+      },
+      {
+        "id": "r30",
+        "fr": "Les entreprises françaises sont très efficaces et le rythme n’est pas plus lent que dans d'autres pays européens."
+      },
+      {
+        "id": "r31",
+        "fr": "Ce que vous votre ami(e) peut dire pour... appuyer vos arguments Dans la famille où je fais du baby-sitting, il faut que je donne un bain aux enfants tous les soirs. donner d'autres contre-exemples Je trouve qu'en fait ces fameuses 35 heures ne sont appliquées que par une minorité et la plupart des Français travaillent énormément."
+      },
+      {
+        "id": "r32",
+        "fr": "Tu as vu les statistiques qui sont parus dans Le Point la semaine dernière ?"
+      },
+      {
+        "id": "r33",
+        "fr": "Ils montraient queles Français effectuaient en moyenne 41 heures de travail hebdomadaire alors que les Danois ne travaillaient que 40,2 heures !"
+      },
+      {
+        "id": "r34",
+        "fr": "Travailleurs à temps partiel et durée du travail hebdomadaire dans quelques pays de l’Union européenne [2008] à en coire qn jouir de conseiller à qn de partager quant à s’améliorer À l'en croire, les Français savent très bien jouir de la vie."
+      },
+      {
+        "id": "r35",
+        "fr": "Il fume beaucoup ; alors qu'avant, le médecin lui a déjà conseillé de l’arrêter."
+      },
+      {
+        "id": "r36",
+        "fr": "Il ne partage pas cette idée."
+      },
+      {
+        "id": "r37",
+        "fr": "Quant à moi, je n’ai aucun avis."
+      },
+      {
+        "id": "r38",
+        "fr": "Grâce à la décision du gouvernement, la vie des habitants de ce village s'est beaucoup améliorée."
       }
     ]
   }
