@@ -1,7 +1,13 @@
 @import "tailwindcss";
 
 @theme inline {
-  --font-hand: "Comic Sans MS", "Segoe Print", "Ma Shan Zheng", cursive;
+  /* Unified Latin + CJK system stack: Latin chars get the platform sans-serif
+     (SF Pro on Apple, Segoe UI on Windows, Roboto on Android/Linux) and CJK
+     chars fall through to the matching native CJK face (PingFang SC, Microsoft
+     YaHei, Noto Sans CJK). Keeps weights/proportions harmonious across scripts. */
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Helvetica Neue", "PingFang SC", "Hiragino Sans GB",
+    "Microsoft YaHei", "Noto Sans CJK SC", "WenQuanYi Micro Hei", sans-serif;
   --color-primary: #364fc7;
   --color-primary-light: rgba(54, 79, 199, 0.2);
   --color-bg: #f8f9fc;
@@ -11,7 +17,8 @@
 body {
   background: var(--color-bg);
   color: var(--color-fg);
-  font-family: var(--font-hand);
+  font-family: var(--font-sans);
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
 }
 
 /* Excalidraw-style card */

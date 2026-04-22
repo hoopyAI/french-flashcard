@@ -22,7 +22,7 @@ export default function LessonsView({ bookId }: { bookId: string }) {
       book.lessons.map((lesson) => ({
         id: lesson.id,
         title: lesson.title,
-        totalCards: lesson.cards.length,
+        totalCards: lesson.cards.filter((c) => !c.id.startsWith("s_")).length,
         masteredCount: getMasteredCount(bookId, lesson.id),
       }))
     );
@@ -35,7 +35,7 @@ export default function LessonsView({ bookId }: { bookId: string }) {
           book.lessons.map((lesson) => ({
             id: lesson.id,
             title: lesson.title,
-            totalCards: lesson.cards.length,
+            totalCards: lesson.cards.filter((c) => !c.id.startsWith("s_")).length,
             masteredCount: getMasteredCount(bookId, lesson.id),
           }))
         );

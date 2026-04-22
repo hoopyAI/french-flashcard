@@ -10,11 +10,14 @@ import {
   setMastered,
 } from "@/lib/storage";
 
+type Section = "reading" | "listening" | null;
+
 interface CardState {
   id: string;
   front: string;
   back: string;
   mastered: boolean;
+  section: Section;
 }
 
 export default function CardsView({
@@ -43,10 +46,27 @@ export default function CardsView({
 
   useEffect(() => {
     if (!lesson) return;
-    const annotated = lesson.cards.map((card) => ({
-      ...card,
-      mastered: isMastered(bookId, lessonId, card.id),
-    }));
+    // Walk original card order once, tracking which section each card belongs to
+    // (via the s_read / s_listen marker cards), then drop the markers so they
+    // don't appear in the flashcard flow.
+    let section: Section = null;
+    const annotated: CardState[] = [];
+    for (const card of lesson.cards) {
+      if (card.id === "s_read") {
+        section = "reading";
+        continue;
+      }
+      if (card.id === "s_listen") {
+        section = "listening";
+        continue;
+      }
+      if (card.id.startsWith("s_")) continue;
+      annotated.push({
+        ...card,
+        mastered: isMastered(bookId, lessonId, card.id),
+        section,
+      });
+    }
     setAllCards(annotated);
     setCards(annotated);
 
@@ -164,7 +184,7 @@ export default function CardsView({
     cards.length > 0 ? `${currentIndex + 1}/${cards.length}` : "0/0";
   const currentCard = cards[currentIndex];
 
-  // front = French, back = Chinese in data
+  // front = French, back = Chinese/English in data
   // showMode determines which is visible first
   const visibleText =
     showMode === "cn" ? currentCard?.back : currentCard?.front;
@@ -172,6 +192,24 @@ export default function CardsView({
     showMode === "cn" ? currentCard?.front : currentCard?.back;
   const hasHidden = !!hiddenText && hiddenText.length > 0;
   const hintLabel = showMode === "cn" ? "点击查看法语" : "点击查看中文";
+
+  // Scale font down for long sentences so they fit comfortably in the card.
+  function sizeFor(text: string | undefined): string {
+    const n = text?.length ?? 0;
+    if (n > 260) return "text-xs leading-6";
+    if (n > 170) return "text-sm leading-6";
+    if (n > 90) return "text-base leading-7";
+    return "text-lg leading-8";
+  }
+  const visibleSize = sizeFor(visibleText);
+  const hiddenSize = sizeFor(hiddenText);
+
+  const sectionLabel =
+    currentCard?.section === "reading"
+      ? "阅读 · Lecture"
+      : currentCard?.section === "listening"
+      ? "听力 · Oral"
+      : null;
 
   return (
     <div className="flex flex-col h-dvh p-3 max-w-lg mx-auto">
@@ -195,6 +233,18 @@ export default function CardsView({
         <span className="text-base font-bold text-[var(--color-primary)]">
           {progressText}
         </span>
+
+        {sectionLabel && (
+          <span
+            className={`text-[10px] font-semibold px-2 py-0.5 rounded-full tracking-wide ${
+              currentCard?.section === "reading"
+                ? "bg-[var(--color-primary-light)] text-[var(--color-primary)]"
+                : "bg-amber-100 text-amber-700"
+            }`}
+          >
+            {sectionLabel}
+          </span>
+        )}
 
         <span className="flex-1" />
         {/* Language mode toggle */}
@@ -262,7 +312,7 @@ export default function CardsView({
             {/* Primary text */}
             <div className="p-5 text-center">
               <p
-                className={`text-base leading-relaxed ${
+                className={`${visibleSize} ${
                   showMode === "cn"
                     ? "text-[var(--color-fg)]"
                     : "text-[var(--color-primary)]"
@@ -276,7 +326,7 @@ export default function CardsView({
             {hasHidden && revealed && (
               <div className="p-5 pt-3 mx-5 border-t border-gray-200 text-center">
                 <p
-                  className={`text-base leading-relaxed ${
+                  className={`${hiddenSize} ${
                     showMode === "cn"
                       ? "text-[var(--color-primary)]"
                       : "text-gray-600"
