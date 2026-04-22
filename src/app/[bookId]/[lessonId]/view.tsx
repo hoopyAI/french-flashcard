@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { books } from "@/data/books";
 import {
   getProgress,
@@ -11,6 +11,7 @@ import {
 } from "@/lib/storage";
 
 type Section = "reading" | "listening" | null;
+type SectionMode = "reading" | "listening" | "all";
 
 interface CardState {
   id: string;
@@ -19,6 +20,8 @@ interface CardState {
   mastered: boolean;
   section: Section;
 }
+
+const SECTION_KEY = (b: string, l: string) => `section_${b}_${l}`;
 
 export default function CardsView({
   bookId,
@@ -33,22 +36,20 @@ export default function CardsView({
   const lesson = book?.lessons.find((l) => l.id === lessonId);
 
   const [allCards, setAllCards] = useState<CardState[]>([]);
-  const [cards, setCards] = useState<CardState[]>([]);
+  const [sectionMode, setSectionMode] = useState<SectionMode>("all");
+  const [filterMode, setFilterMode] = useState<"all" | "unmastered">("all");
+  const [showMode, setShowMode] = useState<"cn" | "fr">("cn");
   const [currentIndex, setCurrentIndex] = useState(0);
   const [revealed, setRevealed] = useState(false);
-  const [filterMode, setFilterMode] = useState<"all" | "unmastered">("all");
-  // "cn" = show Chinese first, "fr" = show French first
-  const [showMode, setShowMode] = useState<"cn" | "fr">("cn");
   const [toast, setToast] = useState("");
 
   const touchStartX = useRef(0);
   const touchStartY = useRef(0);
+  const didRestoreRef = useRef(false);
 
+  // Load cards + choose default section on mount
   useEffect(() => {
     if (!lesson) return;
-    // Walk original card order once, tracking which section each card belongs to
-    // (via the s_read / s_listen marker cards), then drop the markers so they
-    // don't appear in the flashcard flow.
     let section: Section = null;
     const annotated: CardState[] = [];
     for (const card of lesson.cards) {
@@ -68,14 +69,89 @@ export default function CardsView({
       });
     }
     setAllCards(annotated);
-    setCards(annotated);
 
-    const progress = getProgress(bookId, lessonId);
-    if (progress.lastVisited) {
-      const idx = annotated.findIndex((c) => c.id === progress.lastVisited);
-      if (idx > 0) setCurrentIndex(idx);
+    const hasReading = annotated.some((c) => c.section === "reading");
+    const hasListening = annotated.some((c) => c.section === "listening");
+
+    // Pick default: saved choice > reading > listening > all
+    let initialMode: SectionMode = "all";
+    if (typeof window !== "undefined") {
+      const saved = window.localStorage.getItem(SECTION_KEY(bookId, lessonId));
+      if (
+        (saved === "reading" && hasReading) ||
+        (saved === "listening" && hasListening) ||
+        saved === "all"
+      ) {
+        initialMode = saved as SectionMode;
+      } else if (hasReading && hasListening) {
+        initialMode = "reading";
+      } else if (hasReading) {
+        initialMode = "reading";
+      } else if (hasListening) {
+        initialMode = "listening";
+      }
     }
+    setSectionMode(initialMode);
+    didRestoreRef.current = false;
   }, [bookId, lessonId, lesson]);
+
+  const readingExists = useMemo(
+    () => allCards.some((c) => c.section === "reading"),
+    [allCards]
+  );
+  const listeningExists = useMemo(
+    () => allCards.some((c) => c.section === "listening"),
+    [allCards]
+  );
+  const showSectionTabs = readingExists && listeningExists;
+
+  // Derive visible cards
+  const cards = useMemo(() => {
+    let list = allCards;
+    if (sectionMode === "reading") {
+      list = list.filter((c) => c.section === "reading");
+    } else if (sectionMode === "listening") {
+      list = list.filter((c) => c.section === "listening");
+    }
+    if (filterMode === "unmastered") {
+      list = list.filter((c) => !c.mastered);
+    }
+    return list;
+  }, [allCards, sectionMode, filterMode]);
+
+  // Restore lastVisited once after initial cards are computed; reset to 0 on
+  // subsequent section/filter changes.
+  useEffect(() => {
+    if (cards.length === 0) return;
+    if (!didRestoreRef.current) {
+      didRestoreRef.current = true;
+      const progress = getProgress(bookId, lessonId);
+      if (progress.lastVisited) {
+        const idx = cards.findIndex((c) => c.id === progress.lastVisited);
+        if (idx >= 0) {
+          setCurrentIndex(idx);
+          return;
+        }
+      }
+    }
+    setCurrentIndex((prev) => (prev >= cards.length ? cards.length - 1 : prev));
+  }, [cards, bookId, lessonId]);
+
+  // Persist current section choice
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    window.localStorage.setItem(SECTION_KEY(bookId, lessonId), sectionMode);
+  }, [sectionMode, bookId, lessonId]);
+
+  // Persist lastVisited
+  useEffect(() => {
+    const card = cards[currentIndex];
+    if (card) {
+      const progress = getProgress(bookId, lessonId);
+      progress.lastVisited = card.id;
+      saveProgress(bookId, lessonId, progress);
+    }
+  }, [currentIndex, cards, bookId, lessonId]);
 
   const showToast = useCallback(
     (msg: string, thenGoBack = false) => {
@@ -104,66 +180,71 @@ export default function CardsView({
       if (!card) return;
 
       setMastered(bookId, lessonId, card.id, mastered);
-
-      const updatedAll = allCards.map((c) =>
+      const newAll = allCards.map((c) =>
         c.id === card.id ? { ...c, mastered } : c
       );
-      setAllCards(updatedAll);
+      setAllCards(newAll);
 
-      const updatedCards = cards.map((c) =>
-        c.id === card.id ? { ...c, mastered } : c
-      );
+      // Recompute what cards will look like after state update
+      let next = newAll;
+      if (sectionMode === "reading") next = next.filter((c) => c.section === "reading");
+      else if (sectionMode === "listening") next = next.filter((c) => c.section === "listening");
+      if (filterMode === "unmastered") next = next.filter((c) => !c.mastered);
 
-      if (filterMode === "unmastered" && mastered) {
-        const filtered = updatedCards.filter((c) => c.id !== card.id);
-        if (filtered.length === 0) {
-          showToast("全部已掌握！", true);
-          return;
-        }
-        const newIndex = Math.min(currentIndex, filtered.length - 1);
-        setCards(filtered);
-        setCurrentIndex(newIndex);
+      if (next.length === 0) {
+        showToast("全部已掌握！", true);
+        return;
+      }
+
+      const stillVisible = next.some((c) => c.id === card.id);
+      if (!stillVisible) {
+        // Card dropped out of view (unmastered filter): stay at current index
+        // (which now shows the next card) unless we're past the end.
+        const nextIdx = Math.min(currentIndex, next.length - 1);
+        setCurrentIndex(nextIdx);
         setRevealed(false);
         return;
       }
 
-      setCards(updatedCards);
-
-      if (currentIndex >= updatedCards.length - 1) {
+      if (currentIndex >= next.length - 1) {
         showToast("完成！", true);
       } else {
         setCurrentIndex(currentIndex + 1);
         setRevealed(false);
       }
     },
-    [cards, currentIndex, allCards, bookId, lessonId, filterMode, showToast]
+    [cards, currentIndex, allCards, bookId, lessonId, sectionMode, filterMode, showToast]
+  );
+
+  const handleSetSection = useCallback(
+    (mode: SectionMode) => {
+      if (mode === sectionMode) return;
+      setSectionMode(mode);
+      setCurrentIndex(0);
+      setRevealed(false);
+      didRestoreRef.current = true; // don't restore across section switches
+    },
+    [sectionMode]
   );
 
   const handleToggleFilter = useCallback(() => {
     const newMode = filterMode === "all" ? "unmastered" : "all";
+    // Preview: any unmastered in current section?
     if (newMode === "unmastered") {
-      const filtered = allCards.filter((c) => !c.mastered);
-      if (filtered.length === 0) {
+      const inSection = allCards.filter((c) =>
+        sectionMode === "all"
+          ? true
+          : c.section === sectionMode
+      );
+      if (inSection.every((c) => c.mastered)) {
         showToast("全部已掌握！");
         return;
       }
-      setCards(filtered);
-    } else {
-      setCards([...allCards]);
     }
     setFilterMode(newMode);
     setCurrentIndex(0);
     setRevealed(false);
-  }, [filterMode, allCards, showToast]);
-
-  useEffect(() => {
-    const card = cards[currentIndex];
-    if (card) {
-      const progress = getProgress(bookId, lessonId);
-      progress.lastVisited = card.id;
-      saveProgress(bookId, lessonId, progress);
-    }
-  }, [currentIndex, cards, bookId, lessonId]);
+  }, [filterMode, allCards, sectionMode, showToast]);
 
   const onTouchStart = (e: React.TouchEvent) => {
     touchStartX.current = e.touches[0].clientX;
@@ -184,8 +265,7 @@ export default function CardsView({
     cards.length > 0 ? `${currentIndex + 1}/${cards.length}` : "0/0";
   const currentCard = cards[currentIndex];
 
-  // front = French, back = Chinese/English in data
-  // showMode determines which is visible first
+  // front = French, back = Chinese/English
   const visibleText =
     showMode === "cn" ? currentCard?.back : currentCard?.front;
   const hiddenText =
@@ -193,7 +273,6 @@ export default function CardsView({
   const hasHidden = !!hiddenText && hiddenText.length > 0;
   const hintLabel = showMode === "cn" ? "点击查看法语" : "点击查看中文";
 
-  // Scale font down for long sentences so they fit comfortably in the card.
   function sizeFor(text: string | undefined): string {
     const n = text?.length ?? 0;
     if (n > 260) return "text-xs leading-6";
@@ -203,13 +282,6 @@ export default function CardsView({
   }
   const visibleSize = sizeFor(visibleText);
   const hiddenSize = sizeFor(hiddenText);
-
-  const sectionLabel =
-    currentCard?.section === "reading"
-      ? "阅读 · Lecture"
-      : currentCard?.section === "listening"
-      ? "听力 · Oral"
-      : null;
 
   return (
     <div className="flex flex-col h-dvh p-3 max-w-lg mx-auto">
@@ -233,18 +305,6 @@ export default function CardsView({
         <span className="text-base font-bold text-[var(--color-primary)]">
           {progressText}
         </span>
-
-        {sectionLabel && (
-          <span
-            className={`text-[10px] font-semibold px-2 py-0.5 rounded-full tracking-wide ${
-              currentCard?.section === "reading"
-                ? "bg-[var(--color-primary-light)] text-[var(--color-primary)]"
-                : "bg-amber-100 text-amber-700"
-            }`}
-          >
-            {sectionLabel}
-          </span>
-        )}
 
         <span className="flex-1" />
         {/* Language mode toggle */}
@@ -286,6 +346,32 @@ export default function CardsView({
           </span>
         </button>
       </div>
+
+      {/* Section tabs */}
+      {showSectionTabs && (
+        <div className="flex gap-2 mb-3 px-1">
+          <button
+            onClick={() => handleSetSection("reading")}
+            className={`flex-1 py-2 rounded-xl text-sm font-semibold cursor-pointer font-[inherit] border-[2px] transition-colors ${
+              sectionMode === "reading"
+                ? "bg-[var(--color-primary)] text-white border-[var(--color-primary)] shadow-[2px_2px_0_var(--color-primary-light)]"
+                : "bg-white text-[var(--color-primary)] border-[var(--color-primary)]/40"
+            }`}
+          >
+            📖 阅读 Lecture
+          </button>
+          <button
+            onClick={() => handleSetSection("listening")}
+            className={`flex-1 py-2 rounded-xl text-sm font-semibold cursor-pointer font-[inherit] border-[2px] transition-colors ${
+              sectionMode === "listening"
+                ? "bg-amber-500 text-white border-amber-500 shadow-[2px_2px_0_rgba(245,158,11,0.25)]"
+                : "bg-white text-amber-700 border-amber-300"
+            }`}
+          >
+            🎧 听力 Oral
+          </button>
+        </div>
+      )}
 
       {/* Card area */}
       <div
