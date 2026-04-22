@@ -255,16 +255,14 @@ export default function CardsView({
         {/* Card */}
         {currentCard && (
           <div
-            className="card-base w-full overflow-y-auto cursor-pointer relative"
+            className="card-base w-full overflow-y-auto cursor-pointer relative flex flex-col justify-center"
             style={{ height: "70%" }}
             onClick={() => hasHidden && setRevealed(!revealed)}
           >
-            {/* Primary text (centered) */}
-            <div
-              className={`p-5 flex items-center justify-center ${hasHidden && revealed ? "" : "min-h-full"}`}
-            >
+            {/* Primary text */}
+            <div className="p-5 text-center">
               <p
-                className={`text-base leading-relaxed text-center ${
+                className={`text-base leading-relaxed ${
                   showMode === "cn"
                     ? "text-[var(--color-fg)]"
                     : "text-[var(--color-primary)]"
@@ -276,9 +274,9 @@ export default function CardsView({
 
             {/* Revealed text */}
             {hasHidden && revealed && (
-              <div className="p-5 pt-0 border-t border-gray-200 mt-2">
+              <div className="p-5 pt-3 mx-5 border-t border-gray-200 text-center">
                 <p
-                  className={`text-base leading-relaxed text-center ${
+                  className={`text-base leading-relaxed ${
                     showMode === "cn"
                       ? "text-[var(--color-primary)]"
                       : "text-gray-600"
