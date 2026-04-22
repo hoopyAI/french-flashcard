@@ -22,6 +22,7 @@ interface CardState {
 }
 
 const SECTION_KEY = (b: string, l: string) => `section_${b}_${l}`;
+const SHOW_MODE_KEY = "default_show_mode";
 
 export default function CardsView({
   bookId,
@@ -39,6 +40,22 @@ export default function CardsView({
   const [sectionMode, setSectionMode] = useState<SectionMode>("all");
   const [filterMode, setFilterMode] = useState<"all" | "unmastered">("all");
   const [showMode, setShowMode] = useState<"cn" | "fr">("cn");
+
+  // Restore global default-show-mode on mount
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const saved = window.localStorage.getItem(SHOW_MODE_KEY);
+    if (saved === "cn" || saved === "fr") setShowMode(saved);
+  }, []);
+
+  // Persist whenever the user toggles it
+  const updateShowMode = useCallback((mode: "cn" | "fr") => {
+    setShowMode(mode);
+    setRevealed(false);
+    if (typeof window !== "undefined") {
+      window.localStorage.setItem(SHOW_MODE_KEY, mode);
+    }
+  }, []);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [revealed, setRevealed] = useState(false);
   const [toast, setToast] = useState("");
@@ -307,13 +324,11 @@ export default function CardsView({
         </span>
 
         <span className="flex-1" />
-        {/* Language mode toggle */}
+        {/* Language mode toggle (global default, persisted) */}
         <button
-          onClick={() => {
-            setShowMode(showMode === "cn" ? "fr" : "cn");
-            setRevealed(false);
-          }}
+          onClick={() => updateShowMode(showMode === "cn" ? "fr" : "cn")}
           className="flex items-center gap-1 bg-transparent border-none cursor-pointer font-[inherit]"
+          title="切换默认显示的语言（全站记忆）"
         >
           <span
             className={`text-sm px-1 ${showMode === "cn" ? "text-[var(--color-primary)] font-bold" : "text-gray-400"}`}
