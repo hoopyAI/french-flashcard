@@ -13,7 +13,7 @@ import {
 type Section = "reading" | "listening" | null;
 type SectionMode = "reading" | "listening" | "all";
 type TransLang = "zh" | "en";
-type ShowMode = "trans" | "fr";
+type StudyMode = "study" | "recite";
 
 interface CardState {
   id: string;
@@ -25,7 +25,7 @@ interface CardState {
 }
 
 const SECTION_KEY = (b: string, l: string) => `section_${b}_${l}`;
-const SHOW_MODE_KEY = "default_show_mode";
+const STUDY_MODE_KEY = "default_study_mode";
 const TRANS_LANG_KEY = "default_trans_lang";
 
 export default function CardsView({
@@ -43,26 +43,24 @@ export default function CardsView({
   const [allCards, setAllCards] = useState<CardState[]>([]);
   const [sectionMode, setSectionMode] = useState<SectionMode>("all");
   const [filterMode, setFilterMode] = useState<"all" | "unmastered">("all");
-  const [showMode, setShowMode] = useState<ShowMode>("trans");
+  const [studyMode, setStudyMode] = useState<StudyMode>("recite");
   const [transLang, setTransLang] = useState<TransLang>("zh");
 
   // Restore global preferences on mount
   useEffect(() => {
     if (typeof window === "undefined") return;
-    const savedShow = window.localStorage.getItem(SHOW_MODE_KEY);
-    if (savedShow === "trans" || savedShow === "fr") setShowMode(savedShow);
-    // Backward-compat: older key value "cn" maps to "trans"
-    else if (savedShow === "cn") setShowMode("trans");
+    const savedMode = window.localStorage.getItem(STUDY_MODE_KEY);
+    if (savedMode === "study" || savedMode === "recite") setStudyMode(savedMode);
 
     const savedLang = window.localStorage.getItem(TRANS_LANG_KEY);
     if (savedLang === "zh" || savedLang === "en") setTransLang(savedLang);
   }, []);
 
-  const updateShowMode = useCallback((mode: ShowMode) => {
-    setShowMode(mode);
+  const updateStudyMode = useCallback((mode: StudyMode) => {
+    setStudyMode(mode);
     setRevealed(false);
     if (typeof window !== "undefined") {
-      window.localStorage.setItem(SHOW_MODE_KEY, mode);
+      window.localStorage.setItem(STUDY_MODE_KEY, mode);
     }
   }, []);
 
@@ -309,13 +307,13 @@ export default function CardsView({
         ? currentCard.zh || currentCard.en
         : currentCard.en || currentCard.zh) || ""
     : "";
-  const visibleText =
-    showMode === "trans" ? chosenTrans : currentCard?.front;
-  const hiddenText =
-    showMode === "trans" ? currentCard?.front : chosenTrans;
-  const hasHidden = !!hiddenText && hiddenText.length > 0;
-  const hintLabel =
-    showMode === "trans" ? "点击查看法语" : transLang === "zh" ? "点击查看中文" : "点击查看英文";
+  const frText = currentCard?.front ?? "";
+  // Study mode: show both translation and French together; no flipping.
+  // Recite mode: show translation, reveal French on tap.
+  const isStudy = studyMode === "study";
+  const canReveal = !isStudy && !!frText;
+  const showFrench = isStudy || revealed;
+  const hintLabel = "点击查看法语";
 
   function sizeFor(text: string | undefined): string {
     const n = text?.length ?? 0;
@@ -324,8 +322,8 @@ export default function CardsView({
     if (n > 90) return "text-base leading-7";
     return "text-lg leading-8";
   }
-  const visibleSize = sizeFor(visibleText);
-  const hiddenSize = sizeFor(hiddenText);
+  const transSize = sizeFor(chosenTrans);
+  const frSize = sizeFor(frText);
 
   return (
     <div className="flex flex-col h-dvh p-3 max-w-lg mx-auto">
@@ -370,22 +368,22 @@ export default function CardsView({
           </span>
         </button>
 
-        {/* Primary face toggle: 译 (translation first) vs Fr (French first) */}
+        {/* Study mode toggle: 学习 (both visible) vs 背诵 (flip to reveal) */}
         <button
-          onClick={() => updateShowMode(showMode === "trans" ? "fr" : "trans")}
+          onClick={() => updateStudyMode(studyMode === "study" ? "recite" : "study")}
           className="flex items-center gap-1 bg-transparent border-none cursor-pointer font-[inherit]"
-          title="切换正面显示（译文/法语），全站记忆"
+          title="切换模式（学习：同时显示译文+法语；背诵：点击翻面），全站记忆"
         >
           <span
-            className={`text-sm px-1 ${showMode === "trans" ? "text-[var(--color-primary)] font-bold" : "text-gray-400"}`}
+            className={`text-sm px-1 ${studyMode === "study" ? "text-[var(--color-primary)] font-bold" : "text-gray-400"}`}
           >
-            译
+            学习
           </span>
           <span className="text-gray-300 text-sm">/</span>
           <span
-            className={`text-sm px-1 ${showMode === "fr" ? "text-[var(--color-primary)] font-bold" : "text-gray-400"}`}
+            className={`text-sm px-1 ${studyMode === "recite" ? "text-[var(--color-primary)] font-bold" : "text-gray-400"}`}
           >
-            Fr
+            背诵
           </span>
         </button>
 
@@ -452,40 +450,30 @@ export default function CardsView({
         {/* Card */}
         {currentCard && (
           <div
-            className="card-base w-full overflow-y-auto cursor-pointer relative flex flex-col justify-center"
+            className={`card-base w-full overflow-y-auto relative flex flex-col justify-center ${
+              canReveal ? "cursor-pointer" : ""
+            }`}
             style={{ height: "70%" }}
-            onClick={() => hasHidden && setRevealed(!revealed)}
+            onClick={() => canReveal && setRevealed(!revealed)}
           >
-            {/* Primary text */}
+            {/* Translation (always visible) */}
             <div className="p-5 text-center">
-              <p
-                className={`${visibleSize} ${
-                  showMode === "trans"
-                    ? "text-[var(--color-fg)]"
-                    : "text-[var(--color-primary)]"
-                }`}
-              >
-                {visibleText}
+              <p className={`${transSize} text-[var(--color-fg)]`}>
+                {chosenTrans}
               </p>
             </div>
 
-            {/* Revealed text */}
-            {hasHidden && revealed && (
+            {/* French */}
+            {showFrench && !!frText && (
               <div className="p-5 pt-3 mx-5 border-t border-gray-200 text-center">
-                <p
-                  className={`${hiddenSize} ${
-                    showMode === "trans"
-                      ? "text-[var(--color-primary)]"
-                      : "text-gray-600"
-                  }`}
-                >
-                  {hiddenText}
+                <p className={`${frSize} text-[var(--color-primary)]`}>
+                  {frText}
                 </p>
               </div>
             )}
 
-            {/* Tap hint */}
-            {hasHidden && !revealed && (
+            {/* Tap hint (recite mode only) */}
+            {canReveal && !revealed && (
               <div className="absolute bottom-3 left-0 right-0 text-center text-xs text-gray-300">
                 {hintLabel}
               </div>
