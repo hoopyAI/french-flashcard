@@ -8,13 +8,15 @@ type EditState = {
   lessonId: string;
   title: string;
   front: string;
-  back: string;
+  zh: string;
+  en: string;
 };
 
-function lessonToText(lesson: Lesson): { front: string; back: string } {
+function lessonToText(lesson: Lesson): { front: string; zh: string; en: string } {
   return {
     front: lesson.cards.map((c) => c.front).join("\n"),
-    back: lesson.cards.map((c) => c.back).join("\n"),
+    zh: lesson.cards.map((c) => c.zh).join("\n"),
+    en: lesson.cards.map((c) => c.en).join("\n"),
   };
 }
 
@@ -86,21 +88,24 @@ export default function EditorPage() {
   }
 
   function startEdit(bookId: string, lesson: Lesson) {
-    const { front, back } = lessonToText(lesson);
+    const { front, zh, en } = lessonToText(lesson);
     setEdit({
       bookId,
       lessonId: lesson.id,
       title: lesson.title,
       front,
-      back,
+      zh,
+      en,
     });
   }
 
   if (!data) return <div className="p-6 text-gray-500">加载中…</div>;
 
   const frontLineCount = edit ? edit.front.split(/\r?\n/).filter((l) => l.trim()).length : 0;
-  const backLineCount = edit ? edit.back.split(/\r?\n/).filter((l) => l.trim()).length : 0;
-  const mismatch = edit && frontLineCount !== backLineCount;
+  const zhLineCount = edit ? edit.zh.split(/\r?\n/).filter((l) => l.trim()).length : 0;
+  const enLineCount = edit ? edit.en.split(/\r?\n/).filter((l) => l.trim()).length : 0;
+  const mismatch =
+    !!edit && (frontLineCount !== zhLineCount || frontLineCount !== enLineCount);
 
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900">
@@ -189,7 +194,7 @@ export default function EditorPage() {
                 />
               </div>
 
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-3 gap-4">
                 <div>
                   <div className="flex items-center justify-between mb-1">
                     <label className="text-sm text-gray-500">法文（每行一句）</label>
@@ -207,16 +212,33 @@ export default function EditorPage() {
                     <label className="text-sm text-gray-500">中文（每行一句）</label>
                     <span
                       className={`text-xs ${
-                        mismatch ? "text-red-600 font-semibold" : "text-gray-400"
+                        frontLineCount !== zhLineCount ? "text-red-600 font-semibold" : "text-gray-400"
                       }`}
                     >
-                      {backLineCount} 行
-                      {mismatch ? ` · 行数不匹配` : ""}
+                      {zhLineCount} 行
                     </span>
                   </div>
                   <textarea
-                    value={edit.back}
-                    onChange={(e) => setEdit({ ...edit, back: e.target.value })}
+                    value={edit.zh}
+                    onChange={(e) => setEdit({ ...edit, zh: e.target.value })}
+                    className="w-full h-[60vh] border rounded p-3 font-mono text-sm leading-6"
+                    spellCheck={false}
+                  />
+                </div>
+                <div>
+                  <div className="flex items-center justify-between mb-1">
+                    <label className="text-sm text-gray-500">English (one sentence per line)</label>
+                    <span
+                      className={`text-xs ${
+                        frontLineCount !== enLineCount ? "text-red-600 font-semibold" : "text-gray-400"
+                      }`}
+                    >
+                      {enLineCount} lines
+                    </span>
+                  </div>
+                  <textarea
+                    value={edit.en}
+                    onChange={(e) => setEdit({ ...edit, en: e.target.value })}
                     className="w-full h-[60vh] border rounded p-3 font-mono text-sm leading-6"
                     spellCheck={false}
                   />

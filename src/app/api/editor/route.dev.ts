@@ -11,7 +11,8 @@ const BOOKS_PATH = path.join(process.cwd(), "src", "data", "books.ts");
 const FILE_HEADER = `export interface Card {
   id: string;
   front: string;
-  back: string;
+  zh: string;
+  en: string;
 }
 
 export interface Lesson {
@@ -47,7 +48,7 @@ function serialize(data: Book[]): string {
         lines.push(
           `          { id: ${JSON.stringify(card.id)}, front: ${JSON.stringify(
             card.front
-          )}, back: ${JSON.stringify(card.back)} },`
+          )}, zh: ${JSON.stringify(card.zh)}, en: ${JSON.stringify(card.en)} },`
         );
       }
       lines.push(`        ],`);
@@ -77,16 +78,18 @@ function splitLines(text: string): string[] {
     .filter((l) => l.length > 0);
 }
 
-function buildCards(front: string, back: string): Card[] {
+function buildCards(front: string, zh: string, en: string): Card[] {
   const fLines = splitLines(front);
-  const bLines = splitLines(back);
-  const n = Math.max(fLines.length, bLines.length);
+  const zLines = splitLines(zh);
+  const eLines = splitLines(en);
+  const n = Math.max(fLines.length, zLines.length, eLines.length);
   const cards: Card[] = [];
   for (let i = 0; i < n; i++) {
     cards.push({
       id: `c${i + 1}`,
       front: fLines[i] ?? "",
-      back: bLines[i] ?? "",
+      zh: zLines[i] ?? "",
+      en: eLines[i] ?? "",
     });
   }
   return cards;
@@ -98,12 +101,13 @@ export async function GET() {
 
 export async function PUT(req: NextRequest) {
   const body = await req.json();
-  const { bookId, lessonId, title, front, back } = body as {
+  const { bookId, lessonId, title, front, zh, en } = body as {
     bookId: string;
     lessonId: string;
     title: string;
     front: string;
-    back: string;
+    zh: string;
+    en: string;
   };
 
   const data = getState();
@@ -113,7 +117,7 @@ export async function PUT(req: NextRequest) {
   if (!lesson) return NextResponse.json({ error: "lesson not found" }, { status: 404 });
 
   lesson.title = title;
-  lesson.cards = buildCards(front, back);
+  lesson.cards = buildCards(front, zh, en);
 
   await fs.writeFile(BOOKS_PATH, serialize(data), "utf8");
   return NextResponse.json({ ok: true, cards: lesson.cards.length });

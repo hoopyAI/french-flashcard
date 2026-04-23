@@ -12,17 +12,21 @@ import {
 
 type Section = "reading" | "listening" | null;
 type SectionMode = "reading" | "listening" | "all";
+type TransLang = "zh" | "en";
+type ShowMode = "trans" | "fr";
 
 interface CardState {
   id: string;
   front: string;
-  back: string;
+  zh: string;
+  en: string;
   mastered: boolean;
   section: Section;
 }
 
 const SECTION_KEY = (b: string, l: string) => `section_${b}_${l}`;
 const SHOW_MODE_KEY = "default_show_mode";
+const TRANS_LANG_KEY = "default_trans_lang";
 
 export default function CardsView({
   bookId,
@@ -39,21 +43,34 @@ export default function CardsView({
   const [allCards, setAllCards] = useState<CardState[]>([]);
   const [sectionMode, setSectionMode] = useState<SectionMode>("all");
   const [filterMode, setFilterMode] = useState<"all" | "unmastered">("all");
-  const [showMode, setShowMode] = useState<"cn" | "fr">("cn");
+  const [showMode, setShowMode] = useState<ShowMode>("trans");
+  const [transLang, setTransLang] = useState<TransLang>("zh");
 
-  // Restore global default-show-mode on mount
+  // Restore global preferences on mount
   useEffect(() => {
     if (typeof window === "undefined") return;
-    const saved = window.localStorage.getItem(SHOW_MODE_KEY);
-    if (saved === "cn" || saved === "fr") setShowMode(saved);
+    const savedShow = window.localStorage.getItem(SHOW_MODE_KEY);
+    if (savedShow === "trans" || savedShow === "fr") setShowMode(savedShow);
+    // Backward-compat: older key value "cn" maps to "trans"
+    else if (savedShow === "cn") setShowMode("trans");
+
+    const savedLang = window.localStorage.getItem(TRANS_LANG_KEY);
+    if (savedLang === "zh" || savedLang === "en") setTransLang(savedLang);
   }, []);
 
-  // Persist whenever the user toggles it
-  const updateShowMode = useCallback((mode: "cn" | "fr") => {
+  const updateShowMode = useCallback((mode: ShowMode) => {
     setShowMode(mode);
     setRevealed(false);
     if (typeof window !== "undefined") {
       window.localStorage.setItem(SHOW_MODE_KEY, mode);
+    }
+  }, []);
+
+  const updateTransLang = useCallback((lang: TransLang) => {
+    setTransLang(lang);
+    setRevealed(false);
+    if (typeof window !== "undefined") {
+      window.localStorage.setItem(TRANS_LANG_KEY, lang);
     }
   }, []);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -80,7 +97,10 @@ export default function CardsView({
       }
       if (card.id.startsWith("s_")) continue;
       annotated.push({
-        ...card,
+        id: card.id,
+        front: card.front,
+        zh: card.zh,
+        en: card.en,
         mastered: isMastered(bookId, lessonId, card.id),
         section,
       });
@@ -282,13 +302,20 @@ export default function CardsView({
     cards.length > 0 ? `${currentIndex + 1}/${cards.length}` : "0/0";
   const currentCard = cards[currentIndex];
 
-  // front = French, back = Chinese/English
+  // Choose the displayed translation; fall back to the other language if
+  // the selected slot is empty.
+  const chosenTrans = currentCard
+    ? (transLang === "zh"
+        ? currentCard.zh || currentCard.en
+        : currentCard.en || currentCard.zh) || ""
+    : "";
   const visibleText =
-    showMode === "cn" ? currentCard?.back : currentCard?.front;
+    showMode === "trans" ? chosenTrans : currentCard?.front;
   const hiddenText =
-    showMode === "cn" ? currentCard?.front : currentCard?.back;
+    showMode === "trans" ? currentCard?.front : chosenTrans;
   const hasHidden = !!hiddenText && hiddenText.length > 0;
-  const hintLabel = showMode === "cn" ? "点击查看法语" : "点击查看中文";
+  const hintLabel =
+    showMode === "trans" ? "点击查看法语" : transLang === "zh" ? "点击查看中文" : "点击查看英文";
 
   function sizeFor(text: string | undefined): string {
     const n = text?.length ?? 0;
@@ -324,16 +351,35 @@ export default function CardsView({
         </span>
 
         <span className="flex-1" />
-        {/* Language mode toggle (global default, persisted) */}
+        {/* Translation language toggle: 中 vs 英 (global, persisted) */}
         <button
-          onClick={() => updateShowMode(showMode === "cn" ? "fr" : "cn")}
+          onClick={() => updateTransLang(transLang === "zh" ? "en" : "zh")}
           className="flex items-center gap-1 bg-transparent border-none cursor-pointer font-[inherit]"
-          title="切换默认显示的语言（全站记忆）"
+          title="切换译文语言（中/英），全站记忆"
         >
           <span
-            className={`text-sm px-1 ${showMode === "cn" ? "text-[var(--color-primary)] font-bold" : "text-gray-400"}`}
+            className={`text-sm px-1 ${transLang === "zh" ? "text-[var(--color-primary)] font-bold" : "text-gray-400"}`}
           >
             中
+          </span>
+          <span className="text-gray-300 text-sm">/</span>
+          <span
+            className={`text-sm px-1 ${transLang === "en" ? "text-[var(--color-primary)] font-bold" : "text-gray-400"}`}
+          >
+            En
+          </span>
+        </button>
+
+        {/* Primary face toggle: 译 (translation first) vs Fr (French first) */}
+        <button
+          onClick={() => updateShowMode(showMode === "trans" ? "fr" : "trans")}
+          className="flex items-center gap-1 bg-transparent border-none cursor-pointer font-[inherit]"
+          title="切换正面显示（译文/法语），全站记忆"
+        >
+          <span
+            className={`text-sm px-1 ${showMode === "trans" ? "text-[var(--color-primary)] font-bold" : "text-gray-400"}`}
+          >
+            译
           </span>
           <span className="text-gray-300 text-sm">/</span>
           <span
@@ -414,7 +460,7 @@ export default function CardsView({
             <div className="p-5 text-center">
               <p
                 className={`${visibleSize} ${
-                  showMode === "cn"
+                  showMode === "trans"
                     ? "text-[var(--color-fg)]"
                     : "text-[var(--color-primary)]"
                 }`}
@@ -428,7 +474,7 @@ export default function CardsView({
               <div className="p-5 pt-3 mx-5 border-t border-gray-200 text-center">
                 <p
                   className={`${hiddenSize} ${
-                    showMode === "cn"
+                    showMode === "trans"
                       ? "text-[var(--color-primary)]"
                       : "text-gray-600"
                   }`}
