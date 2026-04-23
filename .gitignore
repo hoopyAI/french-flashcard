@@ -40,3 +40,12 @@ next-env.d.ts
 
 # python tooling
 scripts/__pycache__/
+
+# OpenNext
+.open-next
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+!.env.example
